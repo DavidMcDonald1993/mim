@@ -134,6 +134,7 @@ dmypy.json
 *.gz
 
 data/2019*
+data/geo
 
 data_for_graph
 jupyter_notebooks
