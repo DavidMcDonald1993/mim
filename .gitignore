@@ -127,3 +127,21 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+.DS_Store
+.vscode 
+
+*.gz
+
+data/2019*
+
+data_for_graph
+jupyter_notebooks
+live_chats
+messages
+recommendations
+survey
+base 
+credentials
+competitors
+

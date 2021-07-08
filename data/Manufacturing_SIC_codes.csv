@@ -1,0 +1,260 @@
+﻿Code,Name
+10110,Processing and preserving of meat 
+10120,Processing and preserving of poultry meat 
+10130,Production of meat and poultry meat products 
+10200,"Processing and preserving of fish, crustaceans and molluscs "
+10310,Processing and preserving of potatoes 
+10320,Manufacture of fruit and vegetable juice 
+10390,Other processing and preserving of fruit and vegetables 
+10410,Manufacture of oils and fats 
+10420,Manufacture of margarine and similar edible fats 
+10511,Liquid milk and cream production 
+10512,Butter and cheese production 
+10519,Manufacture of other milk products 
+10520,Manufacture of ice cream 
+10611,Grain milling 
+10612,Manufacture of breakfast cereals and cereals-based food 
+10620,Manufacture of starches and starch products 
+10710,Manufacture of bread; manufacture of fresh pastry goods and cakes 
+10720,Manufacture of rusks and biscuits; manufacture of preserved pastry goods and cakes 
+10730,"Manufacture of macaroni, noodles, couscous and similar farinaceous products "
+10810,Manufacture of sugar 
+10821,Manufacture of cocoa and chocolate confectionery 
+10822,Manufacture of sugar confectionery 
+10831,Tea processing 
+10832,Production of coffee and coffee substitutes 
+10840,Manufacture of condiments and seasonings 
+10850,Manufacture of prepared meals and dishes 
+10860,Manufacture of homogenized food preparations and dietetic food 
+10890,Manufacture of other food products n.e.c. 
+10910,Manufacture of prepared feeds for farm animals 
+10920,Manufacture of prepared pet foods 
+11010,"Distilling, rectifying and blending of spirits "
+11020,Manufacture of wine from grape 
+11030,Manufacture of cider and other fruit wines 
+11040,Manufacture of other non-distilled fermented beverages 
+11050,Manufacture of beer 
+11060,Manufacture of malt 
+11070,Manufacture of soft drinks; production of mineral waters and other bottled waters 
+12000,Manufacture of tobacco products 
+13100,Preparation and spinning of textile fibres 
+13200,Weaving of textiles 
+13300,Finishing of textiles 
+13910,Manufacture of knitted and crocheted fabrics 
+13921,Manufacture of soft furnishings 
+13922,"manufacture of canvas goods, sacks, etc. "
+13923,manufacture of household textiles 
+13931,Manufacture of woven or tufted carpets and rugs 
+13939,Manufacture of other carpets and rugs 
+13940,"Manufacture of cordage, rope, twine and netting "
+13950,"Manufacture of non-wovens and articles made from non-wovens, except apparel "
+13960,Manufacture of other technical and industrial textiles 
+13990,Manufacture of other textiles n.e.c. 
+14110,Manufacture of leather clothes 
+14120,Manufacture of workwear 
+14131,Manufacture of other men's outerwear 
+14132,Manufacture of other women's outerwear 
+14141,Manufacture of men's underwear 
+14142,Manufacture of women's underwear 
+14190,Manufacture of other wearing apparel and accessories n.e.c. 
+14200,Manufacture of articles of fur 
+14310,Manufacture of knitted and crocheted hosiery 
+14390,Manufacture of other knitted and crocheted apparel 
+15110,Tanning and dressing of leather; dressing and dyeing of fur 
+15120,"Manufacture of luggage, handbags and the like, saddlery and harness "
+15200,Manufacture of footwear 
+16100,Sawmilling and planing of wood 
+16210,Manufacture of veneer sheets and wood-based panels 
+16220,Manufacture of assembled parquet floors 
+16230,Manufacture of other builders' carpentry and joinery 
+16240,Manufacture of wooden containers 
+16290,"Manufacture of other products of wood; manufacture of articles of cork, straw and plaiting materials "
+17110,Manufacture of pulp 
+17120,Manufacture of paper and paperboard 
+17211,"Manufacture of corrugated paper and paperboard, sacks and bags "
+17219,Manufacture of other paper and paperboard containers 
+17220,Manufacture of household and sanitary goods and of toilet requisites 
+17230,Manufacture of paper stationery 
+17240,Manufacture of wallpaper 
+17290,Manufacture of other articles of paper and paperboard n.e.c. 
+18110,Printing of newspapers 
+18121,Manufacture of printed labels 
+18129,Printing n.e.c. 
+18130,Pre-press and pre-media services 
+18140,Binding and related services 
+18201,Reproduction of sound recording 
+18202,Reproduction of video recording 
+18203,Reproduction of computer media 
+19100,Manufacture of coke oven products 
+19201,Mineral oil refining 
+19209,Other treatment of petroleum products (excluding petrochemicals manufacture) 
+20110,Manufacture of industrial gases 
+20120,Manufacture of dyes and pigments 
+20130,Manufacture of other inorganic basic chemicals 
+20140,Manufacture of other organic basic chemicals 
+20150,Manufacture of fertilizers and nitrogen compounds 
+20160,Manufacture of plastics in primary forms 
+20170,Manufacture of synthetic rubber in primary forms 
+20200,Manufacture of pesticides and other agrochemical products 
+20301,"Manufacture of paints, varnishes and similar coatings, mastics and sealants "
+20302,Manufacture of printing ink 
+20411,Manufacture of soap and detergents 
+20412,Manufacture of cleaning and polishing preparations 
+20420,Manufacture of perfumes and toilet preparations 
+20510,Manufacture of explosives 
+20520,Manufacture of glues 
+20530,Manufacture of essential oils 
+20590,Manufacture of other chemical products n.e.c. 
+20600,Manufacture of man-made fibres 
+21100,Manufacture of basic pharmaceutical products 
+21200,Manufacture of pharmaceutical preparations 
+22110,Manufacture of rubber tyres and tubes; retreading and rebuilding of rubber tyres 
+22190,Manufacture of other rubber products 
+22210,"Manufacture of plastic plates, sheets, tubes and profiles "
+22220,Manufacture of plastic packing goods 
+22230,Manufacture of builders ware of plastic 
+22290,Manufacture of other plastic products 
+23110,Manufacture of flat glass 
+23120,Shaping and processing of flat glass 
+23130,Manufacture of hollow glass 
+23140,Manufacture of glass fibres 
+23190,"Manufacture and processing of other glass, including technical glassware "
+23200,Manufacture of refractory products 
+23310,Manufacture of ceramic tiles and flags 
+23320,"Manufacture of bricks, tiles and construction products, in baked clay "
+23410,Manufacture of ceramic household and ornamental articles 
+23420,Manufacture of ceramic sanitary fixtures 
+23430,Manufacture of ceramic insulators and insulating fittings 
+23440,Manufacture of other technical ceramic products 
+23490,Manufacture of other ceramic products n.e.c. 
+23510,Manufacture of cement 
+23520,Manufacture of lime and plaster 
+23610,Manufacture of concrete products for construction purposes 
+23620,Manufacture of plaster products for construction purposes 
+23630,Manufacture of ready-mixed concrete 
+23640,Manufacture of mortars 
+23650,Manufacture of fibre cement 
+23690,"Manufacture of other articles of concrete, plaster and cement "
+23700,"Cutting, shaping and finishing of stone "
+23910,Production of abrasive products 
+23990,Manufacture of other non-metallic mineral products n.e.c. 
+24100,Manufacture of basic iron and steel and of ferro-alloys 
+24200,"Manufacture of tubes, pipes, hollow profiles and related fittings, of steel "
+24310,Cold drawing of bars 
+24320,Cold rolling of narrow strip 
+24330,Cold forming or folding 
+24340,Cold drawing of wire 
+24410,Precious metals production 
+24420,Aluminium production 
+24430,"Lead, zinc and tin production "
+24440,Copper production 
+24450,Other non-ferrous metal production 
+24460,Processing of nuclear fuel 
+24510,Casting of iron 
+24520,Casting of steel 
+24530,Casting of light metals 
+24540,Casting of other non-ferrous metals 
+25110,Manufacture of metal structures and parts of structures 
+25120,Manufacture of doors and windows of metal 
+25210,Manufacture of central heating radiators and boilers 
+25290,"Manufacture of other tanks, reservoirs and containers of metal "
+25300,"Manufacture of steam generators, except central heating hot water boilers "
+25400,Manufacture of weapons and ammunition 
+25500,"Forging, pressing, stamping and roll-forming of metal; powder metallurgy "
+25610,Treatment and coating of metals 
+25620,Machining 
+25710,Manufacture of cutlery 
+25720,Manufacture of locks and hinges 
+25730,Manufacture of tools 
+25910,Manufacture of steel drums and similar containers 
+25920,Manufacture of light metal packaging 
+25930,"Manufacture of wire products, chain and springs "
+25940,Manufacture of fasteners and screw machine products 
+25990,Manufacture of other fabricated metal products n.e.c. 
+26110,Manufacture of electronic components 
+26120,Manufacture of loaded electronic boards 
+26200,Manufacture of computers and peripheral equipment 
+26301,Manufacture of telegraph and telephone apparatus and equipment 
+26309,"Manufacture of communication equipment other than telegraph, and telephone apparatus and equipment "
+26400,Manufacture of consumer electronics 
+26511,"Manufacture of electronic measuring, testing etc. equipment, not for industrial process control "
+26512,Manufacture of electronic industrial process control equipment 
+26513,"Manufacture of non-electronic measuring, testing etc. equipment, not for industrial process control "
+26514,Manufacture of non-electronic industrial process control equipment 
+26520,Manufacture of watches and clocks 
+26600,"Manufacture of irradiation, electromedical and electrotherapeutic equipment "
+26701,Manufacture of optical precision instruments 
+26702,Manufacture of photographic and cinematographic equipment 
+26800,Manufacture of magnetic and optical media 
+27110,"Manufacture of electric motors, generators and transformers "
+27120,Manufacture of electricity distribution and control apparatus 
+27200,Manufacture of batteries and accumulators 
+27310,Manufacture of fibre optic cables 
+27320,Manufacture of other electronic and electric wires and cables 
+27330,Manufacture of wiring devices 
+27400,Manufacture of electric lighting equipment 
+27510,Manufacture of electric domestic appliances 
+27520,Manufacture of non-electric domestic appliances 
+27900,Manufacture of other electrical equipment 
+28110,"Manufacture of engines and turbines, except aircraft, vehicle and cycle engines "
+28120,Manufacture of fluid power equipment 
+28131,Manufacture of pumps 
+28132,Manufacture of compressors 
+28140,Manufacture of taps and valves 
+28150,"Manufacture of bearings, gears, gearing and driving elements "
+28210,"Manufacture of ovens, furnaces and furnace burners "
+28220,Manufacture of lifting and handling equipment 
+28230,Manufacture of office machinery and equipment (except computers and peripheral equipment) 
+28240,Manufacture of power-driven hand tools 
+28250,Manufacture of non-domestic cooling and ventilation equipment 
+28290,Manufacture of other general-purpose machinery n.e.c. 
+28301,Manufacture of agricultural tractors 
+28302,Manufacture of agricultural and forestry machinery other than tractors 
+28410,Manufacture of metal forming machinery 
+28490,Manufacture of other machine tools 
+28910,Manufacture of machinery for metallurgy 
+28921,Manufacture of machinery for mining 
+28922,Manufacture of earthmoving equipment 
+28923,Manufacture of equipment for concrete crushing and screening and roadworks 
+28930,"Manufacture of machinery for food, beverage and tobacco processing "
+28940,"Manufacture of machinery for textile, apparel and leather production "
+28950,Manufacture of machinery for paper and paperboard production 
+28960,Manufacture of plastics and rubber machinery 
+28990,Manufacture of other special-purpose machinery n.e.c. 
+29100,Manufacture of motor vehicles 
+29201,Manufacture of bodies (coachwork) for motor vehicles (except caravans) 
+29202,Manufacture of trailers and semi-trailers 
+29203,Manufacture of caravans 
+29310,Manufacture of electrical and electronic equipment for motor vehicles and their engines 
+29320,Manufacture of other parts and accessories for motor vehicles 
+30110,Building of ships and floating structures 
+30120,Building of pleasure and sporting boats 
+30200,Manufacture of railway locomotives and rolling stock 
+30300,Manufacture of air and spacecraft and related machinery 
+30400,Manufacture of military fighting vehicles 
+30910,Manufacture of motorcycles 
+30920,Manufacture of bicycles and invalid carriages 
+30990,Manufacture of other transport equipment n.e.c. 
+31010,Manufacture of office and shop furniture 
+31020,Manufacture of kitchen furniture 
+31030,Manufacture of mattresses 
+31090,Manufacture of other furniture 
+32110,Striking of coins 
+32120,Manufacture of jewellery and related articles 
+32130,Manufacture of imitation jewellery and related articles 
+32200,Manufacture of musical instruments 
+32300,Manufacture of sports goods 
+32401,Manufacture of professional and arcade games and toys 
+32409,"Manufacture of other games and toys, n.e.c. "
+32500,Manufacture of medical and dental instruments and supplies 
+32910,Manufacture of brooms and brushes 
+32990,Other manufacturing n.e.c. 
+33110,Repair of fabricated metal products 
+33120,Repair of machinery 
+33130,Repair of electronic and optical equipment 
+33140,Repair of electrical equipment 
+33150,Repair and maintenance of ships and boats 
+33160,Repair and maintenance of aircraft and spacecraft 
+33170,Repair and maintenance of other transport equipment n.e.c. 
+33190,Repair of other equipment 
+33200,Installation of industrial machinery and equipment
