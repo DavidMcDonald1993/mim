@@ -3,7 +3,7 @@ import os.path
 sys.path.insert(1, 
     os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir)))
 
-from utils.arango_utils import aql_query, connect_to_collection, connect_to_mim_database
+from graph.arango_utils import aql_query, connect_to_mim_database
 
 import pandas as pd
 
@@ -1575,28 +1575,12 @@ def get_members_without_UK_sector(db=None):
 
 def main():
 
-    # host = "3.8.143.152"
-    host = "127.0.0.1"
-    port = 8529
-    # username="root"
-    username = "david"
-    password = "c423612k"
-    db_name = "mim" 
-
-    db = connect_to_mim_database(
-        host=host, 
-        port=port, 
-        username=username, 
-        password=password, 
-        db=db_name)
-
-    
+    db = connect_to_mim_database()
 
     member_name = "Hana Tech ltd"
     max_distance = 5
     min_sectors = 2
 
-    # event_name = "Backing Britain Virtual Breakfast Morning with Schneider Electric, Gardner Aerospace and Boneham and Turner"
     event_name = "Backing Britain Virtual Breakfast Morning with Hayley Group and Portakabin"
     max_km = 10
 
@@ -1658,25 +1642,6 @@ def main():
 
     if not isinstance(results, pd.DataFrame):
         results = pd.DataFrame(results)
-
-    # results.to_csv(f"{event_name}_closest_prospects_(max_km={max_km}).csv")
-    # results.to_csv(f"{event_name}_prospects_in_same_class_as_host.csv")
-    # results.to_csv(f"{event_name}_prospects_with_commerce_connected_class_to_host.csv")
-    # results.to_csv(f"{event_name}_prospects_relevant_to_host.csv")
-    # results.to_csv(f"{region}_grouped_prospects.csv")
-
-    # results.to_csv(f"{region}_{collection}_member_recommendation(SIC_commerce).csv")
-    # results.to_csv(f"recommendations/{region}_{collection}_member_recommendation(SIC_match).csv")
-    # results.to_csv(f"recommendations/{region}_prospect_recommendation_similar_to_{member_name}.csv")
-    # results.to_csv(f"recommendations/{region}_freemium.csv")
-
-    # results.to_csv(f"recommendations/{region}_prospects_retiring_directors_freemium.csv")
-    # results.to_csv(f"recommendations/{region}_prospects_retiring_directors_60-65_zendesk.csv")
-
-    # results.to_csv(f"{member_name}_member_matches_number_of_relevant_articles.csv")
-
-    # results.to_csv(f"recommendations/{region}_marketing_prospects_zendesk.csv")
-    # results.to_csv(f"recommendations/{region}_marketing_prospects_freemium.csv")
 
     results.to_csv("members_without_UK_sector.csv")
 

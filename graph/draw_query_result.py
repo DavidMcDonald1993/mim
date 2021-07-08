@@ -3,7 +3,7 @@ import os.path
 sys.path.insert(1, 
     os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir,)))
 
-from utils.arango_utils import aql_query, connect_to_mim_database
+from graph.arango_utils import aql_query, connect_to_mim_database
 
 from graphviz import Digraph
 

@@ -5,15 +5,13 @@ sys.path.insert(1,
 
 import os 
 
-import pandas as pd 
-
-from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer
 
 import re
 import pandas as pd
 from nltk.stem import PorterStemmer
 
-from utils.arango_utils import name_to_id, insert_document, connect_to_mim_database, connect_to_collection, aql_query
+from graph.arango_utils import connect_to_mim_database, aql_query
 from utils.io import write_json
 
 # init stemmer

@@ -9,60 +9,6 @@ from utils.mysql_utils import mysql_query, sanitise_args, separator
 from utils.scraping_utils import remove_html_tags
 
 
-# def get_all_commerce_relations():
-
-#     sells_query = '''
-#     SELECT m.name, 
-#         JSON_ARRAYAGG(
-#             JSON_OBJECT(
-#                 'commerce_name', c.name,
-#                 'commerce_category', mcc.name
-#             )
-#         ) AS 'sells'
-#     FROM members AS `m`
-#     INNER JOIN member_sells_commerce AS msc
-#         ON (m.id=msc.member_id)
-#     INNER JOIN member_commerces AS `c` 
-#         ON (msc.member_commerce_id=c.id)
-#     INNER JOIN member_commerce_categories AS `mcc`
-#         ON (c.category_id=mcc.id)
-#     GROUP BY m.name
-#     '''
-
-#     buys_query = '''
-#     SELECT m.name, 
-#         JSON_ARRAYAGG(
-#             JSON_OBJECT(
-#                 'commerce_name', c.name,
-#                 'commerce_category', mcc.name
-#             )
-#         ) AS 'buys'
-#     FROM members AS `m`
-#     INNER JOIN member_buys_commerce AS mbc
-#         ON (m.id=mbc.member_id)
-#     INNER JOIN member_commerces AS `c` 
-#         ON (mbc.member_commerce_id=c.id)
-#     INNER JOIN member_commerce_categories AS `mcc`
-#         ON (c.category_id=mcc.id)
-#     GROUP BY m.name
-#     '''
-
-#     query = f'''
-#     SELECT 
-#         sells_table.name,
-#         sells_table.sells,
-#         buys_table.buys
-#     FROM members AS m
-#     LEFT JOIN ({sells_query}) AS sells_table
-#         ON (m.name=sells_table.name)
-#     LEFT JOIN ({buys_query}) AS buys_table
-#         ON (m.name=buys_table.name)
-#     WHERE sells IS NOT NULL OR buys IS NOT NULL 
-#     '''
-
-#     records, cols = mysql_query(query, to_json=True, return_cols=True)
-#     return records, cols
-
 def get_member_commerces_flat(membership_levels):
     membership_levels = sanitise_args(membership_levels)
 
@@ -135,12 +81,6 @@ def get_member_sector_counts(membership_levels):
     '''
     membership_levels = sanitise_args(membership_levels)
           
-        #     JSON_ARRAYAGG(
-        #     JSON_OBJECT(
-        #         'sector_name', s.name
-        #     )
-        # ) AS sectors
-
     query = f'''
     SELECT 
         m.name AS member_name, 
@@ -288,124 +228,6 @@ def get_member_summaries(
     ORDER BY member_name
     '''
 
-
-    # query = f'''
-    # SELECT 
-    #     m.id AS database_id,
-    #     m.name AS member_name, 
-    #     c.address_line_1,
-    #     c.address_line_2,
-    #     c.postcode,
-    #     c.latitude,
-    #     c.longitude,
-    #     m.employees, 
-    #     m.turnover,
-    #     memberships.name AS `membership_level`,
-    #     m.nature_of_business,
-    #     m.about_company,
-    #     m.website,
-    #     m.services,
-    #     m.seo_description,
-    #     m.youtube_video_id,
-    #     m.facebook_page_link,
-    #     m.twitter_page_link,
-    #     m.google_page_link,
-    #     tenancies,
-    #     sectors, 
-    #     buys, 
-    #     sells,
-    #     badges,
-    #     accreditations
-    # FROM members as `m`
-    # INNER JOIN memberships
-    #     ON (m.membership_id=memberships.id)
-    # INNER JOIN member_contact_details AS c
-    #     ON (m.id=c.member_id)
-    # LEFT JOIN (
-    #     SELECT ms.member_id AS member_id, 
-    #         JSON_ARRAYAGG(
-    #             JSON_OBJECT(
-    #                 'sector_name', s.name
-    #             )
-    #         ) as sectors
-    #     FROM member_sector AS `ms`
-    #     INNER JOIN sectors AS `s`
-    #         ON (ms.sector_id=s.id)
-    #     GROUP BY member_id
-    # ) AS sector_link ON (m.id=sector_link.member_id) 
-    # LEFT JOIN (
-    #     SELECT mbc.member_id AS member_id, 
-    #         JSON_ARRAYAGG(
-    #             JSON_OBJECT(
-    #                 'buys_commerce_name', bc.name
-    #             )
-    #         ) AS `buys`
-    #     FROM member_buys_commerce AS mbc
-    #     INNER JOIN member_commerces AS `bc` 
-    #         ON (mbc.member_commerce_id=bc.id)
-    #     GROUP BY member_id
-    # ) AS buys_link ON (m.id=buys_link.member_id)
-    # LEFT JOIN (
-    #     SELECT msc.member_id AS member_id, 
-    #         JSON_ARRAYAGG(
-    #             JSON_OBJECT(
-    #                 'sells_commerce_name', sc.name
-    #             )
-    #         ) AS `sells`
-    #     FROM member_sells_commerce AS msc
-    #     INNER JOIN member_commerces AS `sc` 
-    #         ON (msc.member_commerce_id=sc.id)
-    #     GROUP BY member_id
-    # ) AS sells_link ON (m.id=sells_link.member_id)
-    # LEFT JOIN (
-    #     SELECT mt.member_id, 
-    #         JSON_ARRAYAGG(
-    #             JSON_OBJECT(
-    #                 'tenancy', t.name
-    #             )
-    #         ) AS `tenancies`
-    #     FROM member_tenant AS mt
-    #     INNER JOIN tenants AS t
-    #         ON (mt.tenant_id=t.id)
-    #     WHERE mt.status='active'
-    #     AND t.name <> 'Made Futures'
-    #     GROUP BY member_id
-    # ) AS tenancy_link ON (m.id=tenancy_link.member_id)
-    # LEFT JOIN (
-    #     select mb.member_id, 
-    #         JSON_ARRAYAGG(
-    #             JSON_OBJECT(
-    #                 'badge_name', b.name
-    #             )
-    #         ) AS badges
-    #     FROM badge_member AS mb
-    #     INNER JOIN badges as b
-    #         ON (b.id=mb.badge_id)
-    #     GROUP BY member_id
-    # ) AS badge_link ON (m.id=badge_link.member_id)
-    # LEFT JOIN (
-    #     SELECT ma.member_id, 
-    #         JSON_ARRAYAGG(
-    #             JSON_OBJECT(
-    #                 'accreditation_name', a.name
-    #             )
-    #         ) AS `accreditations`
-    #     FROM accreditation_member as ma
-    #     INNER JOIN accreditations as a
-    #         ON (a.id=ma.accreditation_id)
-    #     GROUP BY member_id
-    # ) AS accreditation_link ON (m.id=accreditation_link.member_id)
-    # WHERE 
-    #     m.name IS NOT NULL
-    #     AND c.postcode IS NOT NULL
-    #     AND tenancies IS NOT NULL
-    #     {f" AND memberships.name='{membership_levels}'" if isinstance(membership_levels, str)
-    #     else f"AND memberships.name IN {membership_levels}" if isinstance(membership_levels, tuple)
-    #     else ""}
-    # ORDER BY member_name
-    # '''
-
-
     records, cols = mysql_query(query, return_cols=True, to_json=True)
     return records, cols
 
@@ -432,37 +254,6 @@ def get_member_addresses():
     return records, cols
 
 def get_all_messages():
-
-    # query = '''
-    # SELECT 
-    #     m.name AS sender_member_name,
-    #     u.full_name AS sender_name,
-    #     u.company_position AS sender_company_position,
-    #     JSON_ARRAYAGG(
-    #         JSON_OBJECT(
-    #             'name', recipients.full_name,
-    #             'company', recipient_members.name,
-    #             'position', recipients.company_position
-    #         )
-    #     ) AS all_recipients,
-    #     messages.subject,
-    #     messages.message,
-    #     messages.created_at
-    # FROM members AS m
-    # INNER JOIN users AS u
-    #     ON (m.id=u.member_id)
-    # INNER JOIN messages
-    #     ON (u.id=messages.sender_id)
-    # INNER JOIN message_user AS `mu`
-    #     ON (messages.id=mu.message_id)
-    # INNER JOIN users AS recipients
-    #     ON (mu.user_id=recipients.id)
-    # INNER JOIN members AS recipient_members
-    #     ON (recipients.member_id=recipient_members.id)
-    # WHERE m.name <> "test"
-    # GROUP BY sender_member_name, sender_name,
-    #     sender_company_position, subject, message, created_at
-    # '''
 
     query = '''
     SELECT 
@@ -590,19 +381,6 @@ def get_news_article_summary():
 
 def get_all_users():
 
-    # LEFT JOIN (
-    #     SELECT mu.user_id, 
-    #         JSON_ARRAYAGG(
-    #             JSON_OBJECT(
-    #                 'member_name', mem.name
-    #             )
-    #         ) AS follows_companies
-    #     FROM member_user AS mu
-    #     INNER JOIN members AS mem
-    #         ON (mu.member_id=mem.id)
-    #     GROUP BY user_id
-    # ) AS follows ON (u.id=follows.user_id)
-
     query = '''
     SELECT
         u.id,
@@ -644,25 +422,6 @@ def get_all_user_follows():
     records, cols = mysql_query(query, return_cols=True, to_json=True)
     return records, cols
 
-
-
-# def get_member_prospecting_summaries():
-
-#     query = f'''
-#     SELECT m.name, m.employees, m.turnover,
-#         c.address_line_1, c.address_line_2, c.postcode
-#     FROM members AS m
-#     INNER JOIN member_contact_details AS c
-#         ON (m.id=c.member_id)
-#     WHERE name IS NOT NULL 
-#     AND name <> '' 
-#     AND name <> 'test'
-#     AND name <> 'nan'
-#     AND postcode IS NOT NULL
-#     '''
-
-#     records, cols = mysql_query(query, return_cols=True, to_json=True)
-#     return records, cols
 
 def get_sector_counts(membership_levels=None):
     membership_levels = sanitise_args(membership_levels)
@@ -708,172 +467,6 @@ def get_sector_counts(membership_levels=None):
 
     records, cols = mysql_query(query, return_cols=True, to_json=True)
     return records, cols
-
-# def get_sells_commerces_counts():
-
-#     query = '''
-#     SELECT c.name AS commerce_name, 
-#         COUNT(DISTINCT m.name) AS num_members_sell,
-#         JSON_ARRAYAGG(
-#             JSON_OBJECT(
-#                 'member_name', m.name,
-#                 'tenant_name', m.tenant_name,
-#                 'membership_level', m.membership_level
-#             )
-#         ) AS members
-#     FROM member_commerces AS c
-#     LEFT JOIN (
-#         SELECT ms.member_commerce_id,
-#             m.name,
-#             t.name AS tenant_name,
-#             memberships.name AS membership_level
-#         FROM member_sells_commerce AS ms
-#         INNER  JOIN members AS m
-#             ON (ms.member_id=m.id)
-#         INNER JOIN member_tenant AS mt
-#             ON (m.id=mt.member_id)
-#         INNER JOIN tenants AS t
-#             ON (t.id=mt.tenant_id)
-#         INNER JOIN memberships 
-#             ON (m.membership_id=memberships.id)
-#         WHERE m.name IS NOT NULL
-#             AND m.name <> 'test'
-#             AND mt.status = 'active'
-#     ) AS m 
-#         ON (c.id=m.member_commerce_id)
-#     GROUP BY commerce_name
-#     ORDER BY num_members_sell DESC
-
-#     '''
-
-#     return mysql_query(query, to_json=True)
-
-
-# def get_sells_commerce_category_counts():
-
-#     query = '''
-#     SELECT c.name AS commerce_category, 
-#         COUNT(DISTINCT m.member_name) AS num_members_sell,
-#         JSON_ARRAYAGG(
-#             JSON_OBJECT(
-#                 'commerce_name', m.commerce_name,
-#                 'member_name', m.member_name,
-#                 'tenant_name', m.tenant_name,
-#                 'membership_level', m.membership_level
-#             )
-#         ) AS members
-#     FROM member_commerce_categories AS c
-#     LEFT JOIN (
-#         SELECT c.category_id,
-#             c.name AS commerce_name,
-#             m.name AS member_name,
-#             t.name AS tenant_name,
-#             memberships.name AS membership_level
-#         FROM member_commerces AS c
-#         INNER JOIN member_sells_commerce AS ms
-#             ON(c.id=ms.member_commerce_id)
-#         INNER JOIN members AS m
-#             ON (ms.member_id=m.id)
-#         INNER JOIN member_tenant AS mt
-#             ON (m.id=mt.member_id)
-#         INNER JOIN tenants AS t
-#             ON (t.id=mt.tenant_id)
-#         INNER JOIN memberships 
-#             ON (m.membership_id=memberships.id)
-#         WHERE m.name IS NOT NULL
-#             AND m.name <> 'test'
-#             AND mt.status = 'active'
-#     ) AS m 
-#         ON (c.id=m.category_id)
-#     GROUP BY commerce_category
-#     ORDER BY num_members_sell DESC
-
-#     '''
-
-#     return mysql_query(query, to_json=True)
-
-
-# def get_buys_commerces_counts():
-
-#     query = '''
-#     SELECT c.name AS commerce_name, 
-#         COUNT(DISTINCT m.name) AS num_members_buy,
-#         JSON_ARRAYAGG(
-#             JSON_OBJECT(
-#                 'member_name', m.name,
-#                 'tenant_name', m.tenant_name,
-#                 'membership_level', m.membership_level
-#             )
-#         ) AS members
-#     FROM member_commerces AS c
-#     LEFT JOIN (
-#         SELECT ms.member_commerce_id,
-#             m.name,
-#             t.name AS tenant_name,
-#             memberships.name AS membership_level
-#         FROM member_buys_commerce AS ms
-#         INNER  JOIN members AS m
-#             ON (ms.member_id=m.id)
-#         INNER JOIN member_tenant AS mt
-#             ON (m.id=mt.member_id)
-#         INNER JOIN tenants AS t
-#             ON (t.id=mt.tenant_id)
-#         INNER JOIN memberships 
-#             ON (m.membership_id=memberships.id)
-#         WHERE m.name IS NOT NULL
-#             AND m.name <> 'test'
-#             AND mt.status = 'active'
-#     ) AS m 
-#         ON (c.id=m.member_commerce_id)
-#     GROUP BY commerce_name
-#     ORDER BY num_members_buy DESC
-
-#     '''
-
-#     return mysql_query(query, to_json=True)
-
-# def get_buys_commerce_category_counts():
-
-#     query = '''
-#     SELECT c.name AS commerce_category, 
-#         COUNT(DISTINCT m.member_name) AS num_members_buy,
-#         JSON_ARRAYAGG(
-#             JSON_OBJECT(
-#                 'commerce_name', m.commerce_name,
-#                 'member_name', m.member_name,
-#                 'tenant_name', m.tenant_name,
-#                 'membership_level', m.membership_level
-#             )
-#         ) AS members
-#     FROM member_commerce_categories AS c
-#     LEFT JOIN (
-#         SELECT c.category_id,
-#             c.name AS commerce_name,
-#             m.name AS member_name,
-#             t.name AS tenant_name,
-#             memberships.name AS membership_level
-#         FROM member_commerces AS c
-#         INNER JOIN member_buys_commerce AS ms
-#             ON(c.id=ms.member_commerce_id)
-#         INNER JOIN members AS m
-#             ON (ms.member_id=m.id)
-#         INNER JOIN member_tenant AS mt
-#             ON (m.id=mt.member_id)
-#         INNER JOIN tenants AS t
-#             ON (t.id=mt.tenant_id)
-#         INNER JOIN memberships 
-#             ON (m.membership_id=memberships.id)
-#         WHERE m.name IS NOT NULL
-#             AND m.name <> 'test'
-#             AND mt.status = 'active'
-#     ) AS m 
-#         ON (c.id=m.category_id)
-#     GROUP BY commerce_category
-#     ORDER BY num_members_buy DESC
-
-#     '''
-
-#     return mysql_query(query, to_json=True)
 
 def get_commerces_counts(membership_levels=None):
     membership_levels = sanitise_args(membership_levels)
@@ -1026,21 +619,22 @@ def get_unannotated_members():
     records, cols = mysql_query(query, return_cols=True, to_json=True)
     return records, cols
 
-def get_company_position_counts():
+def get_company_role_counts():
 
     query = f'''
-    SELECT company_position,
-    COUNT(id) AS count
+    SELECT 
+        company_role,
+        COUNT(id) AS count
     FROM users
-    WHERE company_position IS NOT NULL
-    GROUP BY company_position
+    WHERE company_role IS NOT NULL
+    GROUP BY company_role
     ORDER BY count DESC
     '''
 
     return mysql_query(query, return_cols=True, to_json=True)
 
 
-def get_member_articles_last_six_months(num_months=6):
+def get_member_articles_last_months(num_months=6):
 
     query = f'''
     SELECT 
@@ -1080,7 +674,7 @@ def get_member_articles_last_six_months(num_months=6):
 
     return mysql_query(query, to_json=True)
 
-def get_members_not_publish(num_months=6):
+def get_members_no_publish(num_months=6):
 
     query = f'''
     SELECT 
@@ -1141,13 +735,6 @@ def get_all_sectors():
     FROM sectors
     '''
     return mysql_query(query)
-
-# def get_case_study_articles():
-
-#     query = '''
-#     SELECT 
-#     '''
-#     return mysql_query(query)
 
 def get_all_events():
 
@@ -1305,16 +892,20 @@ def correct_postcode(postcode):
 
 def get_data_for_graph(data_dir="data_for_graph"):
 
+    '''
+    RUN BATCH OF QUERIES TO BUILD FLAT FILES TO POPULATE ARANGO
+    '''
+
     # members
-    # member_output_dir = os.path.join(data_dir, "members")
-    # os.makedirs(member_output_dir, exist_ok=True)
-    # membership_levels = ("Patron", "Platinum", "Gold", "Silver", "Bronze", "Digital", "Freemium")
-    # for membership_level in membership_levels:
-    #     # filter_by_sector_commerce = membership_level == "Freemium"
-    #     filter_by_sector_commerce = False
-    #     records, _ = get_member_summaries(membership_level, filter_by_commerce_sector=filter_by_sector_commerce)
-    #     records = pd.DataFrame(records)
-    #     records.to_csv(f"{member_output_dir}/{membership_level}_members.csv")
+    member_output_dir = os.path.join(data_dir, "members")
+    os.makedirs(member_output_dir, exist_ok=True)
+    membership_levels = ("Patron", "Platinum", "Gold", "Silver", "Bronze", "Digital", "Freemium")
+    for membership_level in membership_levels:
+        # filter_by_sector_commerce = membership_level == "Freemium"
+        filter_by_sector_commerce = False
+        records, _ = get_member_summaries(membership_level, filter_by_commerce_sector=filter_by_sector_commerce)
+        records = pd.DataFrame(records)
+        records.to_csv(f"{member_output_dir}/{membership_level}_members.csv")
 
     # member addresses
     records, _ = get_member_addresses()
@@ -1382,53 +973,3 @@ if __name__ == "__main__":
 
     get_data_for_graph()
    
-    # records, _ = get_member_summaries()
-    # records = get_member_articles_last_six_months()
-    # records = get_members_not_publish()
-    # records = get_member_regions()
-    # records, cols = get_sector_counts()
-    # records = get_sells_commerces_counts()
-    # records = get_buys_commerces_counts()
-    # records = get_sells_commerce_category_counts()
-    # records = get_buys_commerce_category_counts()
-    # records = get_all_commerces_and_commerce_categories()
-    # records = get_all_sectors()
-    # records, _ = get_all_users()
-    # records, _ = get_all_user_follows()
-    # records, _ = get_all_messages()
-
-    # membership_levels = ("Patron", "Platinum", "Gold", "Silver", "Bronze", "Digital", "Freemium")
-    # for membership_level in membership_levels:
-    #     filter_by_sector_commerce = membership_level == "Freemium"
-    #     records, _ = get_member_summaries(membership_level, filter_by_commerce_sector=filter_by_sector_commerce)
-    #     records = pd.DataFrame(records)
-    #     records.to_csv(f"member_summaries/{membership_level}_production.csv")
-   
-    # records, _ = get_sector_counts(membership_levels)
-    # records, _ = get_commerces_counts(None)
-    # records, _ = get_commerces_category_counts(membership_levels)
-    # records, _ = get_member_sectors(membership_levels)
-    # records, _ = get_member_sector_counts(membership_levels)
-    # records, _ = get_member_commerces_flat(None)
-    # records, _ = get_all_messages()
-
-    # records, _ = get_all_events()
-    # records, _ = get_event_attendees()
-
-    # records, _ = get_all_news_articles()
-
-    # records, _ = get_users_with_missing_company_role()
-
-    # # map id to int
-    # # id_to_int = {}
-    # # for record in records:
-    # #     record_id = record["database_id"]
-    # #     if record_id not in id_to_int:
-    # #         id_to_int[record_id] = len(id_to_int)
-    # #     record["id"] = id_to_int[record_id]
-
-    # records = pd.DataFrame(records)
-    # # print (records.head())
-    # # print (records.shape)
-    # # records = records[["id"] + list(records.columns)[:-1]]
-    # records.to_csv(f"paid_users_without_company_role.csv")

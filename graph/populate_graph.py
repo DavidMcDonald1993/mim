@@ -11,19 +11,16 @@ from pandas.core.algorithms import isin
 sys.path.insert(1, 
     os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir)))
 
-from itertools import product, combinations
-
 import dateutil.parser as parser
 
-from utils.arango_utils import *
 from utils.mysql_utils import separator
 from utils.io import read_json
 from utils.scraping_utils import remove_html_tags
+from utils.user_utils import infer_role
 
-from users.fill_out_role import infer_role
+from graph.arango_utils import *
 
 import pgeocode
-
 
 def cast_to_float(v):
     try:
@@ -38,7 +35,12 @@ def convert_to_iso8601(text):
 def load_member_summaries(
     source_dir="data_for_graph/members", 
     filename="company_check", 
-    concat_uk_sector=False):
+    # concat_uk_sector=False
+    ):
+
+    '''
+    LOAD FLAT FILES OF MEMBER DATA
+    '''
 
     dfs = []
     for membership_level in ("Patron", "Platinum", "Gold", "Silver", "Bronze", "Digital", "Freemium"):
@@ -47,17 +49,21 @@ def load_member_summaries(
         dfs.append(pd.read_csv(summary_filename, index_col=0).rename(columns={"database_id": "id"}))
     summaries = pd.concat(dfs)
 
-    if concat_uk_sector:
-        member_uk_sectors = pd.read_csv(f"{source_dir}/members_to_sector.csv", index_col=0)
-        # for col in ("sectors", "divisions", "groups", "classes"):
-        #     member_uk_sectors[f"UK_{col}"] = member_uk_sectors[f"UK_{col}"].map(ast.literal_eval)
-        summaries = summaries.join(member_uk_sectors, on="member_name", how="left")
+    # if concat_uk_sector:
+    #     member_uk_sectors = pd.read_csv(f"{source_dir}/members_to_sector.csv", index_col=0)
+    #     # for col in ("sectors", "divisions", "groups", "classes"):
+    #     #     member_uk_sectors[f"UK_{col}"] = member_uk_sectors[f"UK_{col}"].map(ast.literal_eval)
+    #     summaries = summaries.join(member_uk_sectors, on="member_name", how="left")
 
     return summaries
 
 def populate_sectors(
     source_dir="data_for_graph", 
     db=None):
+
+    '''
+    CREATE AND ADD SECTOR(AS DEFINED IN MIM DB) NODES TO GRAPH
+    '''
 
     if db is None:
         db = connect_to_mim_database()
@@ -86,6 +92,10 @@ def populate_commerces(
     data_dir="data_for_graph", 
     db=None):
 
+    '''
+    CREATE AND ADD COMMERCE(AS DEFINED IN MIM DB) NODES TO GRAPH
+    '''
+
     if db is None:
         db = connect_to_mim_database()
     collection = connect_to_collection("Commerces", db)
@@ -113,19 +123,12 @@ def populate_commerces(
 
         i += 1
 
-
-
 def populate_members(
     cols_of_interest=[
         "id",
         "member_name",
         "website",
         "about_company",
-        # "address_line_1",
-        # "address_line_2",
-        # "postcode",
-        # "latitude",
-        # "longitude",
         "membership_level",
         "tenancies",
         "badges",
@@ -139,36 +142,25 @@ def populate_members(
         "NetWorth_figure",
         "TotalCurrentAssets_figure",
         "TotalCurrentLiabilities_figure",
-        # "UK_sectors",
-        # "UK_divisions",
-        # "UK_groups",
-        # "UK_classes",
     ],
     db=None):
+
+    '''
+    CREATE AND POPULATE MEMBER NODES
+    '''
 
     if db is None:
         db = connect_to_mim_database()
   
     collection = connect_to_collection("Members", db, )
 
-    # members = pd.read_csv(member_filename, index_col=0)
     members = load_member_summaries(concat_uk_sector=False)
     
     members = members[cols_of_interest]
-    members = members.drop_duplicates("member_name")
-    # members = members.loc[~pd.isnull(members["companies_house_name"])]
+    members = members.drop_duplicates("member_name") # ensure no accidental duplicates 
     members = members.loc[~pd.isnull(members["tenancies"])]
     members["about_company"] = members["about_company"].map(remove_html_tags, na_action="ignore")
     members = members.sort_values("member_name")
-
-    # print ("reading postcode to lat-long mapping")
-    # postcode_to_lat_long = pd.read_csv("postcode_to_lat_long.csv", index_col=1)
-    # postcode_to_lat_long = {
-    #     postcode: [row["lat"], row["long"]]
-    #     for postcode, row in postcode_to_lat_long.iterrows()
-    # }
-
-    # nomi = pgeocode.Nominatim('gb') 
 
     i = 0
 
@@ -216,42 +208,11 @@ def populate_members(
 
         document["directors"] = directors
 
-        # postcode = row["postcode"]
-
-        # latitude = row["latitude"]
-        # longitude = row["longitude"]
-        # coordinates = None
-
-        # # if not pd.isnull(latitude) and not pd.isnull(longitude):
-        # #     coordinates = [latitude, longitude]
-        # # elif not pd.isnull(postcode) and postcode in postcode_to_lat_long:
-        # #     latitude, longitude = postcode_to_lat_long[postcode]
-
-        # #     coordinates = [latitude, longitude]
-        # if not pd.isnull(postcode):
-        #     coords = nomi.query_postal_code(postcode)
-
-        #     document = {
-        #         **document,
-        #         **dict(coords)
-        #     }
-
-        #     if not pd.isnull(coords["latitude"]):
-        #         latitude = coords["latitude"]
-        #         longitude = coords["longitude"]
-        #         coordinates = [latitude, longitude]
-       
-        # document["latitude"] = latitude
-        # document["longitude"] = longitude
-        # document["coordinates"] = coordinates
-        
         assert not pd.isnull(row["tenancies"])
         tenancies = []
         regions = []
 
-        # for tenancy in ast.literal_eval(row["tenancies"]):
         for tenancy in row["tenancies"].split(separator):
-            # tenancies.append(tenancy["tenancy"])
             tenancies.append(tenancy)
             if tenancy == "Made in the Midlands":
                 regions.append("midlands")
@@ -265,9 +226,7 @@ def populate_members(
             award_name = f"{award}s"
             if not pd.isnull(row[award_name]):
                 awards = []
-                # for a in ast.literal_eval(row[award_name]):
                 for a in row[award_name].split(separator):
-                    # awards.append(a[f"{award}_name"])
                     awards.append(a)
                 document[award_name] = awards
 
@@ -276,6 +235,11 @@ def populate_members(
         i += 1
 
 def add_SIC_hierarchy_to_members(db=None):
+
+    '''
+    USE SIC CODES TO MAP TO SECTOR USING FILE:
+    data/class_to_sector.json
+    '''
 
     if db is None:
         db = connect_to_mim_database()
@@ -291,7 +255,7 @@ def add_SIC_hierarchy_to_members(db=None):
     '''
     members = aql_query(db, get_sic_codes_query)
 
-    class_to_sector_map = read_json("class_to_sector.json")
+    class_to_sector_map = read_json("data/class_to_sector.json")
 
     for member in members:
 
@@ -335,6 +299,9 @@ def populate_users(
         "company_role",
     ],
     db=None):
+    '''
+    CREATE AND ADD USER NODES
+    '''
 
     if db is None:
         db = connect_to_mim_database()
@@ -356,7 +323,6 @@ def populate_users(
             continue
 
         document = {
-            # "_key" : sanitise_key(user_name),
             "_key" : str(i),
             "name": user_name,
             **{
@@ -784,9 +750,7 @@ def populate_event_attendees(
 
     event_attendees_df = pd.read_csv(f"{data_dir}/all_event_attendees.csv", index_col=0)
 
-    # event_name_to_id = name_to_id(db, "Events", ["event_name", "starts_at"])
     event_name_to_id = name_to_id(db, "Events", "id")
-    # user_name_to_id = name_to_id(db, "Users", ["full_name", "company_name"])
     user_name_to_id = name_to_id(db, "Users", "id")
 
     i = 0
@@ -798,24 +762,15 @@ def populate_event_attendees(
         if attendee_id not in user_name_to_id:
             continue
         
-        # event_name = row["event_name"]
-        # starts_at = convert_to_iso8601(row["starts_at"])
         event_id = row["event_id"]
-
-        # _from = sanitise_key(attendee_name)
-        # _to = sanitise_key(f"{event_name}_{starts_at}")
-
 
         if event_id not in event_name_to_id:
             continue 
 
         document = {
-            # "_key": sanitise_key(f"{attendee_name}_{event_name}_{starts_at}"),
             "_key": str(i),
             "name": "attends", 
-            # "_from": f"Users/{_from}",
             "_from": user_name_to_id[attendee_id],
-            # "_to": f"Events/{_to}",
             "_to": event_name_to_id[event_id],
             "attended": row["attended"],
         }
@@ -845,12 +800,7 @@ def populate_event_session_attendees(
         if attendee_id not in user_name_to_id:
             continue
         
-        # event_name = row["event_name"]
-        # starts_at = convert_to_iso8601(row["starts_at"])
         session_id = row["session_id"]
-
-        # _from = sanitise_key(attendee_name)
-        # _to = sanitise_key(f"{event_name}_{starts_at}")
 
         if session_id not in session_name_to_id:
             continue 
@@ -974,10 +924,15 @@ def populate_event_session_attendees(
 #             i += 1
 
 def populate_uk_sector_hierarchy(db=None):
+
+    '''
+    USE HIERARCHY IN FILE data/SIC_hierarchy.json TO BUILD TREE OF SIC STRUCTURE
+    '''
+    
     if db is None:
         db = connect_to_mim_database()
 
-    uk_sectors = read_json("SIC_hierarchy.json")
+    uk_sectors = read_json("data/SIC_hierarchy.json")
 
     classes_collection = connect_to_collection("UKClasses", db)
     class_hierarchy_collection = connect_to_collection("UKClassHierarchy", db, className="Edges")
