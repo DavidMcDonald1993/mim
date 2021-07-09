@@ -137,16 +137,10 @@ def scrape_company_check(link):
 
     return scraped_company_info, directors
 
-def main():
-
-    # src = "base"
-    # region = "midlands"
-    # output_dir = os.path.join(src, region )
-
-    # output_dir = "member_summaries"
+def search_company_check_for_members():
+    
     output_dir = os.path.join("data_for_graph", "members")
 
-    # membership_level = "Patron"
     for membership_level in (
         "Patron",
         "Platinum",
@@ -158,10 +152,6 @@ def main():
         ):
 
         companies = pd.read_csv(
-            # os.path.join(output_dir, f"{region}_prospects_from_companies_house.csv"),
-            # os.path.join(output_dir, f"{region}_prospects_filtered_by_website.csv"),
-            # os.path.join(output_dir, f"prospects_filtered.csv"),
-            # os.path.join(output_dir, f"{membership_level}_production_companies_house.csv"),
             os.path.join(output_dir, f"{membership_level}_members_companies_house.csv"),
             index_col=0,
             )
@@ -254,6 +244,9 @@ def main():
         full_company_info = full_company_info[sorted(full_company_info.columns)]
         print ("writing to", output_filename_csv)
         full_company_info.to_csv(output_filename_csv)
+
+def main():
+    search_company_check_for_members()
 
 if __name__ == "__main__":
     main()

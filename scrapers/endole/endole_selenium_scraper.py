@@ -2,7 +2,8 @@
 import sys
 import os.path
 sys.path.insert(1, 
-    os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir)))
+    os.path.abspath(
+        os.path.join(os.path.dirname(__file__), os.path.pardir, os.path.pardir))) 
 
 from urllib.parse import quote
 
@@ -17,16 +18,23 @@ import pandas as pd
 
 import re
 
-from utils.scraping_utils import (identify_post_code,
+from dotenv import load_dotenv
+load_dotenv()
+
+import os
+
+from utils.scraping_utils import (identify_postcode,
     get_postcode_prefix, process_figure_string)
 from utils.geo import all_region_postcodes
 from utils.selenium_utils import initialise_chrome_driver, get_url
-
 from utils.io import read_json, write_json
 
-def login(driver):
 
-    # driver.get('https://suite.endole.co.uk/?login=Google')
+def login(driver,
+    email=os.getenv("ENDOLEEMAIL"),
+    password=os.getenv("ENDOLEPASSWORD"),
+    ):
+
     get_url(driver, 'https://suite.endole.co.uk/?login=Google')
     sleep(1)
 
@@ -39,7 +47,7 @@ def login(driver):
     username = driver.find_element_by_id("identifierId")
 
     # send_keys() to simulate key strokes
-    username.send_keys('david@madeingroup.com')
+    username.send_keys(email)
     username.send_keys(Keys.RETURN)
     sleep(3)
 
@@ -48,13 +56,13 @@ def login(driver):
     # locate password form by_class_name
     # password = driver.find_element_by_id("login_pass")
     # try:
-    password = driver.find_element_by_css_selector('input[type="password"]')
+    password_field = driver.find_element_by_css_selector('input[type="password"]')
     # except Exception:
     #     password = driver.find_element_by_css_selector('input[type="password"]')
 
     # send_keys() to simulate key strokes
-    password.send_keys('C423612k&1')
-    password.send_keys(Keys.RETURN)
+    password_field.send_keys(password)
+    password_field.send_keys(Keys.RETURN)
 
 
     # print ("finding log in button")
@@ -67,7 +75,7 @@ def login(driver):
     sleep(3)
 
 
-def search_endole_with_selenium(driver, company_name, post_code):
+def search_endole_with_selenium(driver, company_name, postcode, check_postcode):
 
     company_name_url = quote("+".join(company_name.split(" ")))
     url = f"https://suite.endole.co.uk/insight/search/?q={company_name_url}"
@@ -76,7 +84,7 @@ def search_endole_with_selenium(driver, company_name, post_code):
     get_url(driver, url)
     # sleep(1)
 
-    post_code_prefix = get_postcode_prefix(post_code)
+    postcode_prefix = get_postcode_prefix(postcode)
 
     try:
         results = driver.find_elements_by_css_selector("div[class='search-result']")
@@ -94,20 +102,18 @@ def search_endole_with_selenium(driver, company_name, post_code):
         except NoSuchElementException:
             continue
         address = address.text 
-        result_post_code = identify_post_code(address)
-        if result_post_code is None:
+        result_postcode = identify_postcode(address)
+        if result_postcode is None:
             continue
-        result_post_code_prefix = get_postcode_prefix(result_post_code)
-        if result_post_code_prefix is None:
+        result_postcode_prefix = get_postcode_prefix(result_postcode)
+        if result_postcode_prefix is None:
             continue
-        if post_code_prefix is not None and post_code_prefix == result_post_code_prefix:
-            print ("POSTCODE MATCH", post_code, result_post_code,
-                get_postcode_prefix(post_code), get_postcode_prefix(result_post_code))
+        if not check_postcode or (postcode_prefix is not None and postcode_prefix == result_postcode_prefix):
             link = header.find_element_by_css_selector("a[class='preloader']")
             return address, link.get_attribute('href')
-        elif result_post_code_prefix in all_region_postcodes["midlands"]\
-            or result_post_code_prefix in all_region_postcodes["yorkshire"]:
-            print ("POSTCODE IN REGION", result_post_code)
+        elif result_postcode_prefix in all_region_postcodes["midlands"]\
+            or result_postcode_prefix in all_region_postcodes["yorkshire"]:
+            print ("POSTCODE IN REGION", result_postcode)
             link = header.find_element_by_css_selector("a[class='preloader']")
             return address, link.get_attribute('href')
 
@@ -120,9 +126,7 @@ def scrape_endole_with_selenium(driver, base_url):
 
     scraped_company_info = {}
 
-    # driver.get(overview_url)
     get_url(driver, overview_url)
-    # sleep(1)
 
     # company classification
     divs = driver.find_elements_by_css_selector("div[class='_item']")
@@ -175,9 +179,7 @@ def scrape_endole_with_selenium(driver, base_url):
     directors table
     '''
     people_contacts_url = base_url + "?page=people-contacts"
-    # driver.get(people_contacts_url)
     get_url(driver, people_contacts_url)
-
 
     try:
         table_div = driver.find_element_by_id("ajax_people")
@@ -212,7 +214,6 @@ def scrape_endole_with_selenium(driver, base_url):
     '''
 
     competition_url = base_url + "?page=competition"
-    # driver.get(competition_url)
     get_url(driver, competition_url)
 
 
@@ -220,7 +221,6 @@ def scrape_endole_with_selenium(driver, base_url):
         "a") 
 
     pattern = r"^https://suite.endole.co.uk/insight/company/[0-9]+"
-    # pattern = r"^[0-9]+"
 
     scraped_company_info["competitors"] = []
     for competition_element in filter(
@@ -239,63 +239,31 @@ def scrape_endole_with_selenium(driver, base_url):
 
     return scraped_company_info
 
-def main():
+def process_df(df, output_file, company_name_col=None, ):
 
-    driver = None 
-    region = "midlands_yorkshire"
-    output_dir = os.path.join("prospects", region )
+    driver = None
 
-    companies = pd.read_csv(
-        # os.path.join(output_dir, "all_competitors_midlands_companies_house.csv"),
-        os.path.join(output_dir, "midlands_yorkshire_prospects_from_companies_house.csv"),
-        index_col=0,
-        )
-
-    output_filename = os.path.join(output_dir, 
-        f"{region}_endole")
-    output_filename_csv = f"{output_filename}.csv"
-    output_filename_xlsx = f"{output_filename}.xlsx"
-
-    if os.path.exists(output_filename_csv):
-        full_company_info = pd.read_csv(output_filename_csv, index_col=0)
-        existing_companies = set(full_company_info.index)
+    if os.path.exists(output_file):
+            full_company_info = read_json(output_file)
 
     else:
-        full_company_info = pd.DataFrame()
-        existing_companies = set()
+        full_company_info = dict()
 
-    for i, company in companies.iterrows():
+    for idx, company in df.iterrows():
 
-        company_name = company["CompanyName"]
-        # company_name = company["companies_house_name"]
-        if company_name in existing_companies:
-            print ("company", company_name, "already processed")
-            continue
+        if company_name_col is None:
+            company_name = idx
+        else:
+            company_name = company[company_name_col]
+
 
         if pd.isnull(company_name): 
             print ("skipping company", company_name, ": missing company name")
             continue
+        if company_name in full_company_info:
+            print ("company", company_name, "already processed")
+            continue
 
-        # extract useful data from companies house
-        companies_house_address = " ".join(filter(lambda v: isinstance(v, str), [
-            company[col] for col in (
-                "RegAddress.AddressLine1", 
-                " RegAddress.AddressLine2",	
-                "RegAddress.PostTown",	
-                "RegAddress.County", 
-                "RegAddress.Country", 
-                "RegAddress.PostCode",
-            )
-        ]))
-
-        sic_codes = [v for k, v in company.items() 
-            if k.startswith("SICCode") and not pd.isnull(v)]
-
-        relevant_companies_house_data = pd.Series({
-            "companies_house_address": companies_house_address,
-            "sic_codes": sic_codes
-            "company_status", company["CompanyStatus"]
-        })
 
         if driver is None:
             driver = initialise_chrome_driver()
@@ -303,43 +271,77 @@ def main():
 
         print ("processing company", company_name)
 
-        # address = company["companies_house_address"]
-        # post_code = identify_post_code(address)
-        post_code = company["RegAddress.PostCode"]
-        if pd.isnull(post_code):
-            print ("Missing postcode", company_name)
-            post_code = None
-
         address, link = search_endole_with_selenium(
-            driver, company_name, post_code)
-        company_data_from_endole = pd.Series({"endole_address": address}, 
-            name=company_name,)
+            driver, company_name, postcode=None, check_postcode=False)
+
+        company_data_from_endole = {
+            "endole_address": address,
+            "endole_url": link,
+        }
         if link is not None:
             scraped_company_data = scrape_endole_with_selenium(driver, link)
-            company_data_from_endole = pd.concat(
-                [
-                    relevant_companies_house_data,
-                    # company,
-                    company_data_from_endole, 
-                    pd.Series(scraped_company_data, ),
-                ]
-            )
+            company_data_from_endole.update(scraped_company_data)
         else:
             print("no results for company", company_name)
 
-        company_data_from_endole.name = company_name
 
-        full_company_info = full_company_info.append(company_data_from_endole)
+        full_company_info[company_name] = company_data_from_endole
 
-        full_company_info = full_company_info[sorted(full_company_info.columns)]
-        full_company_info.to_csv(output_filename_csv)
+        write_json(full_company_info, output_file)
 
         print()
 
-    full_company_info_excel = pd.ExcelWriter(output_filename_xlsx)
-    full_company_info.to_excel(full_company_info_excel, sheet_name="endole", encoding="utf-8")
-    full_company_info_excel.save()
 
+def scrape_endole_for_members():
+
+    output_dir = os.path.join("data_for_graph", "members" )
+
+    for membership_level in {
+        "Patron",
+        "Platinum",
+        "Gold",
+        "Silver",
+        "Bronze",
+        "Digital",
+        "Freemium",
+    }:
+
+        d = os.path.join(output_dir, membership_level)
+        companies = pd.read_csv(
+            os.path.join(d, f"{membership_level}_members_companies_house.csv"),
+            index_col=0,
+            )
+
+        output_filename = os.path.join(d, 
+            f"{membership_level}_endole.json")
+
+        process_df(companies, output_filename)
+
+def scrape_endole_for_prospects():
+    
+
+    output_dir = os.path.join("companies_house", )
+
+    for region in {
+        "midlands",
+        "yorkshire",
+    }:
+
+        d = os.path.join(output_dir, region)
+        companies = pd.read_csv(
+            os.path.join(d, f"{region}_prospects_filtered_by_website.csv"),
+            index_col=0,
+            )
+
+        output_filename = os.path.join(d, 
+            f"{region}_endole.json")
+
+        process_df(companies, output_filename, company_name_col="CompanyName")
+
+
+def main():
+    # scrape_endole_for_members()
+    scrape_endole_for_prospects()
 
 if __name__ == "__main__":
     main()

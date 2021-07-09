@@ -1,6 +1,4 @@
-from typing import Collection
 import pandas as pd  
-import json
 
 import ast
 
@@ -44,7 +42,7 @@ def load_member_summaries(
 
     dfs = []
     for membership_level in ("Patron", "Platinum", "Gold", "Silver", "Bronze", "Digital", "Freemium"):
-        summary_filename = os.path.join(source_dir, f"{membership_level}_{filename}.csv")
+        summary_filename = os.path.join(source_dir, membership_level, f"{membership_level}_{filename}.csv")
         print ("reading summary from", summary_filename)
         dfs.append(pd.read_csv(summary_filename, index_col=0).rename(columns={"database_id": "id"}))
     summaries = pd.concat(dfs)
@@ -928,7 +926,7 @@ def populate_uk_sector_hierarchy(db=None):
     '''
     USE HIERARCHY IN FILE data/SIC_hierarchy.json TO BUILD TREE OF SIC STRUCTURE
     '''
-    
+
     if db is None:
         db = connect_to_mim_database()
 
@@ -1033,12 +1031,13 @@ def populate_members_to_uk_class(db=None):
     if db is None:
         db = connect_to_mim_database()
 
+    '''
+    ADD EDGES TO CONNECT MEMBER NODES TO CLASS
+    '''
+
     collection = connect_to_collection( "MembersToClass", db, className="Edges")
 
-    # member_name_to_id = name_to_id(db, "Members", "member_name")
     uk_class_to_id = name_to_id(db, "UKClasses", "name")
-
-    # members_to_sector = read_json("member_summaries/members_to_sector.json")
 
     query = f'''
     FOR m IN Members
@@ -1060,10 +1059,6 @@ def populate_members_to_uk_class(db=None):
 
     for member_assignments in members_to_sector:
 
-        # if member not in member_name_to_id:
-            # continue
-
-        # member_assignments = members_to_sector[member]
 
         assignments = {
             "sector": member_assignments["UK_sectors"],
@@ -1072,7 +1067,7 @@ def populate_members_to_uk_class(db=None):
             "class": member_assignments["UK_classes"],
         }
        
-        # TODO add other levels?
+        # ADD ALL LEVELS
         for key in ("class", "group", "division", "sector"):
             for c in assignments[key]:
 
@@ -1080,7 +1075,6 @@ def populate_members_to_uk_class(db=None):
 
                 document = {
                     "_key": str(i),
-                    # "_from": member_name_to_id[member],
                     "_from": member_assignments["id"],
                     "_to": uk_class_to_id[c],
                     "name": f"in_{key}",
@@ -1296,96 +1290,6 @@ def populate_prospects(db=None):
             insert_document(db, collection, document, verbose=False)
 
             i += 1
-
-    # '''
-    # BASE / ZENDESK
-    # '''
-
-    # current_prospects = name_to_id(db, "Prospects", "name")
-
-    # # add prospects from base
-    # prospects = []
-    # for region in ("yorkshire", "midlands"):
-    #     filename = os.path.join("base", region, f"{region}_company_check.csv",)
-    #     region_prospects = pd.read_csv(filename, index_col=0)
-
-    #     if "website" not in region_prospects.columns:
-    #         websites_filename = os.path.join("base", region, f"{region}_company_websites.csv",)
-
-    #         if os.path.exists(websites_filename):
-    #             websites = pd.read_csv(websites_filename, index_col=0)
-    #             region_prospects = region_prospects.join(websites, how="inner", )
-
-    #     prospects.append(region_prospects)
-
-    # prospects = pd.concat(prospects)
-    # prospects =  prospects = prospects[~prospects.index.duplicated(keep='first')]
-
-    # prospects = prospects.loc[~prospects.index.isin(current_prospects)]
-
-    # for prospect, row in prospects.iterrows():
-        
-    #     document = {
-    #         "_key" : str(i),
-    #         "name": prospect,
-    #         **{
-    #             k: (row[k].split(separator) if not pd.isnull(row[k]) and k in {}
-    #                 else cast_to_float(row[k]) if not pd.isnull(row[k]) and k in {
-    #                     "Cash_figure", "NetWorth_figure", "TotalCurrentAssets_figure","TotalCurrentLiabilities_figure",
-    #                 }
-    #                     else ast.literal_eval(row[k]) if not pd.isnull(row[k]) and k in {
-    #                         "sic_codes",
-    #                         }
-    #                     else row[k] if not pd.isnull(row[k])
-    #                     else None)
-    #                 for k in set(row.index) - {"directors"}
-    #         }, 
-    #     }
-
-    #     if not pd.isnull(row["directors"]):
-    #         directors_ = ast.literal_eval(row["directors"])
-    #         directors = []
-    #         for director in directors_:
-
-    #             if pd.isnull(director["director_name"]):
-    #                 continue
-                
-    #             if not pd.isnull(director["director_date_of_birth"]):
-    #                 director["director_date_of_birth"] = insert_space(director["director_date_of_birth"], 3)
-
-    #             directors.append(director)
-
-    #     else:
-    #         directors = []
-
-    #     document["directors"] = directors
-
-    #     document["source"] = "base"
-        
-    #     postcode = document["postcode"]
-    #     latitude = None
-    #     longitude = None
-    #     coordinates = None
-
-    #     if not pd.isnull(latitude) and not pd.isnull(longitude):
-    #         coordinates = [latitude, longitude]
-    #     elif not pd.isnull(postcode) and postcode in postcode_to_lat_long:
-    #         latitude, longitude = postcode_to_lat_long[postcode]
-    #         coordinates = [latitude, longitude]
-    #     elif not pd.isnull(postcode):
-    #         coords = nomi.query_postal_code(postcode)
-    #         if not pd.isnull(coords["latitude"]):
-    #             latitude = coords["latitude"]
-    #             longitude = coords["longitude"]
-    #             coordinates = [latitude, longitude]
-            
-    #     document["latitude"] = latitude
-    #     document["longitude"] = longitude
-    #     document["coordinates"] = coordinates
-        
-    #     insert_document(db, collection, document, verbose=False)
-
-    #     i += 1
 
 def add_SIC_hierarchy_to_prospects(db=None):
 

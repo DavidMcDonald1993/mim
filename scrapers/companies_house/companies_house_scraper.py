@@ -109,9 +109,37 @@ def scrape(link):
         sic_codes.append(strip_text(sic_element.text))
     return company_status, sic_codes
 
-def main():
+def get_companies_house_name_for_members():
+    '''
+    THIS SEARCHES COMPAIES HOUSE FOR THE BEST MATCHING NAME 
+    BUT THE RESULTS WILL HAVE TO BE MANUALLY CHECKED
+    '''
 
-    # output_dir = "member_summaries"
+    for membership_level in (
+        "Patron", 
+        "Platinum", 
+        "Gold", 
+        "Silver", 
+        "Bronze", 
+        "Digital", 
+        "Freemium",
+        ):
+        summary_filename = os.path.join("data_for_graph", "members", f"{membership_level}_members.csv")
+        member_summaries = pd.read_csv(summary_filename, index_col=0)
+       
+        member_summaries["companies_house_name"] = member_summaries.apply(
+            lambda row: map_to_companies_house_name(
+                company_name=row["member_name"], 
+                # postcode=row["postcode"]
+                ),
+            axis=1
+        )
+
+        member_summaries.to_csv(summary_filename)
+
+
+def scrape_companies_house_for_members():
+
     output_dir = os.path.join("data_for_graph", "members")
 
     for membership_level in (
@@ -138,7 +166,6 @@ def main():
 
         output_filename = os.path.join(output_dir, f"{filename}_companies_house")
         output_filename_csv = f"{output_filename}.csv"
-        # output_filename_xlsx = f"{output_filename}.xlsx"
 
         if os.path.exists(output_filename_csv):
             full_company_info = pd.read_csv(output_filename_csv, index_col=0)
@@ -204,34 +231,10 @@ def main():
 
             print()
 
+
+def main():
+    get_companies_house_name_for_members()
+    scrape_companies_house_for_members()
+
 if __name__ == "__main__":
     main()
-
-    # company_name = "Jones & Wilkinson Ltd"
-    # print (map_to_companies_house_name(company_name))
-
-    # summary_filename = os.path.join("members", "paid_member_summaries.csv")
-    # summary_filename = "Freemium_with_sector_commerce_summaries_production.csv"
- 
-    # for membership_level in (
-    #     # "Patron", 
-    #     # "Platinum", 
-    #     # "Gold", 
-    #     # "Silver", 
-    #     # "Bronze", 
-    #     # "Digital", 
-    #     "Freemium",
-    #     ):
-    #     # summary_filename = os.path.join("member_summaries", f"{membership_level}_production.csv")
-    #     summary_filename = os.path.join("data_for_graph", "members", f"{membership_level}_members.csv")
-    #     member_summaries = pd.read_csv(summary_filename, index_col=0)
-       
-    #     member_summaries["companies_house_name"] = member_summaries.apply(
-    #         lambda row: map_to_companies_house_name(
-    #             company_name=row["member_name"], 
-    #             # postcode=row["postcode"]
-    #             ),
-    #         axis=1
-    #     )
-
-    #     member_summaries.to_csv(summary_filename)
