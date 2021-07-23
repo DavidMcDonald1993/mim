@@ -1,0 +1,1379 @@
+{
+    "AGRICULTURE, FORESTRY AND FISHING": {
+        "Crop and animal production, hunting and related service activities": {
+            "Growing of non-perennial crops": [
+                "Growing of cereals (except rice), leguminous crops and oil seeds",
+                "Growing of rice",
+                "Growing of vegetables and melons, roots and tubers",
+                "Growing of sugar cane",
+                "Growing of tobacco",
+                "Growing of fibre crops",
+                "Growing of other non-perennial crops"
+            ],
+            "Growing of perennial crops": [
+                "Growing of grapes",
+                "Growing of tropical and subtropical fruits",
+                "Growing of citrus fruits",
+                "Growing of pome fruits and stone fruits",
+                "Growing of other tree and bush fruits and nuts",
+                "Growing of oleaginous fruits",
+                "Growing of beverage crops",
+                "Growing of spices, aromatic, drug and pharmaceutical crops",
+                "Growing of other perennial crops"
+            ],
+            "Plant propagation": [
+                "Plant propagation"
+            ],
+            "Animal production": [
+                "Raising of dairy cattle",
+                "Raising of other cattle and buffaloes",
+                "Raising of horses and other equines",
+                "Raising of camels and camelids",
+                "Raising of sheep and goats",
+                "Raising of swine/pigs",
+                "Raising of poultry",
+                "Raising of other animals"
+            ],
+            "Mixed farming": [
+                "Mixed farming"
+            ],
+            "Support activities to agriculture and post-harvest crop activities": [
+                "Support activities for crop production",
+                "Support activities for animal production",
+                "Post-harvest crop activities",
+                "Seed processing for propagation"
+            ],
+            "Hunting, trapping and related service activities": [
+                "Hunting, trapping and related service activities"
+            ]
+        },
+        "Forestry and logging": {
+            "Silviculture and other forestry activities": [
+                "Silviculture and other forestry activities"
+            ],
+            "Logging": [
+                "Logging"
+            ],
+            "Gathering of wild growing non-wood products": [
+                "Gathering of wild growing non-wood products"
+            ],
+            "Support services to forestry": [
+                "Support services to forestry"
+            ]
+        },
+        "Fishing and aquaculture": {
+            "Fishing": [
+                "Marine fishing",
+                "Freshwater fishing"
+            ],
+            "Aquaculture": [
+                "Marine aquaculture",
+                "Freshwater aquaculture"
+            ]
+        }
+    },
+    "MINING AND QUARRYING": {
+        "Mining of coal and lignite": {
+            "Mining of hard coal": [
+                "Mining of hard coal"
+            ],
+            "Mining of lignite": [
+                "Mining of lignite"
+            ]
+        },
+        "Extraction of crude petroleum and natural gas": {
+            "Extraction of crude petroleum": [
+                "Extraction of crude petroleum"
+            ],
+            "Extraction of natural gas": [
+                "Extraction of natural gas"
+            ]
+        },
+        "Mining of metal ores": {
+            "Mining of iron ores": [
+                "Mining of iron ores"
+            ],
+            "Mining of non-ferrous metal ores": [
+                "Mining of uranium and thorium ores",
+                "Mining of other non-ferrous metal ores"
+            ]
+        },
+        "Other mining and quarrying": {
+            "Quarrying of stone, sand and clay": [
+                "Quarrying of ornamental and building stone, limestone, gypsum, chalk and slate",
+                "Operation of gravel and sand pits; mining of clays and kaolin"
+            ],
+            "Mining and quarrying n.e.c.": [
+                "Mining of chemical and fertiliser minerals",
+                "Extraction of peat",
+                "Extraction of salt",
+                "Other mining and quarrying n.e.c."
+            ]
+        },
+        "Mining support service activities": {
+            "Support activities for petroleum and natural gas extraction": [
+                "Support activities for petroleum and natural gas extraction"
+            ],
+            "Support activities for other mining and quarrying": [
+                "Support activities for other mining and quarrying"
+            ]
+        }
+    },
+    "MANUFACTURING": {
+        "Manufacture of food products": {
+            "Processing and preserving of meat and production of meat products": [
+                "Processing and preserving of meat",
+                "Processing and preserving of poultry meat",
+                "Production of meat and poultry meat products"
+            ],
+            "Processing and preserving of fish, crustaceans and molluscs": [
+                "Processing and preserving of fish, crustaceans and molluscs"
+            ],
+            "Processing and preserving of fruit and vegetables": [
+                "Processing and preserving of potatoes",
+                "Manufacture of fruit and vegetable juice",
+                "Other processing and preserving of fruit and vegetables"
+            ],
+            "Manufacture of vegetable and animal oils and fats": [
+                "Manufacture of oils and fats",
+                "Manufacture of margarine and similar edible fats"
+            ],
+            "Manufacture of dairy products": [
+                "Operation of dairies and cheese making",
+                "Manufacture of ice cream"
+            ],
+            "Manufacture of grain mill products, starches and starch products": [
+                "Manufacture of grain mill products",
+                "Manufacture of starches and starch products"
+            ],
+            "Manufacture of bakery and farinaceous products": [
+                "Manufacture of bread; manufacture of fresh pastry goods and cakes",
+                "Manufacture of rusks and biscuits; manufacture of preserved pastry goods and cakes",
+                "Manufacture of macaroni, noodles, couscous and similar farinaceous products"
+            ],
+            "Manufacture of other food products": [
+                "Manufacture of sugar",
+                "Manufacture of cocoa, chocolate and sugar confectionery",
+                "Processing of tea and coffee",
+                "Manufacture of condiments and seasonings",
+                "Manufacture of prepared meals and dishes",
+                "Manufacture of homogenised food preparations and dietetic food",
+                "Manufacture of other food products n.e.c."
+            ],
+            "Manufacture of prepared animal feeds": [
+                "Manufacture of prepared feeds for farm animals",
+                "Manufacture of prepared pet foods"
+            ]
+        },
+        "Manufacture of beverages": {
+            "Manufacture of beverages": [
+                "Distilling, rectifying and blending of spirits",
+                "Manufacture of wine from grape",
+                "Manufacture of cider and other fruit wines",
+                "Manufacture of other non-distilled fermented beverages",
+                "Manufacture of beer",
+                "Manufacture of malt",
+                "Manufacture of soft drinks; production of mineral waters and other bottled waters"
+            ]
+        },
+        "Manufacture of tobacco products": {
+            "Manufacture of tobacco products": [
+                "Manufacture of tobacco products"
+            ]
+        },
+        "Manufacture of textiles": {
+            "Preparation and spinning of textile fibres": [
+                "Preparation and spinning of textile fibres"
+            ],
+            "Weaving of textiles": [
+                "Weaving of textiles"
+            ],
+            "Finishing of textiles": [
+                "Finishing of textiles"
+            ],
+            "Manufacture of other textiles": [
+                "Manufacture of knitted and crocheted fabrics",
+                "Manufacture of made-up textile articles, except apparel",
+                "Manufacture of carpets and rugs",
+                "Manufacture of cordage, rope, twine and netting",
+                "Manufacture of non-wovens and articles made from non-wovens, except apparel",
+                "Manufacture of other technical and industrial textiles",
+                "Manufacture of other textiles n.e.c."
+            ]
+        },
+        "Manufacture of wearing apparel": {
+            "Manufacture of wearing apparel, except fur apparel": [
+                "Manufacture of leather clothes",
+                "Manufacture of workwear",
+                "Manufacture of other outerwear",
+                "Manufacture of underwear",
+                "Manufacture of other wearing apparel and accessories"
+            ],
+            "Manufacture of articles of fur": [
+                "Manufacture of articles of fur"
+            ],
+            "Manufacture of knitted and crocheted apparel": [
+                "Manufacture of knitted and crocheted hosiery",
+                "Manufacture of other knitted and crocheted apparel"
+            ]
+        },
+        "Manufacture of leather and related products": {
+            "Tanning and dressing of leather; manufacture of luggage, handbags, saddlery and harness; dressing and dyeing of fur": [
+                "Tanning and dressing of leather; dressing and dyeing of fur",
+                "Manufacture of luggage, handbags and the like, saddlery and harness"
+            ],
+            "Manufacture of footwear": [
+                "Manufacture of footwear"
+            ]
+        },
+        "Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials": {
+            "Sawmilling and planing of wood": [
+                "Sawmilling and planing of wood"
+            ],
+            "Manufacture of products of wood, cork, straw and plaiting materials": [
+                "Manufacture of veneer sheets and wood-based panels",
+                "Manufacture of assembled parquet floors",
+                "Manufacture of other builders' carpentry and joinery",
+                "Manufacture of wooden containers",
+                "Manufacture of other products of wood; manufacture of articles of cork, straw and plaiting materials"
+            ]
+        },
+        "Manufacture of paper and paper products": {
+            "Manufacture of pulp, paper and paperboard": [
+                "Manufacture of pulp",
+                "Manufacture of paper and paperboard"
+            ],
+            "Manufacture of articles of paper and paperboard": [
+                "Manufacture of corrugated paper and paperboard and of containers of paper and paperboard",
+                "Manufacture of household and sanitary goods and of toilet requisites",
+                "Manufacture of paper stationery",
+                "Manufacture of wallpaper",
+                "Manufacture of other articles of paper and paperboard"
+            ]
+        },
+        "Printing and reproduction of recorded media": {
+            "Printing and service activities related to printing": [
+                "Printing of newspapers",
+                "Other printing",
+                "Pre-press and pre-media services",
+                "Binding and related services"
+            ],
+            "Reproduction of recorded media": [
+                "Reproduction of recorded media"
+            ]
+        },
+        "Manufacture of coke and refined petroleum products": {
+            "Manufacture of coke oven products": [
+                "Manufacture of coke oven products"
+            ],
+            "Manufacture of refined petroleum products": [
+                "Manufacture of refined petroleum products"
+            ]
+        },
+        "Manufacture of chemicals and chemical products": {
+            "Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics and synthetic rubber in primary forms": [
+                "Manufacture of industrial gases",
+                "Manufacture of dyes and pigments",
+                "Manufacture of other inorganic basic chemicals",
+                "Manufacture of other organic basic chemicals",
+                "Manufacture of fertilisers and nitrogen compounds",
+                "Manufacture of plastics in primary forms",
+                "Manufacture of synthetic rubber in primary forms"
+            ],
+            "Manufacture of pesticides and other agrochemical products": [
+                "Manufacture of pesticides and other agrochemical products"
+            ],
+            "Manufacture of paints, varnishes and similar coatings, printing ink and mastics": [
+                "Manufacture of paints, varnishes and similar coatings, printing ink and mastics"
+            ],
+            "Manufacture of soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations": [
+                "Manufacture of soap and detergents, cleaning and polishing preparations",
+                "Manufacture of perfumes and toilet preparations"
+            ],
+            "Manufacture of other chemical products": [
+                "Manufacture of explosives",
+                "Manufacture of glues",
+                "Manufacture of essential oils",
+                "Manufacture of other chemical products n.e.c."
+            ],
+            "Manufacture of man-made fibres": [
+                "Manufacture of man-made fibres"
+            ]
+        },
+        "Manufacture of basic pharmaceutical products and pharmaceutical preparations": {
+            "Manufacture of basic pharmaceutical products": [
+                "Manufacture of basic pharmaceutical products"
+            ],
+            "Manufacture of pharmaceutical preparations": [
+                "Manufacture of pharmaceutical preparations"
+            ]
+        },
+        "Manufacture of rubber and plastic products": {
+            "Manufacture of rubber products": [
+                "Manufacture of rubber tyres and tubes; retreading and rebuilding of rubber tyres",
+                "Manufacture of other rubber products"
+            ],
+            "Manufacture of plastics products": [
+                "Manufacture of plastic plates, sheets, tubes and profiles",
+                "Manufacture of plastic packing goods",
+                "Manufacture of builders\u2019 ware of plastic",
+                "Manufacture of other plastic products"
+            ]
+        },
+        "Manufacture of other non-metallic mineral products": {
+            "Manufacture of glass and glass products": [
+                "Manufacture of flat glass",
+                "Shaping and processing of flat glass",
+                "Manufacture of hollow glass",
+                "Manufacture of glass fibres",
+                "Manufacture and processing of other glass, including technical glassware"
+            ],
+            "Manufacture of refractory products": [
+                "Manufacture of refractory products"
+            ],
+            "Manufacture of clay building materials": [
+                "Manufacture of ceramic tiles and flags",
+                "Manufacture of bricks, tiles and construction products, in baked clay"
+            ],
+            "Manufacture of other porcelain and ceramic products": [
+                "Manufacture of ceramic household and ornamental articles",
+                "Manufacture of ceramic sanitary fixtures",
+                "Manufacture of ceramic insulators and insulating fittings",
+                "Manufacture of other technical ceramic products",
+                "Manufacture of other ceramic products"
+            ],
+            "Manufacture of cement, lime and plaster": [
+                "Manufacture of cement",
+                "Manufacture of lime and plaster"
+            ],
+            "Manufacture of articles of concrete, cement and plaster": [
+                "Manufacture of concrete products for construction purposes",
+                "Manufacture of plaster products for construction purposes",
+                "Manufacture of ready-mixed concrete",
+                "Manufacture of mortars",
+                "Manufacture of fibre cement",
+                "Manufacture of other articles of concrete, plaster and cement"
+            ],
+            "Cutting, shaping and finishing of stone": [
+                "Cutting, shaping and finishing of stone"
+            ],
+            "Manufacture of abrasive products and non-metallic mineral products n.e.c.": [
+                "Production of abrasive products",
+                "Manufacture of other non-metallic mineral products n.e.c."
+            ]
+        },
+        "Manufacture of basic metals": {
+            "Manufacture of basic iron and steel and of ferro-alloys": [
+                "Manufacture of basic iron and steel and of ferro-alloys"
+            ],
+            "Manufacture of tubes, pipes, hollow profiles and related fittings, of steel": [
+                "Manufacture of tubes, pipes, hollow profiles and related fittings, of steel"
+            ],
+            "Manufacture of other products of first processing of steel": [
+                "Cold drawing of bars",
+                "Cold rolling of narrow strip",
+                "Cold forming or folding",
+                "Cold drawing of wire"
+            ],
+            "Manufacture of basic precious and other non-ferrous metals": [
+                "Precious metals production",
+                "Aluminium production",
+                "Lead, zinc and tin production",
+                "Copper production",
+                "Other non-ferrous metal production",
+                "Processing of nuclear fuel"
+            ],
+            "Casting of metals": [
+                "Casting of iron",
+                "Casting of steel",
+                "Casting of light metals",
+                "Casting of other non-ferrous metals"
+            ]
+        },
+        "Manufacture of fabricated metal products, except machinery and equipment": {
+            "Manufacture of structural metal products": [
+                "Manufacture of metal structures and parts of structures",
+                "Manufacture of doors and windows of metal"
+            ],
+            "Manufacture of tanks, reservoirs and containers of metal": [
+                "Manufacture of central heating radiators and boilers",
+                "Manufacture of other tanks, reservoirs and containers of metal"
+            ],
+            "Manufacture of steam generators, except central heating hot water boilers": [
+                "Manufacture of steam generators, except central heating hot water boilers"
+            ],
+            "Manufacture of weapons and ammunition": [
+                "Manufacture of weapons and ammunition"
+            ],
+            "Forging, pressing, stamping and roll-forming of metal; powder metallurgy": [
+                "Forging, pressing, stamping and roll-forming of metal; powder metallurgy"
+            ],
+            "Treatment and coating of metals; machining": [
+                "Treatment and coating of metals",
+                "Machining"
+            ],
+            "Manufacture of cutlery, tools and general hardware": [
+                "Manufacture of cutlery",
+                "Manufacture of locks and hinges",
+                "Manufacture of tools"
+            ],
+            "Manufacture of other fabricated metal products": [
+                "Manufacture of steel drums and similar containers",
+                "Manufacture of light metal packaging",
+                "Manufacture of wire products, chain and springs",
+                "Manufacture of fasteners and screw machine products",
+                "Manufacture of other fabricated metal products n.e.c."
+            ]
+        },
+        "Manufacture of computer, electronic and optical products": {
+            "Manufacture of electronic components and boards": [
+                "Manufacture of electronic components",
+                "Manufacture of loaded electronic boards"
+            ],
+            "Manufacture of computers and peripheral equipment": [
+                "Manufacture of computers and peripheral equipment"
+            ],
+            "Manufacture of communication equipment": [
+                "Manufacture of communication equipment"
+            ],
+            "Manufacture of consumer electronics": [
+                "Manufacture of consumer electronics"
+            ],
+            "Manufacture of instruments and appliances for measuring, testing and navigation; watches and clocks": [
+                "Manufacture of instruments and appliances for measuring, testing and navigation",
+                "Manufacture of watches and clocks"
+            ],
+            "Manufacture of irradiation, electromedical and electrotherapeutic equipment": [
+                "Manufacture of irradiation, electromedical and electrotherapeutic equipment"
+            ],
+            "Manufacture of optical instruments and photographic equipment": [
+                "Manufacture of optical instruments and photographic equipment"
+            ],
+            "Manufacture of magnetic and optical media": [
+                "Manufacture of magnetic and optical media"
+            ]
+        },
+        "Manufacture of electrical equipment": {
+            "Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus": [
+                "Manufacture of electric motors, generators and transformers",
+                "Manufacture of electricity distribution and control apparatus"
+            ],
+            "Manufacture of batteries and accumulators": [
+                "Manufacture of batteries and accumulators"
+            ],
+            "Manufacture of wiring and wiring devices": [
+                "Manufacture of fibre optic cables",
+                "Manufacture of other electronic and electric wires and cables",
+                "Manufacture of wiring devices"
+            ],
+            "Manufacture of electric lighting equipment": [
+                "Manufacture of electric lighting equipment"
+            ],
+            "Manufacture of domestic appliances": [
+                "Manufacture of electric domestic appliances",
+                "Manufacture of non-electric domestic appliances"
+            ],
+            "Manufacture of other electrical equipment": [
+                "Manufacture of other electrical equipment"
+            ]
+        },
+        "Manufacture of machinery and equipment n.e.c.": {
+            "Manufacture of general-purpose machinery": [
+                "Manufacture of engines and turbines, except aircraft, vehicle and cycle engines",
+                "Manufacture of fluid power equipment",
+                "Manufacture of other pumps and compressors",
+                "Manufacture of other taps and valves",
+                "Manufacture of bearings, gears, gearing and driving elements"
+            ],
+            "Manufacture of other general-purpose machinery": [
+                "Manufacture of ovens, furnaces and furnace burners",
+                "Manufacture of lifting and handling equipment",
+                "Manufacture of office machinery and equipment (except computers and peripheral equipment)",
+                "Manufacture of power-driven hand tools",
+                "Manufacture of non-domestic cooling and ventilation equipment",
+                "Manufacture of other general-purpose machinery n.e.c."
+            ],
+            "Manufacture of agricultural and forestry machinery": [
+                "Manufacture of agricultural and forestry machinery"
+            ],
+            "Manufacture of metal forming machinery and machine tools": [
+                "Manufacture of metal forming machinery",
+                "Manufacture of other machine tools"
+            ],
+            "Manufacture of other special-purpose machinery": [
+                "Manufacture of machinery for metallurgy",
+                "Manufacture of machinery for mining, quarrying and construction",
+                "Manufacture of machinery for food, beverage and tobacco processing",
+                "Manufacture of machinery for textile, apparel and leather production",
+                "Manufacture of machinery for paper and paperboard production",
+                "Manufacture of plastics and rubber machinery",
+                "Manufacture of other special-purpose machinery n.e.c."
+            ]
+        },
+        "Manufacture of motor vehicles, trailers and semi-trailers": {
+            "Manufacture of motor vehicles": [
+                "Manufacture of motor vehicles"
+            ],
+            "Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers": [
+                "Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers"
+            ],
+            "Manufacture of parts and accessories for motor vehicles": [
+                "Manufacture of electrical and electronic equipment for motor vehicles",
+                "Manufacture of other parts and accessories for motor vehicles"
+            ]
+        },
+        "Manufacture of other transport equipment": {
+            "Building of ships and boats": [
+                "Building of ships and floating structures",
+                "Building of pleasure and sporting boats"
+            ],
+            "Manufacture of railway locomotives and rolling stock": [
+                "Manufacture of railway locomotives and rolling stock"
+            ],
+            "Manufacture of air and spacecraft and related machinery": [
+                "Manufacture of air and spacecraft and related machinery"
+            ],
+            "Manufacture of military fighting vehicles": [
+                "Manufacture of military fighting vehicles"
+            ],
+            "Manufacture of transport equipment n.e.c.": [
+                "Manufacture of motorcycles",
+                "Manufacture of bicycles and invalid carriages",
+                "Manufacture of other transport equipment n.e.c."
+            ]
+        },
+        "Manufacture of furniture": {
+            "Manufacture of furniture": [
+                "Manufacture of office and shop furniture",
+                "Manufacture of kitchen furniture",
+                "Manufacture of mattresses",
+                "Manufacture of other furniture"
+            ]
+        },
+        "Other manufacturing": {
+            "Manufacture of jewellery, bijouterie and related articles": [
+                "Striking of coins",
+                "Manufacture of jewellery and related articles",
+                "Manufacture of imitation jewellery and related articles"
+            ],
+            "Manufacture of musical instruments": [
+                "Manufacture of musical instruments"
+            ],
+            "Manufacture of sports goods": [
+                "Manufacture of sports goods"
+            ],
+            "Manufacture of games and toys": [
+                "Manufacture of games and toys"
+            ],
+            "Manufacture of medical and dental instruments and supplies": [
+                "Manufacture of medical and dental instruments and supplies"
+            ],
+            "Other manufacturing n.e.c.": [
+                "Manufacture of brooms and brushes",
+                "Other manufacturing n.e.c."
+            ]
+        },
+        "Repair and installation of machinery and equipment": {
+            "Repair of fabricated metal products, machinery and equipment": [
+                "Repair of fabricated metal products",
+                "Repair of machinery",
+                "Repair of electronic and optical equipment",
+                "Repair of electrical equipment",
+                "Repair and maintenance of ships and boats",
+                "Repair and maintenance of aircraft and spacecraft",
+                "Repair and maintenance of other transport equipment",
+                "Repair of other equipment"
+            ],
+            "Installation of industrial machinery and equipment": [
+                "Installation of industrial machinery and equipment"
+            ]
+        }
+    },
+    "ELECTRICITY, GAS, STEAM AND AIR CONDITIONING SUPPLY": {
+        "Electricity, gas, steam and air conditioning supply": {
+            "Electric power generation, transmission and distribution": [
+                "Production of electricity",
+                "Transmission of electricity",
+                "Distribution of electricity",
+                "Trade of electricity"
+            ],
+            "Manufacture of gas; distribution of gaseous fuels through mains": [
+                "Manufacture of gas",
+                "Distribution of gaseous fuels through mains",
+                "Trade of gas through mains"
+            ],
+            "Steam and air conditioning supply": [
+                "Steam and air conditioning supply"
+            ]
+        }
+    },
+    "WATER SUPPLY; SEWERAGE, WASTE MANAGEMENT AND REMEDIATION ACTIVITIES": {
+        "Water collection, treatment and supply": {
+            "Water collection, treatment and supply": [
+                "Water collection, treatment and supply"
+            ]
+        },
+        "Sewerage": {
+            "Sewerage": [
+                "Sewerage"
+            ]
+        },
+        "Waste collection, treatment and disposal activities; materials recovery": {
+            "Waste collection": [
+                "Collection of non-hazardous waste",
+                "Collection of hazardous waste"
+            ],
+            "Waste treatment and disposal": [
+                "Treatment and disposal of non-hazardous waste",
+                "Treatment and disposal of hazardous waste"
+            ],
+            "Materials recovery": [
+                "Dismantling of wrecks",
+                "Recovery of sorted materials"
+            ]
+        },
+        "Remediation activities and other waste management services.": {
+            "Remediation activities and other waste management services": [
+                "Remediation activities and other waste management services"
+            ]
+        }
+    },
+    "CONSTRUCTION": {
+        "Construction of buildings": {
+            "Development of building projects": [
+                "Development of building projects"
+            ],
+            "Construction of residential and non-residential buildings": [
+                "Construction of residential and non-residential buildings"
+            ]
+        },
+        "Civil engineering": {
+            "Construction of roads and railways": [
+                "Construction of roads and motorways",
+                "Construction of railways and underground railways",
+                "Construction of bridges and tunnels"
+            ],
+            "Construction of utility projects": [
+                "Construction of utility projects for fluids",
+                "Construction of utility projects for electricity and telecommunications"
+            ],
+            "Construction of other civil engineering projects": [
+                "Construction of water projects",
+                "Construction of other civil engineering projects n.e.c."
+            ]
+        },
+        "Specialised construction activities": {
+            "Demolition and site preparation": [
+                "Demolition",
+                "Site preparation",
+                "Test drilling and boring"
+            ],
+            "Electrical, plumbing and other construction installation activities": [
+                "Electrical installation",
+                "Plumbing, heat and air-conditioning installation",
+                "Other construction installation"
+            ],
+            "Building completion and finishing": [
+                "Plastering",
+                "Joinery installation",
+                "Floor and wall covering",
+                "Painting and glazing",
+                "Other building completion and finishing"
+            ],
+            "Other specialised construction activities": [
+                "Roofing activities",
+                "Other specialised construction activities n.e.c."
+            ]
+        }
+    },
+    "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES": {
+        "Wholesale and retail trade and repair of motor vehicles and motorcycles": {
+            "Sale of motor vehicles": [
+                "Sale of cars and light motor vehicles",
+                "Sale of other motor vehicles"
+            ],
+            "Maintenance and repair of motor vehicles": [
+                "Maintenance and repair of motor vehicles"
+            ],
+            "Sale of motor vehicle parts and accessories": [
+                "Wholesale trade of motor vehicle parts and accessories",
+                "Retail trade of motor vehicle parts and accessories"
+            ],
+            "Sale, maintenance and repair of motorcycles and related parts and accessories": [
+                "Sale, maintenance and repair of motorcycles and related parts and accessories"
+            ]
+        },
+        "Wholesale trade, except of motor vehicles and motorcycles": {
+            "Wholesale on a fee or contract basis": [
+                "Agents involved in the sale of agricultural raw materials, live animals, textile raw materials and semi-finished goods",
+                "Agents involved in the sale of fuels, ores, metals and industrial chemicals",
+                "Agents involved in the sale of timber and building materials",
+                "Agents involved in the sale of machinery, industrial equipment, ships and aircraft",
+                "Agents involved in the sale of furniture, household goods, hardware and ironmongery",
+                "Agents involved in the sale of textiles, clothing, fur, footwear and leather goods",
+                "Agents involved in the sale of food, beverages and tobacco",
+                "Agents specialised in the sale of other particular products",
+                "Agents involved in the sale of a variety of goods"
+            ],
+            "Wholesale of agricultural raw materials and live animals": [
+                "Wholesale of grain, unmanufactured tobacco, seeds and animal feeds",
+                "Wholesale of flowers and plants",
+                "Wholesale of live animals",
+                "Wholesale of hides, skins and leather"
+            ],
+            "Wholesale of food, beverages and tobacco": [
+                "Wholesale of fruit and vegetables",
+                "Wholesale of meat and meat products",
+                "Wholesale of dairy products, eggs and edible oils and fats",
+                "Wholesale of beverages",
+                "Wholesale of tobacco products",
+                "Wholesale of sugar and chocolate and sugar confectionery",
+                "Wholesale of coffee, tea, cocoa and spices",
+                "Wholesale of other food, including fish, crustaceans and molluscs",
+                "Non-specialised wholesale of food, beverages and tobacco"
+            ],
+            "Wholesale of household goods": [
+                "Wholesale of textiles",
+                "Wholesale of clothing and footwear",
+                "Wholesale of electrical household appliances",
+                "Wholesale of china and glassware and cleaning materials",
+                "Wholesale of perfume and cosmetics",
+                "Wholesale of pharmaceutical goods",
+                "Wholesale of furniture, carpets and lighting equipment",
+                "Wholesale of watches and jewellery",
+                "Wholesale of other household goods"
+            ],
+            "Wholesale of information and communication equipment": [
+                "Wholesale of computers, computer peripheral equipment and software",
+                "Wholesale of electronic and telecommunications equipment and parts"
+            ],
+            "Wholesale of other machinery, equipment and supplies": [
+                "Wholesale of agricultural machinery, equipment and supplies",
+                "Wholesale of machine tools",
+                "Wholesale of mining, construction and civil engineering machinery",
+                "Wholesale of machinery for the textile industry and of sewing and knitting machines",
+                "Wholesale of office furniture",
+                "Wholesale of other office machinery and equipment",
+                "Wholesale of other machinery and equipment"
+            ],
+            "Other specialised wholesale": [
+                "Wholesale of solid, liquid and gaseous fuels and related products",
+                "Wholesale of metals and metal ores",
+                "Wholesale of wood, construction materials and sanitary equipment",
+                "Wholesale of hardware, plumbing and heating equipment and supplies",
+                "Wholesale of chemical products",
+                "Wholesale of other intermediate products",
+                "Wholesale of waste and scrap"
+            ],
+            "Non-specialised wholesale trade": [
+                "Non-specialised wholesale trade"
+            ]
+        },
+        "Retail trade, except of motor vehicles and motorcycles": {
+            "Retail sale in non-specialised stores": [
+                "Retail sale in non-specialised stores with food, beverages or tobacco predominating",
+                "Other retail sale in non-specialised stores"
+            ],
+            "Retail sale of food, beverages and tobacco in specialised stores": [
+                "Retail sale of fruit and vegetables in specialised stores",
+                "Retail sale of meat and meat products in specialised stores",
+                "Retail sale of fish, crustaceans and molluscs in specialised stores",
+                "Retail sale of bread, cakes, flour confectionery and sugar confectionery in specialised stores",
+                "Retail sale of beverages in specialised stores",
+                "Retail sale of tobacco products in specialised stores",
+                "Other retail sale of food in specialised stores"
+            ],
+            "Retail sale of automotive fuel in specialised stores": [
+                "Retail sale of automotive fuel in specialised stores"
+            ],
+            "Retail sale of information and communication equipment in specialised stores": [
+                "Retail sale of computers, peripheral units and software in specialised stores",
+                "Retail sale of telecommunications equipment in specialised stores",
+                "Retail sale of audio and video equipment in specialised stores"
+            ],
+            "Retail sale of other household equipment in specialised stores": [
+                "Retail sale of textiles in specialised stores",
+                "Retail sale of hardware, paints and glass in specialised stores",
+                "Retail sale of carpets, rugs, wall and floor coverings in specialised stores",
+                "Retail sale of electrical household appliances in specialised stores",
+                "Retail sale of furniture, lighting equipment and other household articles in specialised stores"
+            ],
+            "Retail sale of cultural and recreation goods in specialised stores": [
+                "Retail sale of books in specialised stores",
+                "Retail sale of newspapers and stationery in specialised stores",
+                "Retail sale of music and video recordings in specialised stores",
+                "Retail sale of sporting equipment in specialised stores",
+                "Retail sale of games and toys in specialised stores"
+            ],
+            "Retail sale of other goods in specialised stores": [
+                "Retail sale of clothing in specialised stores",
+                "Retail sale of footwear and leather goods in specialised stores",
+                "Dispensing chemist in specialised stores",
+                "Retail sale of medical and orthopaedic goods in specialised stores",
+                "Retail sale of cosmetic and toilet articles in specialised stores",
+                "Retail sale of flowers, plants, seeds, fertilisers, pet animals and pet food in specialised stores",
+                "Retail sale of watches and jewellery in specialised stores",
+                "Other retail sale of new goods in specialised stores",
+                "Retail sale of second-hand goods in stores"
+            ],
+            "Retail sale via stalls and markets": [
+                "Retail sale via stalls and markets of food, beverages and tobacco products",
+                "Retail sale via stalls and markets of textiles, clothing and footwear",
+                "Retail sale via stalls and markets of other goods"
+            ],
+            "Retail trade not in stores, stalls or markets": [
+                "Retail sale via mail order houses or via Internet",
+                "Other retail sale not in stores, stalls or markets"
+            ]
+        }
+    },
+    "TRANSPORTATION AND STORAGE": {
+        "Land transport and transport via pipelines": {
+            "Passenger rail transport, interurban": [
+                "Passenger rail transport, interurban"
+            ],
+            "Freight rail transport": [
+                "Freight rail transport"
+            ],
+            "Other passenger land transport": [
+                "Urban and suburban passenger land transport",
+                "Taxi operation",
+                "Other passenger land transport n.e.c."
+            ],
+            "Freight transport by road and removal services": [
+                "Freight transport by road",
+                "Removal services"
+            ],
+            "Transport via pipeline": [
+                "Transport via pipeline"
+            ]
+        },
+        "Water transport": {
+            "Sea and coastal passenger water transport": [
+                "Sea and coastal passenger water transport"
+            ],
+            "Sea and coastal freight water transport": [
+                "Sea and coastal freight water transport"
+            ],
+            "Inland passenger water transport": [
+                "Inland passenger water transport"
+            ],
+            "Inland freight water transport": [
+                "Inland freight water transport"
+            ]
+        },
+        "Air transport": {
+            "Passenger air transport": [
+                "Passenger air transport"
+            ],
+            "Freight air transport and space transport": [
+                "Freight air transport",
+                "Space transport"
+            ]
+        },
+        "Warehousing and support activities for transportation": {
+            "Warehousing and storage": [
+                "Warehousing and storage"
+            ],
+            "Support activities for transportation": [
+                "Service activities incidental to land transportation",
+                "Service activities incidental to water transportation",
+                "Service activities incidental to air transportation",
+                "Cargo handling",
+                "Other transportation support activities"
+            ]
+        },
+        "Postal and courier activities": {
+            "Postal activities under universal service obligation": [
+                "Postal activities under universal service obligation"
+            ],
+            "Other postal and courier activities": [
+                "Other postal and courier activities"
+            ]
+        }
+    },
+    "ACCOMMODATION AND FOOD SERVICE ACTIVITIES": {
+        "Accommodation": {
+            "Hotels and similar accommodation": [
+                "Hotels and similar accommodation"
+            ],
+            "Holiday and other short-stay accommodation": [
+                "Holiday and other short-stay accommodation"
+            ],
+            "Camping grounds, recreational vehicle parks and trailer parks": [
+                "Camping grounds, recreational vehicle parks and trailer parks"
+            ],
+            "Other accommodation": [
+                "Other accommodation"
+            ]
+        },
+        "Food and beverage service activities": {
+            "Restaurants and mobile food service activities": [
+                "Restaurants and mobile food service activities"
+            ],
+            "Event catering and other food service activities": [
+                "Event catering activities",
+                "Other food service activities"
+            ],
+            "Beverage serving activities": [
+                "Beverage serving activities"
+            ]
+        }
+    },
+    "INFORMATION AND COMMUNICATION": {
+        "Publishing activities": {
+            "Publishing of books, periodicals and other publishing activities": [
+                "Book publishing",
+                "Publishing of directories and mailing lists",
+                "Publishing of newspapers",
+                "Publishing of journals and periodicals",
+                "Other publishing activities"
+            ],
+            "Software publishing": [
+                "Publishing of computer games",
+                "Other software publishing"
+            ]
+        },
+        "Motion picture, video and television programme production, sound recording and music publishing activities": {
+            "Motion picture, video and television programme activities": [
+                "Motion picture, video and television programme production activities",
+                "Motion picture, video and television programme post-production activities",
+                "Motion picture, video and television programme distribution activities",
+                "Motion picture projection activities"
+            ],
+            "Sound recording and music publishing activities": [
+                "Sound recording and music publishing activities"
+            ]
+        },
+        "Programming and broadcasting activities": {
+            "Radio broadcasting": [
+                "Radio broadcasting"
+            ],
+            "Television programming and broadcasting activities": [
+                "Television programming and broadcasting activities"
+            ]
+        },
+        "Telecommunications": {
+            "Wired telecommunications activities": [
+                "Wired telecommunications activities"
+            ],
+            "Wireless telecommunications activities": [
+                "Wireless telecommunications activities"
+            ],
+            "Satellite telecommunications activities": [
+                "Satellite telecommunications activities"
+            ],
+            "Other telecommunications activities": [
+                "Other telecommunications activities"
+            ]
+        },
+        "Computer programming, consultancy and related activities": {
+            "Computer programming, consultancy and related activities": [
+                "Computer programming activities",
+                "Computer consultancy activities",
+                "Computer facilities management activities",
+                "Other information technology and computer service activities"
+            ]
+        },
+        "Information service activities": {
+            "Data processing, hosting and related activities; web portals": [
+                "Data processing, hosting and related activities",
+                "Web portals"
+            ],
+            "Other information service activities": [
+                "News agency activities",
+                "Other information service activities n.e.c."
+            ]
+        }
+    },
+    "FINANCIAL AND INSURANCE ACTIVITIES": {
+        "Financial service activities, except insurance and pension funding": {
+            "Monetary intermediation": [
+                "Central banking",
+                "Other monetary intermediation"
+            ],
+            "Activities of holding companies": [
+                "Activities of holding companies"
+            ],
+            "Trusts, funds and similar financial entities": [
+                "Trusts, funds and similar financial entities"
+            ],
+            "Other financial service activities, except insurance and pension funding": [
+                "Financial leasing",
+                "Other credit granting",
+                "Other financial service activities, except insurance and pension funding, n.e.c."
+            ]
+        },
+        "Insurance, reinsurance and pension funding, except compulsory social security": {
+            "Insurance": [
+                "Life insurance",
+                "Non-life insurance"
+            ],
+            "Reinsurance": [
+                "Reinsurance"
+            ],
+            "Pension funding": [
+                "Pension funding"
+            ]
+        },
+        "Activities auxiliary to financial services and insurance activities": {
+            "Activities auxiliary to financial services, except insurance and pension funding": [
+                "Administration of financial markets",
+                "Security and commodity contracts brokerage",
+                "Other activities auxiliary to financial services, except insurance and pension funding"
+            ],
+            "Activities auxiliary to insurance and pension funding": [
+                "Risk and damage evaluation",
+                "Activities of insurance agents and brokers",
+                "Other activities auxiliary to insurance and pension funding"
+            ],
+            "Fund management activities": [
+                "Fund management activities"
+            ]
+        }
+    },
+    "REAL ESTATE ACTIVITIES": {
+        "Real estate activities": {
+            "Buying and selling of own real estate": [
+                "Buying and selling of own real estate"
+            ],
+            "Renting and operating of own or leased real estate": [
+                "Renting and operating of own or leased real estate"
+            ],
+            "Real estate activities on a fee or contract basis": [
+                "Real estate agencies",
+                "Management of real estate on a fee or contract basis"
+            ]
+        }
+    },
+    "PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES": {
+        "Legal and accounting activities": {
+            "Legal activities": [
+                "Legal activities"
+            ],
+            "Accounting, bookkeeping and auditing activities; tax consultancy": [
+                "Accounting, bookkeeping and auditing activities; tax consultancy"
+            ]
+        },
+        "Activities of head offices; management consultancy activities": {
+            "Activities of head offices": [
+                "Activities of head offices"
+            ],
+            "Management consultancy activities": [
+                "Public relations and communication activities",
+                "Business and other management consultancy activities"
+            ]
+        },
+        "Architectural and engineering activities; technical testing and analysis": {
+            "Architectural and engineering activities and related technical consultancy": [
+                "Architectural activities",
+                "Engineering activities and related technical consultancy"
+            ],
+            "Technical testing and analysis": [
+                "Technical testing and analysis"
+            ]
+        },
+        "Scientific research and development": {
+            "Research and experimental development on natural sciences and engineering": [
+                "Research and experimental development on biotechnology",
+                "Other research and experimental development on natural sciences and engineering"
+            ],
+            "Research and experimental development on social sciences and humanities": [
+                "Research and experimental development on social sciences and humanities"
+            ]
+        },
+        "Advertising and market research": {
+            "Advertising": [
+                "Advertising agencies",
+                "Media representation"
+            ],
+            "Market research and public opinion polling": [
+                "Market research and public opinion polling"
+            ]
+        },
+        "Other professional, scientific and technical activities": {
+            "Specialised design activities": [
+                "Specialised design activities"
+            ],
+            "Photographic activities": [
+                "Photographic activities"
+            ],
+            "Translation and interpretation activities": [
+                "Translation and interpretation activities"
+            ],
+            "Other professional, scientific and technical activities n.e.c.": [
+                "Other professional, scientific and technical activities n.e.c."
+            ]
+        },
+        "Veterinary activities": {
+            "Veterinary activities": [
+                "Veterinary activities"
+            ]
+        }
+    },
+    "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES": {
+        "Rental and leasing activities": {
+            "Renting and leasing of motor vehicles": [
+                "Renting and leasing of cars and light motor vehicles",
+                "Renting and leasing of trucks"
+            ],
+            "Renting and leasing of personal and household goods": [
+                "Renting and leasing of recreational and sports goods",
+                "Renting of video tapes and disks",
+                "Renting and leasing of other personal and household goods"
+            ],
+            "Renting and leasing of other machinery, equipment and tangible goods": [
+                "Renting and leasing of agricultural machinery and equipment",
+                "Renting and leasing of construction and civil engineering machinery and equipment",
+                "Renting and leasing of office machinery and equipment (including computers)",
+                "Renting and leasing of water transport equipment",
+                "Renting and leasing of air transport equipment",
+                "Renting and leasing of other machinery, equipment and tangible goods n.e.c."
+            ],
+            "Leasing of intellectual property and similar products, except copyrighted works": [
+                "Leasing of intellectual property and similar products, except copyrighted works"
+            ]
+        },
+        "Employment activities": {
+            "Activities of employment placement agencies": [
+                "Activities of employment placement agencies"
+            ],
+            "Temporary employment agency activities": [
+                "Temporary employment agency activities"
+            ],
+            "Other human resources provision": [
+                "Other human resources provision"
+            ]
+        },
+        "Travel agency, tour operator and other reservation service and related activities": {
+            "Travel agency and tour operator activities": [
+                "Travel agency activities",
+                "Tour operator activities"
+            ],
+            "Other reservation service and related activities": [
+                "Other reservation service and related activities"
+            ]
+        },
+        "Security and investigation activities": {
+            "Private security activities": [
+                "Private security activities"
+            ],
+            "Security systems service activities": [
+                "Security systems service activities"
+            ],
+            "Investigation activities": [
+                "Investigation activities"
+            ]
+        },
+        "Services to buildings and landscape activities": {
+            "Combined facilities support activities": [
+                "Combined facilities support activities"
+            ],
+            "Cleaning activities": [
+                "General cleaning of buildings",
+                "Other building and industrial cleaning activities",
+                "Other cleaning activities"
+            ],
+            "Landscape service activities": [
+                "Landscape service activities"
+            ]
+        },
+        "Office administrative, office support and other business support activities": {
+            "Office administrative and support activities": [
+                "Combined office administrative service activities",
+                "Photocopying, document preparation and other specialised office support activities"
+            ],
+            "Activities of call centres": [
+                "Activities of call centres"
+            ],
+            "Organisation of conventions and trade shows": [
+                "Organisation of conventions and trade shows"
+            ],
+            "Business support service activities n.e.c.": [
+                "Activities of collection agencies and credit bureaus",
+                "Packaging activities",
+                "Other business support service activities n.e.c."
+            ]
+        }
+    },
+    "PUBLIC ADMINISTRATION AND DEFENCE; COMPULSORY SOCIAL SECURITY": {
+        "Public administration and defence; compulsory social security": {
+            "Administration of the State and the economic and social policy of the community": [
+                "General public administration activities",
+                "Regulation of the activities of providing health care, education, cultural services and other social services, excluding social security",
+                "Regulation of and contribution to more efficient operation of businesses"
+            ],
+            "Provision of services to the community as a whole": [
+                "Foreign affairs",
+                "Defence activities",
+                "Justice and judicial activities",
+                "Public order and safety activities",
+                "Fire service activities"
+            ],
+            "Compulsory social security activities": [
+                "Compulsory social security activities"
+            ]
+        }
+    },
+    "EDUCATION": {
+        "Education": {
+            "Pre-primary education": [
+                "Pre-primary education"
+            ],
+            "Primary education": [
+                "Primary education"
+            ],
+            "Secondary education": [
+                "General secondary education",
+                "Technical and vocational secondary education"
+            ],
+            "Higher education": [
+                "Post-secondary non-tertiary education",
+                "Tertiary education"
+            ],
+            "Other education": [
+                "Sports and recreation education",
+                "Cultural education",
+                "Driving school activities",
+                "Other education n.e.c."
+            ],
+            "Educational support activities": [
+                "Educational support activities"
+            ]
+        }
+    },
+    "HUMAN HEALTH AND SOCIAL WORK ACTIVITIES": {
+        "Human health activities": {
+            "Hospital activities": [
+                "Hospital activities"
+            ],
+            "Medical and dental practice activities": [
+                "General medical practice activities",
+                "Specialist medical practice activities",
+                "Dental practice activities"
+            ],
+            "Other human health activities": [
+                "Other human health activities"
+            ]
+        },
+        "Residential care activities": {
+            "Residential nursing care activities": [
+                "Residential nursing care activities"
+            ],
+            "Residential care activities for learning disabilities, mental health and substance abuse": [
+                "Residential care activities for learning disabilities, mental health and substance abuse"
+            ],
+            "Residential care activities for the elderly and disabled": [
+                "Residential care activities for the elderly and disabled"
+            ],
+            "Other residential care activities": [
+                "Other residential care activities"
+            ]
+        },
+        "Social work activities without accommodation": {
+            "Social work activities without accommodation for the elderly and disabled": [
+                "Social work activities without accommodation for the elderly and disabled"
+            ],
+            "Other social work activities without accommodation": [
+                "Child day-care activities",
+                "Other social work activities without accommodation n.e.c."
+            ]
+        }
+    },
+    "ARTS, ENTERTAINMENT AND RECREATION": {
+        "Creative, arts and entertainment activities": {
+            "Creative, arts and entertainment activities": [
+                "Performing arts",
+                "Support activities to performing arts",
+                "Artistic creation",
+                "Operation of arts facilities"
+            ]
+        },
+        "Libraries, archives, museums and other cultural activities": {
+            "Libraries, archives, museums and other cultural activities": [
+                "Library and archive activities",
+                "Museum activities",
+                "Operation of historical sites and buildings and similar visitor attractions",
+                "Botanical and zoological gardens and nature reserve activities"
+            ]
+        },
+        "Gambling and betting activities": {
+            "Gambling and betting activities": [
+                "Gambling and betting activities"
+            ]
+        },
+        "Sports activities and amusement and recreation activities": {
+            "Sports activities": [
+                "Operation of sports facilities",
+                "Activities of sport clubs",
+                "Fitness facilities",
+                "Other sports activities"
+            ],
+            "Amusement and recreation activities": [
+                "Activities of amusement parks and theme parks",
+                "Other amusement and recreation activities"
+            ]
+        }
+    },
+    "OTHER SERVICE ACTIVITIES": {
+        "Activities of membership organisations": {
+            "Activities of business, employers and professional membership organisations": [
+                "Activities of business and employers membership organisations",
+                "Activities of professional membership organisations"
+            ],
+            "Activities of trade unions": [
+                "Activities of trade unions"
+            ],
+            "Activities of other membership organisations": [
+                "Activities of religious organisations",
+                "Activities of political organisations",
+                "Activities of other membership organisations n.e.c."
+            ]
+        },
+        "Repair of computers and personal and household goods": {
+            "Repair of computers and communication equipment": [
+                "Repair of computers and peripheral equipment",
+                "Repair of communication equipment"
+            ],
+            "Repair of personal and household goods": [
+                "Repair of consumer electronics",
+                "Repair of household appliances and home and garden equipment",
+                "Repair of footwear and leather goods",
+                "Repair of furniture and home furnishings",
+                "Repair of watches, clocks and jewellery",
+                "Repair of other personal and household goods"
+            ]
+        },
+        "Other personal service activities": {
+            "Other personal service activities": [
+                "Washing and (dry-)cleaning of textile and fur products",
+                "Hairdressing and other beauty treatment",
+                "Funeral and related activities",
+                "Physical well-being activities",
+                "Other personal service activities n.e.c."
+            ]
+        }
+    },
+    "ACTIVITIES OF HOUSEHOLDS AS EMPLOYERS; UNDIFFERENTIATED GOODS-AND SERVICES-PRODUCING ACTIVITIES OF HOUSEHOLDS FOR OWN USE": {
+        "Activities of households as employers of domestic personnel": {
+            "Activities of households as employers of domestic personnel": [
+                "Activities of households as employers of domestic personnel"
+            ]
+        },
+        "Undifferentiated goods- and services-producing activities of private households for own use": {
+            "Undifferentiated goods-producing activities of private households for own use": [
+                "Undifferentiated goods-producing activities of private households for own use"
+            ],
+            "Undifferentiated service-producing activities of private households for own use": [
+                "Undifferentiated service-producing activities of private households for own use"
+            ]
+        }
+    },
+    "ACTIVITIES OF EXTRATERRITORIAL ORGANISATIONS AND BODIES": {
+        "Activities of extraterritorial organisations and bodies": {
+            "Activities of extraterritorial organisations and bodies": [
+                "Activities of extraterritorial organisations and bodies"
+            ]
+        }
+    }
+}

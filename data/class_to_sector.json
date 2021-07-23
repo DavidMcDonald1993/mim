@@ -1,0 +1,3077 @@
+{
+    "Growing of cereals (except rice), leguminous crops and oil seeds": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Crop and animal production, hunting and related service activities",
+        "group": "Growing of non-perennial crops"
+    },
+    "Growing of rice": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Crop and animal production, hunting and related service activities",
+        "group": "Growing of non-perennial crops"
+    },
+    "Growing of vegetables and melons, roots and tubers": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Crop and animal production, hunting and related service activities",
+        "group": "Growing of non-perennial crops"
+    },
+    "Growing of sugar cane": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Crop and animal production, hunting and related service activities",
+        "group": "Growing of non-perennial crops"
+    },
+    "Growing of tobacco": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Crop and animal production, hunting and related service activities",
+        "group": "Growing of non-perennial crops"
+    },
+    "Growing of fibre crops": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Crop and animal production, hunting and related service activities",
+        "group": "Growing of non-perennial crops"
+    },
+    "Growing of other non-perennial crops": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Crop and animal production, hunting and related service activities",
+        "group": "Growing of non-perennial crops"
+    },
+    "Growing of grapes": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Crop and animal production, hunting and related service activities",
+        "group": "Growing of perennial crops"
+    },
+    "Growing of tropical and subtropical fruits": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Crop and animal production, hunting and related service activities",
+        "group": "Growing of perennial crops"
+    },
+    "Growing of citrus fruits": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Crop and animal production, hunting and related service activities",
+        "group": "Growing of perennial crops"
+    },
+    "Growing of pome fruits and stone fruits": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Crop and animal production, hunting and related service activities",
+        "group": "Growing of perennial crops"
+    },
+    "Growing of other tree and bush fruits and nuts": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Crop and animal production, hunting and related service activities",
+        "group": "Growing of perennial crops"
+    },
+    "Growing of oleaginous fruits": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Crop and animal production, hunting and related service activities",
+        "group": "Growing of perennial crops"
+    },
+    "Growing of beverage crops": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Crop and animal production, hunting and related service activities",
+        "group": "Growing of perennial crops"
+    },
+    "Growing of spices, aromatic, drug and pharmaceutical crops": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Crop and animal production, hunting and related service activities",
+        "group": "Growing of perennial crops"
+    },
+    "Growing of other perennial crops": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Crop and animal production, hunting and related service activities",
+        "group": "Growing of perennial crops"
+    },
+    "Plant propagation": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Crop and animal production, hunting and related service activities",
+        "group": "Plant propagation"
+    },
+    "Raising of dairy cattle": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Crop and animal production, hunting and related service activities",
+        "group": "Animal production"
+    },
+    "Raising of other cattle and buffaloes": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Crop and animal production, hunting and related service activities",
+        "group": "Animal production"
+    },
+    "Raising of horses and other equines": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Crop and animal production, hunting and related service activities",
+        "group": "Animal production"
+    },
+    "Raising of camels and camelids": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Crop and animal production, hunting and related service activities",
+        "group": "Animal production"
+    },
+    "Raising of sheep and goats": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Crop and animal production, hunting and related service activities",
+        "group": "Animal production"
+    },
+    "Raising of swine/pigs": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Crop and animal production, hunting and related service activities",
+        "group": "Animal production"
+    },
+    "Raising of poultry": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Crop and animal production, hunting and related service activities",
+        "group": "Animal production"
+    },
+    "Raising of other animals": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Crop and animal production, hunting and related service activities",
+        "group": "Animal production"
+    },
+    "Mixed farming": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Crop and animal production, hunting and related service activities",
+        "group": "Mixed farming"
+    },
+    "Support activities for crop production": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Crop and animal production, hunting and related service activities",
+        "group": "Support activities to agriculture and post-harvest crop activities"
+    },
+    "Support activities for animal production": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Crop and animal production, hunting and related service activities",
+        "group": "Support activities to agriculture and post-harvest crop activities"
+    },
+    "Post-harvest crop activities": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Crop and animal production, hunting and related service activities",
+        "group": "Support activities to agriculture and post-harvest crop activities"
+    },
+    "Seed processing for propagation": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Crop and animal production, hunting and related service activities",
+        "group": "Support activities to agriculture and post-harvest crop activities"
+    },
+    "Hunting, trapping and related service activities": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Crop and animal production, hunting and related service activities",
+        "group": "Hunting, trapping and related service activities"
+    },
+    "Silviculture and other forestry activities": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Forestry and logging",
+        "group": "Silviculture and other forestry activities"
+    },
+    "Logging": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Forestry and logging",
+        "group": "Logging"
+    },
+    "Gathering of wild growing non-wood products": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Forestry and logging",
+        "group": "Gathering of wild growing non-wood products"
+    },
+    "Support services to forestry": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Forestry and logging",
+        "group": "Support services to forestry"
+    },
+    "Marine fishing": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Fishing and aquaculture",
+        "group": "Fishing"
+    },
+    "Freshwater fishing": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Fishing and aquaculture",
+        "group": "Fishing"
+    },
+    "Marine aquaculture": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Fishing and aquaculture",
+        "group": "Aquaculture"
+    },
+    "Freshwater aquaculture": {
+        "sector": "AGRICULTURE, FORESTRY AND FISHING",
+        "division": "Fishing and aquaculture",
+        "group": "Aquaculture"
+    },
+    "Mining of hard coal": {
+        "sector": "MINING AND QUARRYING",
+        "division": "Mining of coal and lignite",
+        "group": "Mining of hard coal"
+    },
+    "Mining of lignite": {
+        "sector": "MINING AND QUARRYING",
+        "division": "Mining of coal and lignite",
+        "group": "Mining of lignite"
+    },
+    "Extraction of crude petroleum": {
+        "sector": "MINING AND QUARRYING",
+        "division": "Extraction of crude petroleum and natural gas",
+        "group": "Extraction of crude petroleum"
+    },
+    "Extraction of natural gas": {
+        "sector": "MINING AND QUARRYING",
+        "division": "Extraction of crude petroleum and natural gas",
+        "group": "Extraction of natural gas"
+    },
+    "Mining of iron ores": {
+        "sector": "MINING AND QUARRYING",
+        "division": "Mining of metal ores",
+        "group": "Mining of iron ores"
+    },
+    "Mining of uranium and thorium ores": {
+        "sector": "MINING AND QUARRYING",
+        "division": "Mining of metal ores",
+        "group": "Mining of non-ferrous metal ores"
+    },
+    "Mining of other non-ferrous metal ores": {
+        "sector": "MINING AND QUARRYING",
+        "division": "Mining of metal ores",
+        "group": "Mining of non-ferrous metal ores"
+    },
+    "Quarrying of ornamental and building stone, limestone, gypsum, chalk and slate": {
+        "sector": "MINING AND QUARRYING",
+        "division": "Other mining and quarrying",
+        "group": "Quarrying of stone, sand and clay"
+    },
+    "Operation of gravel and sand pits; mining of clays and kaolin": {
+        "sector": "MINING AND QUARRYING",
+        "division": "Other mining and quarrying",
+        "group": "Quarrying of stone, sand and clay"
+    },
+    "Mining of chemical and fertiliser minerals": {
+        "sector": "MINING AND QUARRYING",
+        "division": "Other mining and quarrying",
+        "group": "Mining and quarrying n.e.c."
+    },
+    "Extraction of peat": {
+        "sector": "MINING AND QUARRYING",
+        "division": "Other mining and quarrying",
+        "group": "Mining and quarrying n.e.c."
+    },
+    "Extraction of salt": {
+        "sector": "MINING AND QUARRYING",
+        "division": "Other mining and quarrying",
+        "group": "Mining and quarrying n.e.c."
+    },
+    "Other mining and quarrying n.e.c.": {
+        "sector": "MINING AND QUARRYING",
+        "division": "Other mining and quarrying",
+        "group": "Mining and quarrying n.e.c."
+    },
+    "Support activities for petroleum and natural gas extraction": {
+        "sector": "MINING AND QUARRYING",
+        "division": "Mining support service activities",
+        "group": "Support activities for petroleum and natural gas extraction"
+    },
+    "Support activities for other mining and quarrying": {
+        "sector": "MINING AND QUARRYING",
+        "division": "Mining support service activities",
+        "group": "Support activities for other mining and quarrying"
+    },
+    "Processing and preserving of meat": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of food products",
+        "group": "Processing and preserving of meat and production of meat products"
+    },
+    "Processing and preserving of poultry meat": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of food products",
+        "group": "Processing and preserving of meat and production of meat products"
+    },
+    "Production of meat and poultry meat products": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of food products",
+        "group": "Processing and preserving of meat and production of meat products"
+    },
+    "Processing and preserving of fish, crustaceans and molluscs": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of food products",
+        "group": "Processing and preserving of fish, crustaceans and molluscs"
+    },
+    "Processing and preserving of potatoes": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of food products",
+        "group": "Processing and preserving of fruit and vegetables"
+    },
+    "Manufacture of fruit and vegetable juice": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of food products",
+        "group": "Processing and preserving of fruit and vegetables"
+    },
+    "Other processing and preserving of fruit and vegetables": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of food products",
+        "group": "Processing and preserving of fruit and vegetables"
+    },
+    "Manufacture of oils and fats": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of food products",
+        "group": "Manufacture of vegetable and animal oils and fats"
+    },
+    "Manufacture of margarine and similar edible fats": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of food products",
+        "group": "Manufacture of vegetable and animal oils and fats"
+    },
+    "Operation of dairies and cheese making": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of food products",
+        "group": "Manufacture of dairy products"
+    },
+    "Manufacture of ice cream": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of food products",
+        "group": "Manufacture of dairy products"
+    },
+    "Manufacture of grain mill products": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of food products",
+        "group": "Manufacture of grain mill products, starches and starch products"
+    },
+    "Manufacture of starches and starch products": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of food products",
+        "group": "Manufacture of grain mill products, starches and starch products"
+    },
+    "Manufacture of bread; manufacture of fresh pastry goods and cakes": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of food products",
+        "group": "Manufacture of bakery and farinaceous products"
+    },
+    "Manufacture of rusks and biscuits; manufacture of preserved pastry goods and cakes": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of food products",
+        "group": "Manufacture of bakery and farinaceous products"
+    },
+    "Manufacture of macaroni, noodles, couscous and similar farinaceous products": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of food products",
+        "group": "Manufacture of bakery and farinaceous products"
+    },
+    "Manufacture of sugar": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of food products",
+        "group": "Manufacture of other food products"
+    },
+    "Manufacture of cocoa, chocolate and sugar confectionery": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of food products",
+        "group": "Manufacture of other food products"
+    },
+    "Processing of tea and coffee": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of food products",
+        "group": "Manufacture of other food products"
+    },
+    "Manufacture of condiments and seasonings": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of food products",
+        "group": "Manufacture of other food products"
+    },
+    "Manufacture of prepared meals and dishes": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of food products",
+        "group": "Manufacture of other food products"
+    },
+    "Manufacture of homogenised food preparations and dietetic food": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of food products",
+        "group": "Manufacture of other food products"
+    },
+    "Manufacture of other food products n.e.c.": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of food products",
+        "group": "Manufacture of other food products"
+    },
+    "Manufacture of prepared feeds for farm animals": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of food products",
+        "group": "Manufacture of prepared animal feeds"
+    },
+    "Manufacture of prepared pet foods": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of food products",
+        "group": "Manufacture of prepared animal feeds"
+    },
+    "Distilling, rectifying and blending of spirits": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of beverages",
+        "group": "Manufacture of beverages"
+    },
+    "Manufacture of wine from grape": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of beverages",
+        "group": "Manufacture of beverages"
+    },
+    "Manufacture of cider and other fruit wines": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of beverages",
+        "group": "Manufacture of beverages"
+    },
+    "Manufacture of other non-distilled fermented beverages": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of beverages",
+        "group": "Manufacture of beverages"
+    },
+    "Manufacture of beer": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of beverages",
+        "group": "Manufacture of beverages"
+    },
+    "Manufacture of malt": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of beverages",
+        "group": "Manufacture of beverages"
+    },
+    "Manufacture of soft drinks; production of mineral waters and other bottled waters": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of beverages",
+        "group": "Manufacture of beverages"
+    },
+    "Manufacture of tobacco products": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of tobacco products",
+        "group": "Manufacture of tobacco products"
+    },
+    "Preparation and spinning of textile fibres": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of textiles",
+        "group": "Preparation and spinning of textile fibres"
+    },
+    "Weaving of textiles": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of textiles",
+        "group": "Weaving of textiles"
+    },
+    "Finishing of textiles": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of textiles",
+        "group": "Finishing of textiles"
+    },
+    "Manufacture of knitted and crocheted fabrics": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of textiles",
+        "group": "Manufacture of other textiles"
+    },
+    "Manufacture of made-up textile articles, except apparel": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of textiles",
+        "group": "Manufacture of other textiles"
+    },
+    "Manufacture of carpets and rugs": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of textiles",
+        "group": "Manufacture of other textiles"
+    },
+    "Manufacture of cordage, rope, twine and netting": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of textiles",
+        "group": "Manufacture of other textiles"
+    },
+    "Manufacture of non-wovens and articles made from non-wovens, except apparel": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of textiles",
+        "group": "Manufacture of other textiles"
+    },
+    "Manufacture of other technical and industrial textiles": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of textiles",
+        "group": "Manufacture of other textiles"
+    },
+    "Manufacture of other textiles n.e.c.": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of textiles",
+        "group": "Manufacture of other textiles"
+    },
+    "Manufacture of leather clothes": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of wearing apparel",
+        "group": "Manufacture of wearing apparel, except fur apparel"
+    },
+    "Manufacture of workwear": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of wearing apparel",
+        "group": "Manufacture of wearing apparel, except fur apparel"
+    },
+    "Manufacture of other outerwear": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of wearing apparel",
+        "group": "Manufacture of wearing apparel, except fur apparel"
+    },
+    "Manufacture of underwear": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of wearing apparel",
+        "group": "Manufacture of wearing apparel, except fur apparel"
+    },
+    "Manufacture of other wearing apparel and accessories": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of wearing apparel",
+        "group": "Manufacture of wearing apparel, except fur apparel"
+    },
+    "Manufacture of articles of fur": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of wearing apparel",
+        "group": "Manufacture of articles of fur"
+    },
+    "Manufacture of knitted and crocheted hosiery": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of wearing apparel",
+        "group": "Manufacture of knitted and crocheted apparel"
+    },
+    "Manufacture of other knitted and crocheted apparel": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of wearing apparel",
+        "group": "Manufacture of knitted and crocheted apparel"
+    },
+    "Tanning and dressing of leather; dressing and dyeing of fur": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of leather and related products",
+        "group": "Tanning and dressing of leather; manufacture of luggage, handbags, saddlery and harness; dressing and dyeing of fur"
+    },
+    "Manufacture of luggage, handbags and the like, saddlery and harness": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of leather and related products",
+        "group": "Tanning and dressing of leather; manufacture of luggage, handbags, saddlery and harness; dressing and dyeing of fur"
+    },
+    "Manufacture of footwear": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of leather and related products",
+        "group": "Manufacture of footwear"
+    },
+    "Sawmilling and planing of wood": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials",
+        "group": "Sawmilling and planing of wood"
+    },
+    "Manufacture of veneer sheets and wood-based panels": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials",
+        "group": "Manufacture of products of wood, cork, straw and plaiting materials"
+    },
+    "Manufacture of assembled parquet floors": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials",
+        "group": "Manufacture of products of wood, cork, straw and plaiting materials"
+    },
+    "Manufacture of other builders' carpentry and joinery": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials",
+        "group": "Manufacture of products of wood, cork, straw and plaiting materials"
+    },
+    "Manufacture of wooden containers": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials",
+        "group": "Manufacture of products of wood, cork, straw and plaiting materials"
+    },
+    "Manufacture of other products of wood; manufacture of articles of cork, straw and plaiting materials": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials",
+        "group": "Manufacture of products of wood, cork, straw and plaiting materials"
+    },
+    "Manufacture of pulp": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of paper and paper products",
+        "group": "Manufacture of pulp, paper and paperboard"
+    },
+    "Manufacture of paper and paperboard": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of paper and paper products",
+        "group": "Manufacture of pulp, paper and paperboard"
+    },
+    "Manufacture of corrugated paper and paperboard and of containers of paper and paperboard": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of paper and paper products",
+        "group": "Manufacture of articles of paper and paperboard"
+    },
+    "Manufacture of household and sanitary goods and of toilet requisites": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of paper and paper products",
+        "group": "Manufacture of articles of paper and paperboard"
+    },
+    "Manufacture of paper stationery": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of paper and paper products",
+        "group": "Manufacture of articles of paper and paperboard"
+    },
+    "Manufacture of wallpaper": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of paper and paper products",
+        "group": "Manufacture of articles of paper and paperboard"
+    },
+    "Manufacture of other articles of paper and paperboard": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of paper and paper products",
+        "group": "Manufacture of articles of paper and paperboard"
+    },
+    "Printing of newspapers": {
+        "sector": "MANUFACTURING",
+        "division": "Printing and reproduction of recorded media",
+        "group": "Printing and service activities related to printing"
+    },
+    "Other printing": {
+        "sector": "MANUFACTURING",
+        "division": "Printing and reproduction of recorded media",
+        "group": "Printing and service activities related to printing"
+    },
+    "Pre-press and pre-media services": {
+        "sector": "MANUFACTURING",
+        "division": "Printing and reproduction of recorded media",
+        "group": "Printing and service activities related to printing"
+    },
+    "Binding and related services": {
+        "sector": "MANUFACTURING",
+        "division": "Printing and reproduction of recorded media",
+        "group": "Printing and service activities related to printing"
+    },
+    "Reproduction of recorded media": {
+        "sector": "MANUFACTURING",
+        "division": "Printing and reproduction of recorded media",
+        "group": "Reproduction of recorded media"
+    },
+    "Manufacture of coke oven products": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of coke and refined petroleum products",
+        "group": "Manufacture of coke oven products"
+    },
+    "Manufacture of refined petroleum products": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of coke and refined petroleum products",
+        "group": "Manufacture of refined petroleum products"
+    },
+    "Manufacture of industrial gases": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of chemicals and chemical products",
+        "group": "Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics and synthetic rubber in primary forms"
+    },
+    "Manufacture of dyes and pigments": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of chemicals and chemical products",
+        "group": "Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics and synthetic rubber in primary forms"
+    },
+    "Manufacture of other inorganic basic chemicals": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of chemicals and chemical products",
+        "group": "Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics and synthetic rubber in primary forms"
+    },
+    "Manufacture of other organic basic chemicals": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of chemicals and chemical products",
+        "group": "Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics and synthetic rubber in primary forms"
+    },
+    "Manufacture of fertilisers and nitrogen compounds": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of chemicals and chemical products",
+        "group": "Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics and synthetic rubber in primary forms"
+    },
+    "Manufacture of plastics in primary forms": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of chemicals and chemical products",
+        "group": "Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics and synthetic rubber in primary forms"
+    },
+    "Manufacture of synthetic rubber in primary forms": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of chemicals and chemical products",
+        "group": "Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics and synthetic rubber in primary forms"
+    },
+    "Manufacture of pesticides and other agrochemical products": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of chemicals and chemical products",
+        "group": "Manufacture of pesticides and other agrochemical products"
+    },
+    "Manufacture of paints, varnishes and similar coatings, printing ink and mastics": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of chemicals and chemical products",
+        "group": "Manufacture of paints, varnishes and similar coatings, printing ink and mastics"
+    },
+    "Manufacture of soap and detergents, cleaning and polishing preparations": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of chemicals and chemical products",
+        "group": "Manufacture of soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations"
+    },
+    "Manufacture of perfumes and toilet preparations": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of chemicals and chemical products",
+        "group": "Manufacture of soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations"
+    },
+    "Manufacture of explosives": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of chemicals and chemical products",
+        "group": "Manufacture of other chemical products"
+    },
+    "Manufacture of glues": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of chemicals and chemical products",
+        "group": "Manufacture of other chemical products"
+    },
+    "Manufacture of essential oils": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of chemicals and chemical products",
+        "group": "Manufacture of other chemical products"
+    },
+    "Manufacture of other chemical products n.e.c.": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of chemicals and chemical products",
+        "group": "Manufacture of other chemical products"
+    },
+    "Manufacture of man-made fibres": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of chemicals and chemical products",
+        "group": "Manufacture of man-made fibres"
+    },
+    "Manufacture of basic pharmaceutical products": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of basic pharmaceutical products and pharmaceutical preparations",
+        "group": "Manufacture of basic pharmaceutical products"
+    },
+    "Manufacture of pharmaceutical preparations": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of basic pharmaceutical products and pharmaceutical preparations",
+        "group": "Manufacture of pharmaceutical preparations"
+    },
+    "Manufacture of rubber tyres and tubes; retreading and rebuilding of rubber tyres": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of rubber and plastic products",
+        "group": "Manufacture of rubber products"
+    },
+    "Manufacture of other rubber products": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of rubber and plastic products",
+        "group": "Manufacture of rubber products"
+    },
+    "Manufacture of plastic plates, sheets, tubes and profiles": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of rubber and plastic products",
+        "group": "Manufacture of plastics products"
+    },
+    "Manufacture of plastic packing goods": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of rubber and plastic products",
+        "group": "Manufacture of plastics products"
+    },
+    "Manufacture of builders\u2019 ware of plastic": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of rubber and plastic products",
+        "group": "Manufacture of plastics products"
+    },
+    "Manufacture of other plastic products": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of rubber and plastic products",
+        "group": "Manufacture of plastics products"
+    },
+    "Manufacture of flat glass": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of other non-metallic mineral products",
+        "group": "Manufacture of glass and glass products"
+    },
+    "Shaping and processing of flat glass": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of other non-metallic mineral products",
+        "group": "Manufacture of glass and glass products"
+    },
+    "Manufacture of hollow glass": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of other non-metallic mineral products",
+        "group": "Manufacture of glass and glass products"
+    },
+    "Manufacture of glass fibres": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of other non-metallic mineral products",
+        "group": "Manufacture of glass and glass products"
+    },
+    "Manufacture and processing of other glass, including technical glassware": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of other non-metallic mineral products",
+        "group": "Manufacture of glass and glass products"
+    },
+    "Manufacture of refractory products": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of other non-metallic mineral products",
+        "group": "Manufacture of refractory products"
+    },
+    "Manufacture of ceramic tiles and flags": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of other non-metallic mineral products",
+        "group": "Manufacture of clay building materials"
+    },
+    "Manufacture of bricks, tiles and construction products, in baked clay": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of other non-metallic mineral products",
+        "group": "Manufacture of clay building materials"
+    },
+    "Manufacture of ceramic household and ornamental articles": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of other non-metallic mineral products",
+        "group": "Manufacture of other porcelain and ceramic products"
+    },
+    "Manufacture of ceramic sanitary fixtures": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of other non-metallic mineral products",
+        "group": "Manufacture of other porcelain and ceramic products"
+    },
+    "Manufacture of ceramic insulators and insulating fittings": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of other non-metallic mineral products",
+        "group": "Manufacture of other porcelain and ceramic products"
+    },
+    "Manufacture of other technical ceramic products": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of other non-metallic mineral products",
+        "group": "Manufacture of other porcelain and ceramic products"
+    },
+    "Manufacture of other ceramic products": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of other non-metallic mineral products",
+        "group": "Manufacture of other porcelain and ceramic products"
+    },
+    "Manufacture of cement": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of other non-metallic mineral products",
+        "group": "Manufacture of cement, lime and plaster"
+    },
+    "Manufacture of lime and plaster": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of other non-metallic mineral products",
+        "group": "Manufacture of cement, lime and plaster"
+    },
+    "Manufacture of concrete products for construction purposes": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of other non-metallic mineral products",
+        "group": "Manufacture of articles of concrete, cement and plaster"
+    },
+    "Manufacture of plaster products for construction purposes": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of other non-metallic mineral products",
+        "group": "Manufacture of articles of concrete, cement and plaster"
+    },
+    "Manufacture of ready-mixed concrete": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of other non-metallic mineral products",
+        "group": "Manufacture of articles of concrete, cement and plaster"
+    },
+    "Manufacture of mortars": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of other non-metallic mineral products",
+        "group": "Manufacture of articles of concrete, cement and plaster"
+    },
+    "Manufacture of fibre cement": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of other non-metallic mineral products",
+        "group": "Manufacture of articles of concrete, cement and plaster"
+    },
+    "Manufacture of other articles of concrete, plaster and cement": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of other non-metallic mineral products",
+        "group": "Manufacture of articles of concrete, cement and plaster"
+    },
+    "Cutting, shaping and finishing of stone": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of other non-metallic mineral products",
+        "group": "Cutting, shaping and finishing of stone"
+    },
+    "Production of abrasive products": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of other non-metallic mineral products",
+        "group": "Manufacture of abrasive products and non-metallic mineral products n.e.c."
+    },
+    "Manufacture of other non-metallic mineral products n.e.c.": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of other non-metallic mineral products",
+        "group": "Manufacture of abrasive products and non-metallic mineral products n.e.c."
+    },
+    "Manufacture of basic iron and steel and of ferro-alloys": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of basic metals",
+        "group": "Manufacture of basic iron and steel and of ferro-alloys"
+    },
+    "Manufacture of tubes, pipes, hollow profiles and related fittings, of steel": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of basic metals",
+        "group": "Manufacture of tubes, pipes, hollow profiles and related fittings, of steel"
+    },
+    "Cold drawing of bars": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of basic metals",
+        "group": "Manufacture of other products of first processing of steel"
+    },
+    "Cold rolling of narrow strip": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of basic metals",
+        "group": "Manufacture of other products of first processing of steel"
+    },
+    "Cold forming or folding": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of basic metals",
+        "group": "Manufacture of other products of first processing of steel"
+    },
+    "Cold drawing of wire": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of basic metals",
+        "group": "Manufacture of other products of first processing of steel"
+    },
+    "Precious metals production": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of basic metals",
+        "group": "Manufacture of basic precious and other non-ferrous metals"
+    },
+    "Aluminium production": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of basic metals",
+        "group": "Manufacture of basic precious and other non-ferrous metals"
+    },
+    "Lead, zinc and tin production": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of basic metals",
+        "group": "Manufacture of basic precious and other non-ferrous metals"
+    },
+    "Copper production": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of basic metals",
+        "group": "Manufacture of basic precious and other non-ferrous metals"
+    },
+    "Other non-ferrous metal production": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of basic metals",
+        "group": "Manufacture of basic precious and other non-ferrous metals"
+    },
+    "Processing of nuclear fuel": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of basic metals",
+        "group": "Manufacture of basic precious and other non-ferrous metals"
+    },
+    "Casting of iron": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of basic metals",
+        "group": "Casting of metals"
+    },
+    "Casting of steel": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of basic metals",
+        "group": "Casting of metals"
+    },
+    "Casting of light metals": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of basic metals",
+        "group": "Casting of metals"
+    },
+    "Casting of other non-ferrous metals": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of basic metals",
+        "group": "Casting of metals"
+    },
+    "Manufacture of metal structures and parts of structures": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of fabricated metal products, except machinery and equipment",
+        "group": "Manufacture of structural metal products"
+    },
+    "Manufacture of doors and windows of metal": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of fabricated metal products, except machinery and equipment",
+        "group": "Manufacture of structural metal products"
+    },
+    "Manufacture of central heating radiators and boilers": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of fabricated metal products, except machinery and equipment",
+        "group": "Manufacture of tanks, reservoirs and containers of metal"
+    },
+    "Manufacture of other tanks, reservoirs and containers of metal": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of fabricated metal products, except machinery and equipment",
+        "group": "Manufacture of tanks, reservoirs and containers of metal"
+    },
+    "Manufacture of steam generators, except central heating hot water boilers": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of fabricated metal products, except machinery and equipment",
+        "group": "Manufacture of steam generators, except central heating hot water boilers"
+    },
+    "Manufacture of weapons and ammunition": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of fabricated metal products, except machinery and equipment",
+        "group": "Manufacture of weapons and ammunition"
+    },
+    "Forging, pressing, stamping and roll-forming of metal; powder metallurgy": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of fabricated metal products, except machinery and equipment",
+        "group": "Forging, pressing, stamping and roll-forming of metal; powder metallurgy"
+    },
+    "Treatment and coating of metals": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of fabricated metal products, except machinery and equipment",
+        "group": "Treatment and coating of metals; machining"
+    },
+    "Machining": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of fabricated metal products, except machinery and equipment",
+        "group": "Treatment and coating of metals; machining"
+    },
+    "Manufacture of cutlery": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of fabricated metal products, except machinery and equipment",
+        "group": "Manufacture of cutlery, tools and general hardware"
+    },
+    "Manufacture of locks and hinges": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of fabricated metal products, except machinery and equipment",
+        "group": "Manufacture of cutlery, tools and general hardware"
+    },
+    "Manufacture of tools": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of fabricated metal products, except machinery and equipment",
+        "group": "Manufacture of cutlery, tools and general hardware"
+    },
+    "Manufacture of steel drums and similar containers": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of fabricated metal products, except machinery and equipment",
+        "group": "Manufacture of other fabricated metal products"
+    },
+    "Manufacture of light metal packaging": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of fabricated metal products, except machinery and equipment",
+        "group": "Manufacture of other fabricated metal products"
+    },
+    "Manufacture of wire products, chain and springs": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of fabricated metal products, except machinery and equipment",
+        "group": "Manufacture of other fabricated metal products"
+    },
+    "Manufacture of fasteners and screw machine products": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of fabricated metal products, except machinery and equipment",
+        "group": "Manufacture of other fabricated metal products"
+    },
+    "Manufacture of other fabricated metal products n.e.c.": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of fabricated metal products, except machinery and equipment",
+        "group": "Manufacture of other fabricated metal products"
+    },
+    "Manufacture of electronic components": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of computer, electronic and optical products",
+        "group": "Manufacture of electronic components and boards"
+    },
+    "Manufacture of loaded electronic boards": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of computer, electronic and optical products",
+        "group": "Manufacture of electronic components and boards"
+    },
+    "Manufacture of computers and peripheral equipment": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of computer, electronic and optical products",
+        "group": "Manufacture of computers and peripheral equipment"
+    },
+    "Manufacture of communication equipment": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of computer, electronic and optical products",
+        "group": "Manufacture of communication equipment"
+    },
+    "Manufacture of consumer electronics": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of computer, electronic and optical products",
+        "group": "Manufacture of consumer electronics"
+    },
+    "Manufacture of instruments and appliances for measuring, testing and navigation": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of computer, electronic and optical products",
+        "group": "Manufacture of instruments and appliances for measuring, testing and navigation; watches and clocks"
+    },
+    "Manufacture of watches and clocks": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of computer, electronic and optical products",
+        "group": "Manufacture of instruments and appliances for measuring, testing and navigation; watches and clocks"
+    },
+    "Manufacture of irradiation, electromedical and electrotherapeutic equipment": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of computer, electronic and optical products",
+        "group": "Manufacture of irradiation, electromedical and electrotherapeutic equipment"
+    },
+    "Manufacture of optical instruments and photographic equipment": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of computer, electronic and optical products",
+        "group": "Manufacture of optical instruments and photographic equipment"
+    },
+    "Manufacture of magnetic and optical media": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of computer, electronic and optical products",
+        "group": "Manufacture of magnetic and optical media"
+    },
+    "Manufacture of electric motors, generators and transformers": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of electrical equipment",
+        "group": "Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus"
+    },
+    "Manufacture of electricity distribution and control apparatus": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of electrical equipment",
+        "group": "Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus"
+    },
+    "Manufacture of batteries and accumulators": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of electrical equipment",
+        "group": "Manufacture of batteries and accumulators"
+    },
+    "Manufacture of fibre optic cables": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of electrical equipment",
+        "group": "Manufacture of wiring and wiring devices"
+    },
+    "Manufacture of other electronic and electric wires and cables": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of electrical equipment",
+        "group": "Manufacture of wiring and wiring devices"
+    },
+    "Manufacture of wiring devices": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of electrical equipment",
+        "group": "Manufacture of wiring and wiring devices"
+    },
+    "Manufacture of electric lighting equipment": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of electrical equipment",
+        "group": "Manufacture of electric lighting equipment"
+    },
+    "Manufacture of electric domestic appliances": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of electrical equipment",
+        "group": "Manufacture of domestic appliances"
+    },
+    "Manufacture of non-electric domestic appliances": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of electrical equipment",
+        "group": "Manufacture of domestic appliances"
+    },
+    "Manufacture of other electrical equipment": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of electrical equipment",
+        "group": "Manufacture of other electrical equipment"
+    },
+    "Manufacture of engines and turbines, except aircraft, vehicle and cycle engines": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of machinery and equipment n.e.c.",
+        "group": "Manufacture of general-purpose machinery"
+    },
+    "Manufacture of fluid power equipment": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of machinery and equipment n.e.c.",
+        "group": "Manufacture of general-purpose machinery"
+    },
+    "Manufacture of other pumps and compressors": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of machinery and equipment n.e.c.",
+        "group": "Manufacture of general-purpose machinery"
+    },
+    "Manufacture of other taps and valves": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of machinery and equipment n.e.c.",
+        "group": "Manufacture of general-purpose machinery"
+    },
+    "Manufacture of bearings, gears, gearing and driving elements": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of machinery and equipment n.e.c.",
+        "group": "Manufacture of general-purpose machinery"
+    },
+    "Manufacture of ovens, furnaces and furnace burners": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of machinery and equipment n.e.c.",
+        "group": "Manufacture of other general-purpose machinery"
+    },
+    "Manufacture of lifting and handling equipment": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of machinery and equipment n.e.c.",
+        "group": "Manufacture of other general-purpose machinery"
+    },
+    "Manufacture of office machinery and equipment (except computers and peripheral equipment)": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of machinery and equipment n.e.c.",
+        "group": "Manufacture of other general-purpose machinery"
+    },
+    "Manufacture of power-driven hand tools": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of machinery and equipment n.e.c.",
+        "group": "Manufacture of other general-purpose machinery"
+    },
+    "Manufacture of non-domestic cooling and ventilation equipment": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of machinery and equipment n.e.c.",
+        "group": "Manufacture of other general-purpose machinery"
+    },
+    "Manufacture of other general-purpose machinery n.e.c.": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of machinery and equipment n.e.c.",
+        "group": "Manufacture of other general-purpose machinery"
+    },
+    "Manufacture of agricultural and forestry machinery": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of machinery and equipment n.e.c.",
+        "group": "Manufacture of agricultural and forestry machinery"
+    },
+    "Manufacture of metal forming machinery": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of machinery and equipment n.e.c.",
+        "group": "Manufacture of metal forming machinery and machine tools"
+    },
+    "Manufacture of other machine tools": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of machinery and equipment n.e.c.",
+        "group": "Manufacture of metal forming machinery and machine tools"
+    },
+    "Manufacture of machinery for metallurgy": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of machinery and equipment n.e.c.",
+        "group": "Manufacture of other special-purpose machinery"
+    },
+    "Manufacture of machinery for mining, quarrying and construction": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of machinery and equipment n.e.c.",
+        "group": "Manufacture of other special-purpose machinery"
+    },
+    "Manufacture of machinery for food, beverage and tobacco processing": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of machinery and equipment n.e.c.",
+        "group": "Manufacture of other special-purpose machinery"
+    },
+    "Manufacture of machinery for textile, apparel and leather production": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of machinery and equipment n.e.c.",
+        "group": "Manufacture of other special-purpose machinery"
+    },
+    "Manufacture of machinery for paper and paperboard production": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of machinery and equipment n.e.c.",
+        "group": "Manufacture of other special-purpose machinery"
+    },
+    "Manufacture of plastics and rubber machinery": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of machinery and equipment n.e.c.",
+        "group": "Manufacture of other special-purpose machinery"
+    },
+    "Manufacture of other special-purpose machinery n.e.c.": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of machinery and equipment n.e.c.",
+        "group": "Manufacture of other special-purpose machinery"
+    },
+    "Manufacture of motor vehicles": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of motor vehicles, trailers and semi-trailers",
+        "group": "Manufacture of motor vehicles"
+    },
+    "Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of motor vehicles, trailers and semi-trailers",
+        "group": "Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers"
+    },
+    "Manufacture of electrical and electronic equipment for motor vehicles": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of motor vehicles, trailers and semi-trailers",
+        "group": "Manufacture of parts and accessories for motor vehicles"
+    },
+    "Manufacture of other parts and accessories for motor vehicles": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of motor vehicles, trailers and semi-trailers",
+        "group": "Manufacture of parts and accessories for motor vehicles"
+    },
+    "Building of ships and floating structures": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of other transport equipment",
+        "group": "Building of ships and boats"
+    },
+    "Building of pleasure and sporting boats": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of other transport equipment",
+        "group": "Building of ships and boats"
+    },
+    "Manufacture of railway locomotives and rolling stock": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of other transport equipment",
+        "group": "Manufacture of railway locomotives and rolling stock"
+    },
+    "Manufacture of air and spacecraft and related machinery": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of other transport equipment",
+        "group": "Manufacture of air and spacecraft and related machinery"
+    },
+    "Manufacture of military fighting vehicles": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of other transport equipment",
+        "group": "Manufacture of military fighting vehicles"
+    },
+    "Manufacture of motorcycles": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of other transport equipment",
+        "group": "Manufacture of transport equipment n.e.c."
+    },
+    "Manufacture of bicycles and invalid carriages": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of other transport equipment",
+        "group": "Manufacture of transport equipment n.e.c."
+    },
+    "Manufacture of other transport equipment n.e.c.": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of other transport equipment",
+        "group": "Manufacture of transport equipment n.e.c."
+    },
+    "Manufacture of office and shop furniture": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of furniture",
+        "group": "Manufacture of furniture"
+    },
+    "Manufacture of kitchen furniture": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of furniture",
+        "group": "Manufacture of furniture"
+    },
+    "Manufacture of mattresses": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of furniture",
+        "group": "Manufacture of furniture"
+    },
+    "Manufacture of other furniture": {
+        "sector": "MANUFACTURING",
+        "division": "Manufacture of furniture",
+        "group": "Manufacture of furniture"
+    },
+    "Striking of coins": {
+        "sector": "MANUFACTURING",
+        "division": "Other manufacturing",
+        "group": "Manufacture of jewellery, bijouterie and related articles"
+    },
+    "Manufacture of jewellery and related articles": {
+        "sector": "MANUFACTURING",
+        "division": "Other manufacturing",
+        "group": "Manufacture of jewellery, bijouterie and related articles"
+    },
+    "Manufacture of imitation jewellery and related articles": {
+        "sector": "MANUFACTURING",
+        "division": "Other manufacturing",
+        "group": "Manufacture of jewellery, bijouterie and related articles"
+    },
+    "Manufacture of musical instruments": {
+        "sector": "MANUFACTURING",
+        "division": "Other manufacturing",
+        "group": "Manufacture of musical instruments"
+    },
+    "Manufacture of sports goods": {
+        "sector": "MANUFACTURING",
+        "division": "Other manufacturing",
+        "group": "Manufacture of sports goods"
+    },
+    "Manufacture of games and toys": {
+        "sector": "MANUFACTURING",
+        "division": "Other manufacturing",
+        "group": "Manufacture of games and toys"
+    },
+    "Manufacture of medical and dental instruments and supplies": {
+        "sector": "MANUFACTURING",
+        "division": "Other manufacturing",
+        "group": "Manufacture of medical and dental instruments and supplies"
+    },
+    "Manufacture of brooms and brushes": {
+        "sector": "MANUFACTURING",
+        "division": "Other manufacturing",
+        "group": "Other manufacturing n.e.c."
+    },
+    "Other manufacturing n.e.c.": {
+        "sector": "MANUFACTURING",
+        "division": "Other manufacturing",
+        "group": "Other manufacturing n.e.c."
+    },
+    "Repair of fabricated metal products": {
+        "sector": "MANUFACTURING",
+        "division": "Repair and installation of machinery and equipment",
+        "group": "Repair of fabricated metal products, machinery and equipment"
+    },
+    "Repair of machinery": {
+        "sector": "MANUFACTURING",
+        "division": "Repair and installation of machinery and equipment",
+        "group": "Repair of fabricated metal products, machinery and equipment"
+    },
+    "Repair of electronic and optical equipment": {
+        "sector": "MANUFACTURING",
+        "division": "Repair and installation of machinery and equipment",
+        "group": "Repair of fabricated metal products, machinery and equipment"
+    },
+    "Repair of electrical equipment": {
+        "sector": "MANUFACTURING",
+        "division": "Repair and installation of machinery and equipment",
+        "group": "Repair of fabricated metal products, machinery and equipment"
+    },
+    "Repair and maintenance of ships and boats": {
+        "sector": "MANUFACTURING",
+        "division": "Repair and installation of machinery and equipment",
+        "group": "Repair of fabricated metal products, machinery and equipment"
+    },
+    "Repair and maintenance of aircraft and spacecraft": {
+        "sector": "MANUFACTURING",
+        "division": "Repair and installation of machinery and equipment",
+        "group": "Repair of fabricated metal products, machinery and equipment"
+    },
+    "Repair and maintenance of other transport equipment": {
+        "sector": "MANUFACTURING",
+        "division": "Repair and installation of machinery and equipment",
+        "group": "Repair of fabricated metal products, machinery and equipment"
+    },
+    "Repair of other equipment": {
+        "sector": "MANUFACTURING",
+        "division": "Repair and installation of machinery and equipment",
+        "group": "Repair of fabricated metal products, machinery and equipment"
+    },
+    "Installation of industrial machinery and equipment": {
+        "sector": "MANUFACTURING",
+        "division": "Repair and installation of machinery and equipment",
+        "group": "Installation of industrial machinery and equipment"
+    },
+    "Production of electricity": {
+        "sector": "ELECTRICITY, GAS, STEAM AND AIR CONDITIONING SUPPLY",
+        "division": "Electricity, gas, steam and air conditioning supply",
+        "group": "Electric power generation, transmission and distribution"
+    },
+    "Transmission of electricity": {
+        "sector": "ELECTRICITY, GAS, STEAM AND AIR CONDITIONING SUPPLY",
+        "division": "Electricity, gas, steam and air conditioning supply",
+        "group": "Electric power generation, transmission and distribution"
+    },
+    "Distribution of electricity": {
+        "sector": "ELECTRICITY, GAS, STEAM AND AIR CONDITIONING SUPPLY",
+        "division": "Electricity, gas, steam and air conditioning supply",
+        "group": "Electric power generation, transmission and distribution"
+    },
+    "Trade of electricity": {
+        "sector": "ELECTRICITY, GAS, STEAM AND AIR CONDITIONING SUPPLY",
+        "division": "Electricity, gas, steam and air conditioning supply",
+        "group": "Electric power generation, transmission and distribution"
+    },
+    "Manufacture of gas": {
+        "sector": "ELECTRICITY, GAS, STEAM AND AIR CONDITIONING SUPPLY",
+        "division": "Electricity, gas, steam and air conditioning supply",
+        "group": "Manufacture of gas; distribution of gaseous fuels through mains"
+    },
+    "Distribution of gaseous fuels through mains": {
+        "sector": "ELECTRICITY, GAS, STEAM AND AIR CONDITIONING SUPPLY",
+        "division": "Electricity, gas, steam and air conditioning supply",
+        "group": "Manufacture of gas; distribution of gaseous fuels through mains"
+    },
+    "Trade of gas through mains": {
+        "sector": "ELECTRICITY, GAS, STEAM AND AIR CONDITIONING SUPPLY",
+        "division": "Electricity, gas, steam and air conditioning supply",
+        "group": "Manufacture of gas; distribution of gaseous fuels through mains"
+    },
+    "Steam and air conditioning supply": {
+        "sector": "ELECTRICITY, GAS, STEAM AND AIR CONDITIONING SUPPLY",
+        "division": "Electricity, gas, steam and air conditioning supply",
+        "group": "Steam and air conditioning supply"
+    },
+    "Water collection, treatment and supply": {
+        "sector": "WATER SUPPLY; SEWERAGE, WASTE MANAGEMENT AND REMEDIATION ACTIVITIES",
+        "division": "Water collection, treatment and supply",
+        "group": "Water collection, treatment and supply"
+    },
+    "Sewerage": {
+        "sector": "WATER SUPPLY; SEWERAGE, WASTE MANAGEMENT AND REMEDIATION ACTIVITIES",
+        "division": "Sewerage",
+        "group": "Sewerage"
+    },
+    "Collection of non-hazardous waste": {
+        "sector": "WATER SUPPLY; SEWERAGE, WASTE MANAGEMENT AND REMEDIATION ACTIVITIES",
+        "division": "Waste collection, treatment and disposal activities; materials recovery",
+        "group": "Waste collection"
+    },
+    "Collection of hazardous waste": {
+        "sector": "WATER SUPPLY; SEWERAGE, WASTE MANAGEMENT AND REMEDIATION ACTIVITIES",
+        "division": "Waste collection, treatment and disposal activities; materials recovery",
+        "group": "Waste collection"
+    },
+    "Treatment and disposal of non-hazardous waste": {
+        "sector": "WATER SUPPLY; SEWERAGE, WASTE MANAGEMENT AND REMEDIATION ACTIVITIES",
+        "division": "Waste collection, treatment and disposal activities; materials recovery",
+        "group": "Waste treatment and disposal"
+    },
+    "Treatment and disposal of hazardous waste": {
+        "sector": "WATER SUPPLY; SEWERAGE, WASTE MANAGEMENT AND REMEDIATION ACTIVITIES",
+        "division": "Waste collection, treatment and disposal activities; materials recovery",
+        "group": "Waste treatment and disposal"
+    },
+    "Dismantling of wrecks": {
+        "sector": "WATER SUPPLY; SEWERAGE, WASTE MANAGEMENT AND REMEDIATION ACTIVITIES",
+        "division": "Waste collection, treatment and disposal activities; materials recovery",
+        "group": "Materials recovery"
+    },
+    "Recovery of sorted materials": {
+        "sector": "WATER SUPPLY; SEWERAGE, WASTE MANAGEMENT AND REMEDIATION ACTIVITIES",
+        "division": "Waste collection, treatment and disposal activities; materials recovery",
+        "group": "Materials recovery"
+    },
+    "Remediation activities and other waste management services": {
+        "sector": "WATER SUPPLY; SEWERAGE, WASTE MANAGEMENT AND REMEDIATION ACTIVITIES",
+        "division": "Remediation activities and other waste management services.",
+        "group": "Remediation activities and other waste management services"
+    },
+    "Development of building projects": {
+        "sector": "CONSTRUCTION",
+        "division": "Construction of buildings",
+        "group": "Development of building projects"
+    },
+    "Construction of residential and non-residential buildings": {
+        "sector": "CONSTRUCTION",
+        "division": "Construction of buildings",
+        "group": "Construction of residential and non-residential buildings"
+    },
+    "Construction of roads and motorways": {
+        "sector": "CONSTRUCTION",
+        "division": "Civil engineering",
+        "group": "Construction of roads and railways"
+    },
+    "Construction of railways and underground railways": {
+        "sector": "CONSTRUCTION",
+        "division": "Civil engineering",
+        "group": "Construction of roads and railways"
+    },
+    "Construction of bridges and tunnels": {
+        "sector": "CONSTRUCTION",
+        "division": "Civil engineering",
+        "group": "Construction of roads and railways"
+    },
+    "Construction of utility projects for fluids": {
+        "sector": "CONSTRUCTION",
+        "division": "Civil engineering",
+        "group": "Construction of utility projects"
+    },
+    "Construction of utility projects for electricity and telecommunications": {
+        "sector": "CONSTRUCTION",
+        "division": "Civil engineering",
+        "group": "Construction of utility projects"
+    },
+    "Construction of water projects": {
+        "sector": "CONSTRUCTION",
+        "division": "Civil engineering",
+        "group": "Construction of other civil engineering projects"
+    },
+    "Construction of other civil engineering projects n.e.c.": {
+        "sector": "CONSTRUCTION",
+        "division": "Civil engineering",
+        "group": "Construction of other civil engineering projects"
+    },
+    "Demolition": {
+        "sector": "CONSTRUCTION",
+        "division": "Specialised construction activities",
+        "group": "Demolition and site preparation"
+    },
+    "Site preparation": {
+        "sector": "CONSTRUCTION",
+        "division": "Specialised construction activities",
+        "group": "Demolition and site preparation"
+    },
+    "Test drilling and boring": {
+        "sector": "CONSTRUCTION",
+        "division": "Specialised construction activities",
+        "group": "Demolition and site preparation"
+    },
+    "Electrical installation": {
+        "sector": "CONSTRUCTION",
+        "division": "Specialised construction activities",
+        "group": "Electrical, plumbing and other construction installation activities"
+    },
+    "Plumbing, heat and air-conditioning installation": {
+        "sector": "CONSTRUCTION",
+        "division": "Specialised construction activities",
+        "group": "Electrical, plumbing and other construction installation activities"
+    },
+    "Other construction installation": {
+        "sector": "CONSTRUCTION",
+        "division": "Specialised construction activities",
+        "group": "Electrical, plumbing and other construction installation activities"
+    },
+    "Plastering": {
+        "sector": "CONSTRUCTION",
+        "division": "Specialised construction activities",
+        "group": "Building completion and finishing"
+    },
+    "Joinery installation": {
+        "sector": "CONSTRUCTION",
+        "division": "Specialised construction activities",
+        "group": "Building completion and finishing"
+    },
+    "Floor and wall covering": {
+        "sector": "CONSTRUCTION",
+        "division": "Specialised construction activities",
+        "group": "Building completion and finishing"
+    },
+    "Painting and glazing": {
+        "sector": "CONSTRUCTION",
+        "division": "Specialised construction activities",
+        "group": "Building completion and finishing"
+    },
+    "Other building completion and finishing": {
+        "sector": "CONSTRUCTION",
+        "division": "Specialised construction activities",
+        "group": "Building completion and finishing"
+    },
+    "Roofing activities": {
+        "sector": "CONSTRUCTION",
+        "division": "Specialised construction activities",
+        "group": "Other specialised construction activities"
+    },
+    "Other specialised construction activities n.e.c.": {
+        "sector": "CONSTRUCTION",
+        "division": "Specialised construction activities",
+        "group": "Other specialised construction activities"
+    },
+    "Sale of cars and light motor vehicles": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale and retail trade and repair of motor vehicles and motorcycles",
+        "group": "Sale of motor vehicles"
+    },
+    "Sale of other motor vehicles": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale and retail trade and repair of motor vehicles and motorcycles",
+        "group": "Sale of motor vehicles"
+    },
+    "Maintenance and repair of motor vehicles": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale and retail trade and repair of motor vehicles and motorcycles",
+        "group": "Maintenance and repair of motor vehicles"
+    },
+    "Wholesale trade of motor vehicle parts and accessories": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale and retail trade and repair of motor vehicles and motorcycles",
+        "group": "Sale of motor vehicle parts and accessories"
+    },
+    "Retail trade of motor vehicle parts and accessories": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale and retail trade and repair of motor vehicles and motorcycles",
+        "group": "Sale of motor vehicle parts and accessories"
+    },
+    "Sale, maintenance and repair of motorcycles and related parts and accessories": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale and retail trade and repair of motor vehicles and motorcycles",
+        "group": "Sale, maintenance and repair of motorcycles and related parts and accessories"
+    },
+    "Agents involved in the sale of agricultural raw materials, live animals, textile raw materials and semi-finished goods": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale on a fee or contract basis"
+    },
+    "Agents involved in the sale of fuels, ores, metals and industrial chemicals": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale on a fee or contract basis"
+    },
+    "Agents involved in the sale of timber and building materials": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale on a fee or contract basis"
+    },
+    "Agents involved in the sale of machinery, industrial equipment, ships and aircraft": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale on a fee or contract basis"
+    },
+    "Agents involved in the sale of furniture, household goods, hardware and ironmongery": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale on a fee or contract basis"
+    },
+    "Agents involved in the sale of textiles, clothing, fur, footwear and leather goods": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale on a fee or contract basis"
+    },
+    "Agents involved in the sale of food, beverages and tobacco": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale on a fee or contract basis"
+    },
+    "Agents specialised in the sale of other particular products": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale on a fee or contract basis"
+    },
+    "Agents involved in the sale of a variety of goods": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale on a fee or contract basis"
+    },
+    "Wholesale of grain, unmanufactured tobacco, seeds and animal feeds": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale of agricultural raw materials and live animals"
+    },
+    "Wholesale of flowers and plants": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale of agricultural raw materials and live animals"
+    },
+    "Wholesale of live animals": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale of agricultural raw materials and live animals"
+    },
+    "Wholesale of hides, skins and leather": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale of agricultural raw materials and live animals"
+    },
+    "Wholesale of fruit and vegetables": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale of food, beverages and tobacco"
+    },
+    "Wholesale of meat and meat products": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale of food, beverages and tobacco"
+    },
+    "Wholesale of dairy products, eggs and edible oils and fats": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale of food, beverages and tobacco"
+    },
+    "Wholesale of beverages": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale of food, beverages and tobacco"
+    },
+    "Wholesale of tobacco products": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale of food, beverages and tobacco"
+    },
+    "Wholesale of sugar and chocolate and sugar confectionery": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale of food, beverages and tobacco"
+    },
+    "Wholesale of coffee, tea, cocoa and spices": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale of food, beverages and tobacco"
+    },
+    "Wholesale of other food, including fish, crustaceans and molluscs": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale of food, beverages and tobacco"
+    },
+    "Non-specialised wholesale of food, beverages and tobacco": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale of food, beverages and tobacco"
+    },
+    "Wholesale of textiles": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale of household goods"
+    },
+    "Wholesale of clothing and footwear": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale of household goods"
+    },
+    "Wholesale of electrical household appliances": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale of household goods"
+    },
+    "Wholesale of china and glassware and cleaning materials": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale of household goods"
+    },
+    "Wholesale of perfume and cosmetics": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale of household goods"
+    },
+    "Wholesale of pharmaceutical goods": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale of household goods"
+    },
+    "Wholesale of furniture, carpets and lighting equipment": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale of household goods"
+    },
+    "Wholesale of watches and jewellery": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale of household goods"
+    },
+    "Wholesale of other household goods": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale of household goods"
+    },
+    "Wholesale of computers, computer peripheral equipment and software": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale of information and communication equipment"
+    },
+    "Wholesale of electronic and telecommunications equipment and parts": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale of information and communication equipment"
+    },
+    "Wholesale of agricultural machinery, equipment and supplies": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale of other machinery, equipment and supplies"
+    },
+    "Wholesale of machine tools": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale of other machinery, equipment and supplies"
+    },
+    "Wholesale of mining, construction and civil engineering machinery": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale of other machinery, equipment and supplies"
+    },
+    "Wholesale of machinery for the textile industry and of sewing and knitting machines": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale of other machinery, equipment and supplies"
+    },
+    "Wholesale of office furniture": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale of other machinery, equipment and supplies"
+    },
+    "Wholesale of other office machinery and equipment": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale of other machinery, equipment and supplies"
+    },
+    "Wholesale of other machinery and equipment": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Wholesale of other machinery, equipment and supplies"
+    },
+    "Wholesale of solid, liquid and gaseous fuels and related products": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Other specialised wholesale"
+    },
+    "Wholesale of metals and metal ores": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Other specialised wholesale"
+    },
+    "Wholesale of wood, construction materials and sanitary equipment": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Other specialised wholesale"
+    },
+    "Wholesale of hardware, plumbing and heating equipment and supplies": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Other specialised wholesale"
+    },
+    "Wholesale of chemical products": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Other specialised wholesale"
+    },
+    "Wholesale of other intermediate products": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Other specialised wholesale"
+    },
+    "Wholesale of waste and scrap": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Other specialised wholesale"
+    },
+    "Non-specialised wholesale trade": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Wholesale trade, except of motor vehicles and motorcycles",
+        "group": "Non-specialised wholesale trade"
+    },
+    "Retail sale in non-specialised stores with food, beverages or tobacco predominating": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Retail trade, except of motor vehicles and motorcycles",
+        "group": "Retail sale in non-specialised stores"
+    },
+    "Other retail sale in non-specialised stores": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Retail trade, except of motor vehicles and motorcycles",
+        "group": "Retail sale in non-specialised stores"
+    },
+    "Retail sale of fruit and vegetables in specialised stores": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Retail trade, except of motor vehicles and motorcycles",
+        "group": "Retail sale of food, beverages and tobacco in specialised stores"
+    },
+    "Retail sale of meat and meat products in specialised stores": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Retail trade, except of motor vehicles and motorcycles",
+        "group": "Retail sale of food, beverages and tobacco in specialised stores"
+    },
+    "Retail sale of fish, crustaceans and molluscs in specialised stores": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Retail trade, except of motor vehicles and motorcycles",
+        "group": "Retail sale of food, beverages and tobacco in specialised stores"
+    },
+    "Retail sale of bread, cakes, flour confectionery and sugar confectionery in specialised stores": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Retail trade, except of motor vehicles and motorcycles",
+        "group": "Retail sale of food, beverages and tobacco in specialised stores"
+    },
+    "Retail sale of beverages in specialised stores": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Retail trade, except of motor vehicles and motorcycles",
+        "group": "Retail sale of food, beverages and tobacco in specialised stores"
+    },
+    "Retail sale of tobacco products in specialised stores": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Retail trade, except of motor vehicles and motorcycles",
+        "group": "Retail sale of food, beverages and tobacco in specialised stores"
+    },
+    "Other retail sale of food in specialised stores": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Retail trade, except of motor vehicles and motorcycles",
+        "group": "Retail sale of food, beverages and tobacco in specialised stores"
+    },
+    "Retail sale of automotive fuel in specialised stores": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Retail trade, except of motor vehicles and motorcycles",
+        "group": "Retail sale of automotive fuel in specialised stores"
+    },
+    "Retail sale of computers, peripheral units and software in specialised stores": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Retail trade, except of motor vehicles and motorcycles",
+        "group": "Retail sale of information and communication equipment in specialised stores"
+    },
+    "Retail sale of telecommunications equipment in specialised stores": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Retail trade, except of motor vehicles and motorcycles",
+        "group": "Retail sale of information and communication equipment in specialised stores"
+    },
+    "Retail sale of audio and video equipment in specialised stores": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Retail trade, except of motor vehicles and motorcycles",
+        "group": "Retail sale of information and communication equipment in specialised stores"
+    },
+    "Retail sale of textiles in specialised stores": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Retail trade, except of motor vehicles and motorcycles",
+        "group": "Retail sale of other household equipment in specialised stores"
+    },
+    "Retail sale of hardware, paints and glass in specialised stores": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Retail trade, except of motor vehicles and motorcycles",
+        "group": "Retail sale of other household equipment in specialised stores"
+    },
+    "Retail sale of carpets, rugs, wall and floor coverings in specialised stores": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Retail trade, except of motor vehicles and motorcycles",
+        "group": "Retail sale of other household equipment in specialised stores"
+    },
+    "Retail sale of electrical household appliances in specialised stores": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Retail trade, except of motor vehicles and motorcycles",
+        "group": "Retail sale of other household equipment in specialised stores"
+    },
+    "Retail sale of furniture, lighting equipment and other household articles in specialised stores": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Retail trade, except of motor vehicles and motorcycles",
+        "group": "Retail sale of other household equipment in specialised stores"
+    },
+    "Retail sale of books in specialised stores": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Retail trade, except of motor vehicles and motorcycles",
+        "group": "Retail sale of cultural and recreation goods in specialised stores"
+    },
+    "Retail sale of newspapers and stationery in specialised stores": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Retail trade, except of motor vehicles and motorcycles",
+        "group": "Retail sale of cultural and recreation goods in specialised stores"
+    },
+    "Retail sale of music and video recordings in specialised stores": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Retail trade, except of motor vehicles and motorcycles",
+        "group": "Retail sale of cultural and recreation goods in specialised stores"
+    },
+    "Retail sale of sporting equipment in specialised stores": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Retail trade, except of motor vehicles and motorcycles",
+        "group": "Retail sale of cultural and recreation goods in specialised stores"
+    },
+    "Retail sale of games and toys in specialised stores": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Retail trade, except of motor vehicles and motorcycles",
+        "group": "Retail sale of cultural and recreation goods in specialised stores"
+    },
+    "Retail sale of clothing in specialised stores": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Retail trade, except of motor vehicles and motorcycles",
+        "group": "Retail sale of other goods in specialised stores"
+    },
+    "Retail sale of footwear and leather goods in specialised stores": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Retail trade, except of motor vehicles and motorcycles",
+        "group": "Retail sale of other goods in specialised stores"
+    },
+    "Dispensing chemist in specialised stores": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Retail trade, except of motor vehicles and motorcycles",
+        "group": "Retail sale of other goods in specialised stores"
+    },
+    "Retail sale of medical and orthopaedic goods in specialised stores": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Retail trade, except of motor vehicles and motorcycles",
+        "group": "Retail sale of other goods in specialised stores"
+    },
+    "Retail sale of cosmetic and toilet articles in specialised stores": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Retail trade, except of motor vehicles and motorcycles",
+        "group": "Retail sale of other goods in specialised stores"
+    },
+    "Retail sale of flowers, plants, seeds, fertilisers, pet animals and pet food in specialised stores": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Retail trade, except of motor vehicles and motorcycles",
+        "group": "Retail sale of other goods in specialised stores"
+    },
+    "Retail sale of watches and jewellery in specialised stores": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Retail trade, except of motor vehicles and motorcycles",
+        "group": "Retail sale of other goods in specialised stores"
+    },
+    "Other retail sale of new goods in specialised stores": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Retail trade, except of motor vehicles and motorcycles",
+        "group": "Retail sale of other goods in specialised stores"
+    },
+    "Retail sale of second-hand goods in stores": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Retail trade, except of motor vehicles and motorcycles",
+        "group": "Retail sale of other goods in specialised stores"
+    },
+    "Retail sale via stalls and markets of food, beverages and tobacco products": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Retail trade, except of motor vehicles and motorcycles",
+        "group": "Retail sale via stalls and markets"
+    },
+    "Retail sale via stalls and markets of textiles, clothing and footwear": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Retail trade, except of motor vehicles and motorcycles",
+        "group": "Retail sale via stalls and markets"
+    },
+    "Retail sale via stalls and markets of other goods": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Retail trade, except of motor vehicles and motorcycles",
+        "group": "Retail sale via stalls and markets"
+    },
+    "Retail sale via mail order houses or via Internet": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Retail trade, except of motor vehicles and motorcycles",
+        "group": "Retail trade not in stores, stalls or markets"
+    },
+    "Other retail sale not in stores, stalls or markets": {
+        "sector": "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES",
+        "division": "Retail trade, except of motor vehicles and motorcycles",
+        "group": "Retail trade not in stores, stalls or markets"
+    },
+    "Passenger rail transport, interurban": {
+        "sector": "TRANSPORTATION AND STORAGE",
+        "division": "Land transport and transport via pipelines",
+        "group": "Passenger rail transport, interurban"
+    },
+    "Freight rail transport": {
+        "sector": "TRANSPORTATION AND STORAGE",
+        "division": "Land transport and transport via pipelines",
+        "group": "Freight rail transport"
+    },
+    "Urban and suburban passenger land transport": {
+        "sector": "TRANSPORTATION AND STORAGE",
+        "division": "Land transport and transport via pipelines",
+        "group": "Other passenger land transport"
+    },
+    "Taxi operation": {
+        "sector": "TRANSPORTATION AND STORAGE",
+        "division": "Land transport and transport via pipelines",
+        "group": "Other passenger land transport"
+    },
+    "Other passenger land transport n.e.c.": {
+        "sector": "TRANSPORTATION AND STORAGE",
+        "division": "Land transport and transport via pipelines",
+        "group": "Other passenger land transport"
+    },
+    "Freight transport by road": {
+        "sector": "TRANSPORTATION AND STORAGE",
+        "division": "Land transport and transport via pipelines",
+        "group": "Freight transport by road and removal services"
+    },
+    "Removal services": {
+        "sector": "TRANSPORTATION AND STORAGE",
+        "division": "Land transport and transport via pipelines",
+        "group": "Freight transport by road and removal services"
+    },
+    "Transport via pipeline": {
+        "sector": "TRANSPORTATION AND STORAGE",
+        "division": "Land transport and transport via pipelines",
+        "group": "Transport via pipeline"
+    },
+    "Sea and coastal passenger water transport": {
+        "sector": "TRANSPORTATION AND STORAGE",
+        "division": "Water transport",
+        "group": "Sea and coastal passenger water transport"
+    },
+    "Sea and coastal freight water transport": {
+        "sector": "TRANSPORTATION AND STORAGE",
+        "division": "Water transport",
+        "group": "Sea and coastal freight water transport"
+    },
+    "Inland passenger water transport": {
+        "sector": "TRANSPORTATION AND STORAGE",
+        "division": "Water transport",
+        "group": "Inland passenger water transport"
+    },
+    "Inland freight water transport": {
+        "sector": "TRANSPORTATION AND STORAGE",
+        "division": "Water transport",
+        "group": "Inland freight water transport"
+    },
+    "Passenger air transport": {
+        "sector": "TRANSPORTATION AND STORAGE",
+        "division": "Air transport",
+        "group": "Passenger air transport"
+    },
+    "Freight air transport": {
+        "sector": "TRANSPORTATION AND STORAGE",
+        "division": "Air transport",
+        "group": "Freight air transport and space transport"
+    },
+    "Space transport": {
+        "sector": "TRANSPORTATION AND STORAGE",
+        "division": "Air transport",
+        "group": "Freight air transport and space transport"
+    },
+    "Warehousing and storage": {
+        "sector": "TRANSPORTATION AND STORAGE",
+        "division": "Warehousing and support activities for transportation",
+        "group": "Warehousing and storage"
+    },
+    "Service activities incidental to land transportation": {
+        "sector": "TRANSPORTATION AND STORAGE",
+        "division": "Warehousing and support activities for transportation",
+        "group": "Support activities for transportation"
+    },
+    "Service activities incidental to water transportation": {
+        "sector": "TRANSPORTATION AND STORAGE",
+        "division": "Warehousing and support activities for transportation",
+        "group": "Support activities for transportation"
+    },
+    "Service activities incidental to air transportation": {
+        "sector": "TRANSPORTATION AND STORAGE",
+        "division": "Warehousing and support activities for transportation",
+        "group": "Support activities for transportation"
+    },
+    "Cargo handling": {
+        "sector": "TRANSPORTATION AND STORAGE",
+        "division": "Warehousing and support activities for transportation",
+        "group": "Support activities for transportation"
+    },
+    "Other transportation support activities": {
+        "sector": "TRANSPORTATION AND STORAGE",
+        "division": "Warehousing and support activities for transportation",
+        "group": "Support activities for transportation"
+    },
+    "Postal activities under universal service obligation": {
+        "sector": "TRANSPORTATION AND STORAGE",
+        "division": "Postal and courier activities",
+        "group": "Postal activities under universal service obligation"
+    },
+    "Other postal and courier activities": {
+        "sector": "TRANSPORTATION AND STORAGE",
+        "division": "Postal and courier activities",
+        "group": "Other postal and courier activities"
+    },
+    "Hotels and similar accommodation": {
+        "sector": "ACCOMMODATION AND FOOD SERVICE ACTIVITIES",
+        "division": "Accommodation",
+        "group": "Hotels and similar accommodation"
+    },
+    "Holiday and other short-stay accommodation": {
+        "sector": "ACCOMMODATION AND FOOD SERVICE ACTIVITIES",
+        "division": "Accommodation",
+        "group": "Holiday and other short-stay accommodation"
+    },
+    "Camping grounds, recreational vehicle parks and trailer parks": {
+        "sector": "ACCOMMODATION AND FOOD SERVICE ACTIVITIES",
+        "division": "Accommodation",
+        "group": "Camping grounds, recreational vehicle parks and trailer parks"
+    },
+    "Other accommodation": {
+        "sector": "ACCOMMODATION AND FOOD SERVICE ACTIVITIES",
+        "division": "Accommodation",
+        "group": "Other accommodation"
+    },
+    "Restaurants and mobile food service activities": {
+        "sector": "ACCOMMODATION AND FOOD SERVICE ACTIVITIES",
+        "division": "Food and beverage service activities",
+        "group": "Restaurants and mobile food service activities"
+    },
+    "Event catering activities": {
+        "sector": "ACCOMMODATION AND FOOD SERVICE ACTIVITIES",
+        "division": "Food and beverage service activities",
+        "group": "Event catering and other food service activities"
+    },
+    "Other food service activities": {
+        "sector": "ACCOMMODATION AND FOOD SERVICE ACTIVITIES",
+        "division": "Food and beverage service activities",
+        "group": "Event catering and other food service activities"
+    },
+    "Beverage serving activities": {
+        "sector": "ACCOMMODATION AND FOOD SERVICE ACTIVITIES",
+        "division": "Food and beverage service activities",
+        "group": "Beverage serving activities"
+    },
+    "Book publishing": {
+        "sector": "INFORMATION AND COMMUNICATION",
+        "division": "Publishing activities",
+        "group": "Publishing of books, periodicals and other publishing activities"
+    },
+    "Publishing of directories and mailing lists": {
+        "sector": "INFORMATION AND COMMUNICATION",
+        "division": "Publishing activities",
+        "group": "Publishing of books, periodicals and other publishing activities"
+    },
+    "Publishing of newspapers": {
+        "sector": "INFORMATION AND COMMUNICATION",
+        "division": "Publishing activities",
+        "group": "Publishing of books, periodicals and other publishing activities"
+    },
+    "Publishing of journals and periodicals": {
+        "sector": "INFORMATION AND COMMUNICATION",
+        "division": "Publishing activities",
+        "group": "Publishing of books, periodicals and other publishing activities"
+    },
+    "Other publishing activities": {
+        "sector": "INFORMATION AND COMMUNICATION",
+        "division": "Publishing activities",
+        "group": "Publishing of books, periodicals and other publishing activities"
+    },
+    "Publishing of computer games": {
+        "sector": "INFORMATION AND COMMUNICATION",
+        "division": "Publishing activities",
+        "group": "Software publishing"
+    },
+    "Other software publishing": {
+        "sector": "INFORMATION AND COMMUNICATION",
+        "division": "Publishing activities",
+        "group": "Software publishing"
+    },
+    "Motion picture, video and television programme production activities": {
+        "sector": "INFORMATION AND COMMUNICATION",
+        "division": "Motion picture, video and television programme production, sound recording and music publishing activities",
+        "group": "Motion picture, video and television programme activities"
+    },
+    "Motion picture, video and television programme post-production activities": {
+        "sector": "INFORMATION AND COMMUNICATION",
+        "division": "Motion picture, video and television programme production, sound recording and music publishing activities",
+        "group": "Motion picture, video and television programme activities"
+    },
+    "Motion picture, video and television programme distribution activities": {
+        "sector": "INFORMATION AND COMMUNICATION",
+        "division": "Motion picture, video and television programme production, sound recording and music publishing activities",
+        "group": "Motion picture, video and television programme activities"
+    },
+    "Motion picture projection activities": {
+        "sector": "INFORMATION AND COMMUNICATION",
+        "division": "Motion picture, video and television programme production, sound recording and music publishing activities",
+        "group": "Motion picture, video and television programme activities"
+    },
+    "Sound recording and music publishing activities": {
+        "sector": "INFORMATION AND COMMUNICATION",
+        "division": "Motion picture, video and television programme production, sound recording and music publishing activities",
+        "group": "Sound recording and music publishing activities"
+    },
+    "Radio broadcasting": {
+        "sector": "INFORMATION AND COMMUNICATION",
+        "division": "Programming and broadcasting activities",
+        "group": "Radio broadcasting"
+    },
+    "Television programming and broadcasting activities": {
+        "sector": "INFORMATION AND COMMUNICATION",
+        "division": "Programming and broadcasting activities",
+        "group": "Television programming and broadcasting activities"
+    },
+    "Wired telecommunications activities": {
+        "sector": "INFORMATION AND COMMUNICATION",
+        "division": "Telecommunications",
+        "group": "Wired telecommunications activities"
+    },
+    "Wireless telecommunications activities": {
+        "sector": "INFORMATION AND COMMUNICATION",
+        "division": "Telecommunications",
+        "group": "Wireless telecommunications activities"
+    },
+    "Satellite telecommunications activities": {
+        "sector": "INFORMATION AND COMMUNICATION",
+        "division": "Telecommunications",
+        "group": "Satellite telecommunications activities"
+    },
+    "Other telecommunications activities": {
+        "sector": "INFORMATION AND COMMUNICATION",
+        "division": "Telecommunications",
+        "group": "Other telecommunications activities"
+    },
+    "Computer programming activities": {
+        "sector": "INFORMATION AND COMMUNICATION",
+        "division": "Computer programming, consultancy and related activities",
+        "group": "Computer programming, consultancy and related activities"
+    },
+    "Computer consultancy activities": {
+        "sector": "INFORMATION AND COMMUNICATION",
+        "division": "Computer programming, consultancy and related activities",
+        "group": "Computer programming, consultancy and related activities"
+    },
+    "Computer facilities management activities": {
+        "sector": "INFORMATION AND COMMUNICATION",
+        "division": "Computer programming, consultancy and related activities",
+        "group": "Computer programming, consultancy and related activities"
+    },
+    "Other information technology and computer service activities": {
+        "sector": "INFORMATION AND COMMUNICATION",
+        "division": "Computer programming, consultancy and related activities",
+        "group": "Computer programming, consultancy and related activities"
+    },
+    "Data processing, hosting and related activities": {
+        "sector": "INFORMATION AND COMMUNICATION",
+        "division": "Information service activities",
+        "group": "Data processing, hosting and related activities; web portals"
+    },
+    "Web portals": {
+        "sector": "INFORMATION AND COMMUNICATION",
+        "division": "Information service activities",
+        "group": "Data processing, hosting and related activities; web portals"
+    },
+    "News agency activities": {
+        "sector": "INFORMATION AND COMMUNICATION",
+        "division": "Information service activities",
+        "group": "Other information service activities"
+    },
+    "Other information service activities n.e.c.": {
+        "sector": "INFORMATION AND COMMUNICATION",
+        "division": "Information service activities",
+        "group": "Other information service activities"
+    },
+    "Central banking": {
+        "sector": "FINANCIAL AND INSURANCE ACTIVITIES",
+        "division": "Financial service activities, except insurance and pension funding",
+        "group": "Monetary intermediation"
+    },
+    "Other monetary intermediation": {
+        "sector": "FINANCIAL AND INSURANCE ACTIVITIES",
+        "division": "Financial service activities, except insurance and pension funding",
+        "group": "Monetary intermediation"
+    },
+    "Activities of holding companies": {
+        "sector": "FINANCIAL AND INSURANCE ACTIVITIES",
+        "division": "Financial service activities, except insurance and pension funding",
+        "group": "Activities of holding companies"
+    },
+    "Trusts, funds and similar financial entities": {
+        "sector": "FINANCIAL AND INSURANCE ACTIVITIES",
+        "division": "Financial service activities, except insurance and pension funding",
+        "group": "Trusts, funds and similar financial entities"
+    },
+    "Financial leasing": {
+        "sector": "FINANCIAL AND INSURANCE ACTIVITIES",
+        "division": "Financial service activities, except insurance and pension funding",
+        "group": "Other financial service activities, except insurance and pension funding"
+    },
+    "Other credit granting": {
+        "sector": "FINANCIAL AND INSURANCE ACTIVITIES",
+        "division": "Financial service activities, except insurance and pension funding",
+        "group": "Other financial service activities, except insurance and pension funding"
+    },
+    "Other financial service activities, except insurance and pension funding, n.e.c.": {
+        "sector": "FINANCIAL AND INSURANCE ACTIVITIES",
+        "division": "Financial service activities, except insurance and pension funding",
+        "group": "Other financial service activities, except insurance and pension funding"
+    },
+    "Life insurance": {
+        "sector": "FINANCIAL AND INSURANCE ACTIVITIES",
+        "division": "Insurance, reinsurance and pension funding, except compulsory social security",
+        "group": "Insurance"
+    },
+    "Non-life insurance": {
+        "sector": "FINANCIAL AND INSURANCE ACTIVITIES",
+        "division": "Insurance, reinsurance and pension funding, except compulsory social security",
+        "group": "Insurance"
+    },
+    "Reinsurance": {
+        "sector": "FINANCIAL AND INSURANCE ACTIVITIES",
+        "division": "Insurance, reinsurance and pension funding, except compulsory social security",
+        "group": "Reinsurance"
+    },
+    "Pension funding": {
+        "sector": "FINANCIAL AND INSURANCE ACTIVITIES",
+        "division": "Insurance, reinsurance and pension funding, except compulsory social security",
+        "group": "Pension funding"
+    },
+    "Administration of financial markets": {
+        "sector": "FINANCIAL AND INSURANCE ACTIVITIES",
+        "division": "Activities auxiliary to financial services and insurance activities",
+        "group": "Activities auxiliary to financial services, except insurance and pension funding"
+    },
+    "Security and commodity contracts brokerage": {
+        "sector": "FINANCIAL AND INSURANCE ACTIVITIES",
+        "division": "Activities auxiliary to financial services and insurance activities",
+        "group": "Activities auxiliary to financial services, except insurance and pension funding"
+    },
+    "Other activities auxiliary to financial services, except insurance and pension funding": {
+        "sector": "FINANCIAL AND INSURANCE ACTIVITIES",
+        "division": "Activities auxiliary to financial services and insurance activities",
+        "group": "Activities auxiliary to financial services, except insurance and pension funding"
+    },
+    "Risk and damage evaluation": {
+        "sector": "FINANCIAL AND INSURANCE ACTIVITIES",
+        "division": "Activities auxiliary to financial services and insurance activities",
+        "group": "Activities auxiliary to insurance and pension funding"
+    },
+    "Activities of insurance agents and brokers": {
+        "sector": "FINANCIAL AND INSURANCE ACTIVITIES",
+        "division": "Activities auxiliary to financial services and insurance activities",
+        "group": "Activities auxiliary to insurance and pension funding"
+    },
+    "Other activities auxiliary to insurance and pension funding": {
+        "sector": "FINANCIAL AND INSURANCE ACTIVITIES",
+        "division": "Activities auxiliary to financial services and insurance activities",
+        "group": "Activities auxiliary to insurance and pension funding"
+    },
+    "Fund management activities": {
+        "sector": "FINANCIAL AND INSURANCE ACTIVITIES",
+        "division": "Activities auxiliary to financial services and insurance activities",
+        "group": "Fund management activities"
+    },
+    "Buying and selling of own real estate": {
+        "sector": "REAL ESTATE ACTIVITIES",
+        "division": "Real estate activities",
+        "group": "Buying and selling of own real estate"
+    },
+    "Renting and operating of own or leased real estate": {
+        "sector": "REAL ESTATE ACTIVITIES",
+        "division": "Real estate activities",
+        "group": "Renting and operating of own or leased real estate"
+    },
+    "Real estate agencies": {
+        "sector": "REAL ESTATE ACTIVITIES",
+        "division": "Real estate activities",
+        "group": "Real estate activities on a fee or contract basis"
+    },
+    "Management of real estate on a fee or contract basis": {
+        "sector": "REAL ESTATE ACTIVITIES",
+        "division": "Real estate activities",
+        "group": "Real estate activities on a fee or contract basis"
+    },
+    "Legal activities": {
+        "sector": "PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES",
+        "division": "Legal and accounting activities",
+        "group": "Legal activities"
+    },
+    "Accounting, bookkeeping and auditing activities; tax consultancy": {
+        "sector": "PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES",
+        "division": "Legal and accounting activities",
+        "group": "Accounting, bookkeeping and auditing activities; tax consultancy"
+    },
+    "Activities of head offices": {
+        "sector": "PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES",
+        "division": "Activities of head offices; management consultancy activities",
+        "group": "Activities of head offices"
+    },
+    "Public relations and communication activities": {
+        "sector": "PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES",
+        "division": "Activities of head offices; management consultancy activities",
+        "group": "Management consultancy activities"
+    },
+    "Business and other management consultancy activities": {
+        "sector": "PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES",
+        "division": "Activities of head offices; management consultancy activities",
+        "group": "Management consultancy activities"
+    },
+    "Architectural activities": {
+        "sector": "PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES",
+        "division": "Architectural and engineering activities; technical testing and analysis",
+        "group": "Architectural and engineering activities and related technical consultancy"
+    },
+    "Engineering activities and related technical consultancy": {
+        "sector": "PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES",
+        "division": "Architectural and engineering activities; technical testing and analysis",
+        "group": "Architectural and engineering activities and related technical consultancy"
+    },
+    "Technical testing and analysis": {
+        "sector": "PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES",
+        "division": "Architectural and engineering activities; technical testing and analysis",
+        "group": "Technical testing and analysis"
+    },
+    "Research and experimental development on biotechnology": {
+        "sector": "PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES",
+        "division": "Scientific research and development",
+        "group": "Research and experimental development on natural sciences and engineering"
+    },
+    "Other research and experimental development on natural sciences and engineering": {
+        "sector": "PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES",
+        "division": "Scientific research and development",
+        "group": "Research and experimental development on natural sciences and engineering"
+    },
+    "Research and experimental development on social sciences and humanities": {
+        "sector": "PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES",
+        "division": "Scientific research and development",
+        "group": "Research and experimental development on social sciences and humanities"
+    },
+    "Advertising agencies": {
+        "sector": "PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES",
+        "division": "Advertising and market research",
+        "group": "Advertising"
+    },
+    "Media representation": {
+        "sector": "PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES",
+        "division": "Advertising and market research",
+        "group": "Advertising"
+    },
+    "Market research and public opinion polling": {
+        "sector": "PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES",
+        "division": "Advertising and market research",
+        "group": "Market research and public opinion polling"
+    },
+    "Specialised design activities": {
+        "sector": "PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES",
+        "division": "Other professional, scientific and technical activities",
+        "group": "Specialised design activities"
+    },
+    "Photographic activities": {
+        "sector": "PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES",
+        "division": "Other professional, scientific and technical activities",
+        "group": "Photographic activities"
+    },
+    "Translation and interpretation activities": {
+        "sector": "PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES",
+        "division": "Other professional, scientific and technical activities",
+        "group": "Translation and interpretation activities"
+    },
+    "Other professional, scientific and technical activities n.e.c.": {
+        "sector": "PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES",
+        "division": "Other professional, scientific and technical activities",
+        "group": "Other professional, scientific and technical activities n.e.c."
+    },
+    "Veterinary activities": {
+        "sector": "PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES",
+        "division": "Veterinary activities",
+        "group": "Veterinary activities"
+    },
+    "Renting and leasing of cars and light motor vehicles": {
+        "sector": "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES",
+        "division": "Rental and leasing activities",
+        "group": "Renting and leasing of motor vehicles"
+    },
+    "Renting and leasing of trucks": {
+        "sector": "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES",
+        "division": "Rental and leasing activities",
+        "group": "Renting and leasing of motor vehicles"
+    },
+    "Renting and leasing of recreational and sports goods": {
+        "sector": "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES",
+        "division": "Rental and leasing activities",
+        "group": "Renting and leasing of personal and household goods"
+    },
+    "Renting of video tapes and disks": {
+        "sector": "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES",
+        "division": "Rental and leasing activities",
+        "group": "Renting and leasing of personal and household goods"
+    },
+    "Renting and leasing of other personal and household goods": {
+        "sector": "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES",
+        "division": "Rental and leasing activities",
+        "group": "Renting and leasing of personal and household goods"
+    },
+    "Renting and leasing of agricultural machinery and equipment": {
+        "sector": "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES",
+        "division": "Rental and leasing activities",
+        "group": "Renting and leasing of other machinery, equipment and tangible goods"
+    },
+    "Renting and leasing of construction and civil engineering machinery and equipment": {
+        "sector": "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES",
+        "division": "Rental and leasing activities",
+        "group": "Renting and leasing of other machinery, equipment and tangible goods"
+    },
+    "Renting and leasing of office machinery and equipment (including computers)": {
+        "sector": "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES",
+        "division": "Rental and leasing activities",
+        "group": "Renting and leasing of other machinery, equipment and tangible goods"
+    },
+    "Renting and leasing of water transport equipment": {
+        "sector": "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES",
+        "division": "Rental and leasing activities",
+        "group": "Renting and leasing of other machinery, equipment and tangible goods"
+    },
+    "Renting and leasing of air transport equipment": {
+        "sector": "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES",
+        "division": "Rental and leasing activities",
+        "group": "Renting and leasing of other machinery, equipment and tangible goods"
+    },
+    "Renting and leasing of other machinery, equipment and tangible goods n.e.c.": {
+        "sector": "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES",
+        "division": "Rental and leasing activities",
+        "group": "Renting and leasing of other machinery, equipment and tangible goods"
+    },
+    "Leasing of intellectual property and similar products, except copyrighted works": {
+        "sector": "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES",
+        "division": "Rental and leasing activities",
+        "group": "Leasing of intellectual property and similar products, except copyrighted works"
+    },
+    "Activities of employment placement agencies": {
+        "sector": "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES",
+        "division": "Employment activities",
+        "group": "Activities of employment placement agencies"
+    },
+    "Temporary employment agency activities": {
+        "sector": "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES",
+        "division": "Employment activities",
+        "group": "Temporary employment agency activities"
+    },
+    "Other human resources provision": {
+        "sector": "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES",
+        "division": "Employment activities",
+        "group": "Other human resources provision"
+    },
+    "Travel agency activities": {
+        "sector": "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES",
+        "division": "Travel agency, tour operator and other reservation service and related activities",
+        "group": "Travel agency and tour operator activities"
+    },
+    "Tour operator activities": {
+        "sector": "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES",
+        "division": "Travel agency, tour operator and other reservation service and related activities",
+        "group": "Travel agency and tour operator activities"
+    },
+    "Other reservation service and related activities": {
+        "sector": "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES",
+        "division": "Travel agency, tour operator and other reservation service and related activities",
+        "group": "Other reservation service and related activities"
+    },
+    "Private security activities": {
+        "sector": "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES",
+        "division": "Security and investigation activities",
+        "group": "Private security activities"
+    },
+    "Security systems service activities": {
+        "sector": "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES",
+        "division": "Security and investigation activities",
+        "group": "Security systems service activities"
+    },
+    "Investigation activities": {
+        "sector": "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES",
+        "division": "Security and investigation activities",
+        "group": "Investigation activities"
+    },
+    "Combined facilities support activities": {
+        "sector": "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES",
+        "division": "Services to buildings and landscape activities",
+        "group": "Combined facilities support activities"
+    },
+    "General cleaning of buildings": {
+        "sector": "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES",
+        "division": "Services to buildings and landscape activities",
+        "group": "Cleaning activities"
+    },
+    "Other building and industrial cleaning activities": {
+        "sector": "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES",
+        "division": "Services to buildings and landscape activities",
+        "group": "Cleaning activities"
+    },
+    "Other cleaning activities": {
+        "sector": "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES",
+        "division": "Services to buildings and landscape activities",
+        "group": "Cleaning activities"
+    },
+    "Landscape service activities": {
+        "sector": "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES",
+        "division": "Services to buildings and landscape activities",
+        "group": "Landscape service activities"
+    },
+    "Combined office administrative service activities": {
+        "sector": "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES",
+        "division": "Office administrative, office support and other business support activities",
+        "group": "Office administrative and support activities"
+    },
+    "Photocopying, document preparation and other specialised office support activities": {
+        "sector": "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES",
+        "division": "Office administrative, office support and other business support activities",
+        "group": "Office administrative and support activities"
+    },
+    "Activities of call centres": {
+        "sector": "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES",
+        "division": "Office administrative, office support and other business support activities",
+        "group": "Activities of call centres"
+    },
+    "Organisation of conventions and trade shows": {
+        "sector": "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES",
+        "division": "Office administrative, office support and other business support activities",
+        "group": "Organisation of conventions and trade shows"
+    },
+    "Activities of collection agencies and credit bureaus": {
+        "sector": "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES",
+        "division": "Office administrative, office support and other business support activities",
+        "group": "Business support service activities n.e.c."
+    },
+    "Packaging activities": {
+        "sector": "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES",
+        "division": "Office administrative, office support and other business support activities",
+        "group": "Business support service activities n.e.c."
+    },
+    "Other business support service activities n.e.c.": {
+        "sector": "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES",
+        "division": "Office administrative, office support and other business support activities",
+        "group": "Business support service activities n.e.c."
+    },
+    "General public administration activities": {
+        "sector": "PUBLIC ADMINISTRATION AND DEFENCE; COMPULSORY SOCIAL SECURITY",
+        "division": "Public administration and defence; compulsory social security",
+        "group": "Administration of the State and the economic and social policy of the community"
+    },
+    "Regulation of the activities of providing health care, education, cultural services and other social services, excluding social security": {
+        "sector": "PUBLIC ADMINISTRATION AND DEFENCE; COMPULSORY SOCIAL SECURITY",
+        "division": "Public administration and defence; compulsory social security",
+        "group": "Administration of the State and the economic and social policy of the community"
+    },
+    "Regulation of and contribution to more efficient operation of businesses": {
+        "sector": "PUBLIC ADMINISTRATION AND DEFENCE; COMPULSORY SOCIAL SECURITY",
+        "division": "Public administration and defence; compulsory social security",
+        "group": "Administration of the State and the economic and social policy of the community"
+    },
+    "Foreign affairs": {
+        "sector": "PUBLIC ADMINISTRATION AND DEFENCE; COMPULSORY SOCIAL SECURITY",
+        "division": "Public administration and defence; compulsory social security",
+        "group": "Provision of services to the community as a whole"
+    },
+    "Defence activities": {
+        "sector": "PUBLIC ADMINISTRATION AND DEFENCE; COMPULSORY SOCIAL SECURITY",
+        "division": "Public administration and defence; compulsory social security",
+        "group": "Provision of services to the community as a whole"
+    },
+    "Justice and judicial activities": {
+        "sector": "PUBLIC ADMINISTRATION AND DEFENCE; COMPULSORY SOCIAL SECURITY",
+        "division": "Public administration and defence; compulsory social security",
+        "group": "Provision of services to the community as a whole"
+    },
+    "Public order and safety activities": {
+        "sector": "PUBLIC ADMINISTRATION AND DEFENCE; COMPULSORY SOCIAL SECURITY",
+        "division": "Public administration and defence; compulsory social security",
+        "group": "Provision of services to the community as a whole"
+    },
+    "Fire service activities": {
+        "sector": "PUBLIC ADMINISTRATION AND DEFENCE; COMPULSORY SOCIAL SECURITY",
+        "division": "Public administration and defence; compulsory social security",
+        "group": "Provision of services to the community as a whole"
+    },
+    "Compulsory social security activities": {
+        "sector": "PUBLIC ADMINISTRATION AND DEFENCE; COMPULSORY SOCIAL SECURITY",
+        "division": "Public administration and defence; compulsory social security",
+        "group": "Compulsory social security activities"
+    },
+    "Pre-primary education": {
+        "sector": "EDUCATION",
+        "division": "Education",
+        "group": "Pre-primary education"
+    },
+    "Primary education": {
+        "sector": "EDUCATION",
+        "division": "Education",
+        "group": "Primary education"
+    },
+    "General secondary education": {
+        "sector": "EDUCATION",
+        "division": "Education",
+        "group": "Secondary education"
+    },
+    "Technical and vocational secondary education": {
+        "sector": "EDUCATION",
+        "division": "Education",
+        "group": "Secondary education"
+    },
+    "Post-secondary non-tertiary education": {
+        "sector": "EDUCATION",
+        "division": "Education",
+        "group": "Higher education"
+    },
+    "Tertiary education": {
+        "sector": "EDUCATION",
+        "division": "Education",
+        "group": "Higher education"
+    },
+    "Sports and recreation education": {
+        "sector": "EDUCATION",
+        "division": "Education",
+        "group": "Other education"
+    },
+    "Cultural education": {
+        "sector": "EDUCATION",
+        "division": "Education",
+        "group": "Other education"
+    },
+    "Driving school activities": {
+        "sector": "EDUCATION",
+        "division": "Education",
+        "group": "Other education"
+    },
+    "Other education n.e.c.": {
+        "sector": "EDUCATION",
+        "division": "Education",
+        "group": "Other education"
+    },
+    "Educational support activities": {
+        "sector": "EDUCATION",
+        "division": "Education",
+        "group": "Educational support activities"
+    },
+    "Hospital activities": {
+        "sector": "HUMAN HEALTH AND SOCIAL WORK ACTIVITIES",
+        "division": "Human health activities",
+        "group": "Hospital activities"
+    },
+    "General medical practice activities": {
+        "sector": "HUMAN HEALTH AND SOCIAL WORK ACTIVITIES",
+        "division": "Human health activities",
+        "group": "Medical and dental practice activities"
+    },
+    "Specialist medical practice activities": {
+        "sector": "HUMAN HEALTH AND SOCIAL WORK ACTIVITIES",
+        "division": "Human health activities",
+        "group": "Medical and dental practice activities"
+    },
+    "Dental practice activities": {
+        "sector": "HUMAN HEALTH AND SOCIAL WORK ACTIVITIES",
+        "division": "Human health activities",
+        "group": "Medical and dental practice activities"
+    },
+    "Other human health activities": {
+        "sector": "HUMAN HEALTH AND SOCIAL WORK ACTIVITIES",
+        "division": "Human health activities",
+        "group": "Other human health activities"
+    },
+    "Residential nursing care activities": {
+        "sector": "HUMAN HEALTH AND SOCIAL WORK ACTIVITIES",
+        "division": "Residential care activities",
+        "group": "Residential nursing care activities"
+    },
+    "Residential care activities for learning disabilities, mental health and substance abuse": {
+        "sector": "HUMAN HEALTH AND SOCIAL WORK ACTIVITIES",
+        "division": "Residential care activities",
+        "group": "Residential care activities for learning disabilities, mental health and substance abuse"
+    },
+    "Residential care activities for the elderly and disabled": {
+        "sector": "HUMAN HEALTH AND SOCIAL WORK ACTIVITIES",
+        "division": "Residential care activities",
+        "group": "Residential care activities for the elderly and disabled"
+    },
+    "Other residential care activities": {
+        "sector": "HUMAN HEALTH AND SOCIAL WORK ACTIVITIES",
+        "division": "Residential care activities",
+        "group": "Other residential care activities"
+    },
+    "Social work activities without accommodation for the elderly and disabled": {
+        "sector": "HUMAN HEALTH AND SOCIAL WORK ACTIVITIES",
+        "division": "Social work activities without accommodation",
+        "group": "Social work activities without accommodation for the elderly and disabled"
+    },
+    "Child day-care activities": {
+        "sector": "HUMAN HEALTH AND SOCIAL WORK ACTIVITIES",
+        "division": "Social work activities without accommodation",
+        "group": "Other social work activities without accommodation"
+    },
+    "Other social work activities without accommodation n.e.c.": {
+        "sector": "HUMAN HEALTH AND SOCIAL WORK ACTIVITIES",
+        "division": "Social work activities without accommodation",
+        "group": "Other social work activities without accommodation"
+    },
+    "Performing arts": {
+        "sector": "ARTS, ENTERTAINMENT AND RECREATION",
+        "division": "Creative, arts and entertainment activities",
+        "group": "Creative, arts and entertainment activities"
+    },
+    "Support activities to performing arts": {
+        "sector": "ARTS, ENTERTAINMENT AND RECREATION",
+        "division": "Creative, arts and entertainment activities",
+        "group": "Creative, arts and entertainment activities"
+    },
+    "Artistic creation": {
+        "sector": "ARTS, ENTERTAINMENT AND RECREATION",
+        "division": "Creative, arts and entertainment activities",
+        "group": "Creative, arts and entertainment activities"
+    },
+    "Operation of arts facilities": {
+        "sector": "ARTS, ENTERTAINMENT AND RECREATION",
+        "division": "Creative, arts and entertainment activities",
+        "group": "Creative, arts and entertainment activities"
+    },
+    "Library and archive activities": {
+        "sector": "ARTS, ENTERTAINMENT AND RECREATION",
+        "division": "Libraries, archives, museums and other cultural activities",
+        "group": "Libraries, archives, museums and other cultural activities"
+    },
+    "Museum activities": {
+        "sector": "ARTS, ENTERTAINMENT AND RECREATION",
+        "division": "Libraries, archives, museums and other cultural activities",
+        "group": "Libraries, archives, museums and other cultural activities"
+    },
+    "Operation of historical sites and buildings and similar visitor attractions": {
+        "sector": "ARTS, ENTERTAINMENT AND RECREATION",
+        "division": "Libraries, archives, museums and other cultural activities",
+        "group": "Libraries, archives, museums and other cultural activities"
+    },
+    "Botanical and zoological gardens and nature reserve activities": {
+        "sector": "ARTS, ENTERTAINMENT AND RECREATION",
+        "division": "Libraries, archives, museums and other cultural activities",
+        "group": "Libraries, archives, museums and other cultural activities"
+    },
+    "Gambling and betting activities": {
+        "sector": "ARTS, ENTERTAINMENT AND RECREATION",
+        "division": "Gambling and betting activities",
+        "group": "Gambling and betting activities"
+    },
+    "Operation of sports facilities": {
+        "sector": "ARTS, ENTERTAINMENT AND RECREATION",
+        "division": "Sports activities and amusement and recreation activities",
+        "group": "Sports activities"
+    },
+    "Activities of sport clubs": {
+        "sector": "ARTS, ENTERTAINMENT AND RECREATION",
+        "division": "Sports activities and amusement and recreation activities",
+        "group": "Sports activities"
+    },
+    "Fitness facilities": {
+        "sector": "ARTS, ENTERTAINMENT AND RECREATION",
+        "division": "Sports activities and amusement and recreation activities",
+        "group": "Sports activities"
+    },
+    "Other sports activities": {
+        "sector": "ARTS, ENTERTAINMENT AND RECREATION",
+        "division": "Sports activities and amusement and recreation activities",
+        "group": "Sports activities"
+    },
+    "Activities of amusement parks and theme parks": {
+        "sector": "ARTS, ENTERTAINMENT AND RECREATION",
+        "division": "Sports activities and amusement and recreation activities",
+        "group": "Amusement and recreation activities"
+    },
+    "Other amusement and recreation activities": {
+        "sector": "ARTS, ENTERTAINMENT AND RECREATION",
+        "division": "Sports activities and amusement and recreation activities",
+        "group": "Amusement and recreation activities"
+    },
+    "Activities of business and employers membership organisations": {
+        "sector": "OTHER SERVICE ACTIVITIES",
+        "division": "Activities of membership organisations",
+        "group": "Activities of business, employers and professional membership organisations"
+    },
+    "Activities of professional membership organisations": {
+        "sector": "OTHER SERVICE ACTIVITIES",
+        "division": "Activities of membership organisations",
+        "group": "Activities of business, employers and professional membership organisations"
+    },
+    "Activities of trade unions": {
+        "sector": "OTHER SERVICE ACTIVITIES",
+        "division": "Activities of membership organisations",
+        "group": "Activities of trade unions"
+    },
+    "Activities of religious organisations": {
+        "sector": "OTHER SERVICE ACTIVITIES",
+        "division": "Activities of membership organisations",
+        "group": "Activities of other membership organisations"
+    },
+    "Activities of political organisations": {
+        "sector": "OTHER SERVICE ACTIVITIES",
+        "division": "Activities of membership organisations",
+        "group": "Activities of other membership organisations"
+    },
+    "Activities of other membership organisations n.e.c.": {
+        "sector": "OTHER SERVICE ACTIVITIES",
+        "division": "Activities of membership organisations",
+        "group": "Activities of other membership organisations"
+    },
+    "Repair of computers and peripheral equipment": {
+        "sector": "OTHER SERVICE ACTIVITIES",
+        "division": "Repair of computers and personal and household goods",
+        "group": "Repair of computers and communication equipment"
+    },
+    "Repair of communication equipment": {
+        "sector": "OTHER SERVICE ACTIVITIES",
+        "division": "Repair of computers and personal and household goods",
+        "group": "Repair of computers and communication equipment"
+    },
+    "Repair of consumer electronics": {
+        "sector": "OTHER SERVICE ACTIVITIES",
+        "division": "Repair of computers and personal and household goods",
+        "group": "Repair of personal and household goods"
+    },
+    "Repair of household appliances and home and garden equipment": {
+        "sector": "OTHER SERVICE ACTIVITIES",
+        "division": "Repair of computers and personal and household goods",
+        "group": "Repair of personal and household goods"
+    },
+    "Repair of footwear and leather goods": {
+        "sector": "OTHER SERVICE ACTIVITIES",
+        "division": "Repair of computers and personal and household goods",
+        "group": "Repair of personal and household goods"
+    },
+    "Repair of furniture and home furnishings": {
+        "sector": "OTHER SERVICE ACTIVITIES",
+        "division": "Repair of computers and personal and household goods",
+        "group": "Repair of personal and household goods"
+    },
+    "Repair of watches, clocks and jewellery": {
+        "sector": "OTHER SERVICE ACTIVITIES",
+        "division": "Repair of computers and personal and household goods",
+        "group": "Repair of personal and household goods"
+    },
+    "Repair of other personal and household goods": {
+        "sector": "OTHER SERVICE ACTIVITIES",
+        "division": "Repair of computers and personal and household goods",
+        "group": "Repair of personal and household goods"
+    },
+    "Washing and (dry-)cleaning of textile and fur products": {
+        "sector": "OTHER SERVICE ACTIVITIES",
+        "division": "Other personal service activities",
+        "group": "Other personal service activities"
+    },
+    "Hairdressing and other beauty treatment": {
+        "sector": "OTHER SERVICE ACTIVITIES",
+        "division": "Other personal service activities",
+        "group": "Other personal service activities"
+    },
+    "Funeral and related activities": {
+        "sector": "OTHER SERVICE ACTIVITIES",
+        "division": "Other personal service activities",
+        "group": "Other personal service activities"
+    },
+    "Physical well-being activities": {
+        "sector": "OTHER SERVICE ACTIVITIES",
+        "division": "Other personal service activities",
+        "group": "Other personal service activities"
+    },
+    "Other personal service activities n.e.c.": {
+        "sector": "OTHER SERVICE ACTIVITIES",
+        "division": "Other personal service activities",
+        "group": "Other personal service activities"
+    },
+    "Activities of households as employers of domestic personnel": {
+        "sector": "ACTIVITIES OF HOUSEHOLDS AS EMPLOYERS; UNDIFFERENTIATED GOODS-AND SERVICES-PRODUCING ACTIVITIES OF HOUSEHOLDS FOR OWN USE",
+        "division": "Activities of households as employers of domestic personnel",
+        "group": "Activities of households as employers of domestic personnel"
+    },
+    "Undifferentiated goods-producing activities of private households for own use": {
+        "sector": "ACTIVITIES OF HOUSEHOLDS AS EMPLOYERS; UNDIFFERENTIATED GOODS-AND SERVICES-PRODUCING ACTIVITIES OF HOUSEHOLDS FOR OWN USE",
+        "division": "Undifferentiated goods- and services-producing activities of private households for own use",
+        "group": "Undifferentiated goods-producing activities of private households for own use"
+    },
+    "Undifferentiated service-producing activities of private households for own use": {
+        "sector": "ACTIVITIES OF HOUSEHOLDS AS EMPLOYERS; UNDIFFERENTIATED GOODS-AND SERVICES-PRODUCING ACTIVITIES OF HOUSEHOLDS FOR OWN USE",
+        "division": "Undifferentiated goods- and services-producing activities of private households for own use",
+        "group": "Undifferentiated service-producing activities of private households for own use"
+    },
+    "Activities of extraterritorial organisations and bodies": {
+        "sector": "ACTIVITIES OF EXTRATERRITORIAL ORGANISATIONS AND BODIES",
+        "division": "Activities of extraterritorial organisations and bodies",
+        "group": "Activities of extraterritorial organisations and bodies"
+    }
+}
