@@ -112,7 +112,7 @@ def filter_prospects_by_total_assets(prospects_df,
 
 def main():
 
-    src = "base"
+    src = "companies_house"
     region = "yorkshire"
     output_dir = f"{src}/{region}"
 

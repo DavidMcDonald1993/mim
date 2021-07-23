@@ -10,6 +10,9 @@ from utils.scraping_utils import remove_html_tags
 
 
 def get_member_commerces_flat(membership_levels):
+    '''
+    get all of the commerces that members buy/sell in a flat form
+    '''
     membership_levels = sanitise_args(membership_levels)
 
     commerce_queries = {}
@@ -53,6 +56,9 @@ def get_member_commerces_flat(membership_levels):
     return records, cols
 
 def get_member_sectors(membership_levels):
+    '''
+    get all of the sectors that a member works in
+    '''
     membership_levels = sanitise_args(membership_levels)
 
     query = '''
@@ -115,6 +121,10 @@ def get_member_sector_counts(membership_levels):
 def get_member_summaries(
     membership_levels=None, 
     filter_by_commerce_sector=False):
+
+    '''
+    produce a flat file describing the members in the database
+    '''
    
     membership_levels = sanitise_args(membership_levels)
 
@@ -233,6 +243,10 @@ def get_member_summaries(
 
 def get_member_addresses():
 
+    '''
+    get all of the addresses for all of the members in the database
+    '''
+
     query = f'''
     SELECT 
         m.id,
@@ -289,43 +303,47 @@ def get_all_messages():
     records, cols = mysql_query(query, return_cols=True, to_json=True)
     return records, cols
 
-# def get_all_live_chat_messages():
+def get_all_live_chat_messages():
 
-#     query = '''
-#     SELECT
-#         m.live_chat_conversation_id AS chat_id,
-#         COUNT(DISTINCT(sender.member_id)) AS num_participating_members,
-#         GROUP_CONCAT(DISTINCT(sender_members.name)) AS participating_members,
-#         COUNT(DISTINCT(m.user_id)) AS num_participating_users,
-#         GROUP_CONCAT(DISTINCT(CONCAT(sender.full_name, 
-#             " (", sender.company_position,  "@", sender_members.name, ")" ))) AS participating_users,
-#         COUNT(m.message) AS num_messages_in_chat,
-#         JSON_ARRAYAGG(
-#             JSON_OBJECT(
-#                 'sender', sender.full_name,
-#                 'sender_company', sender_members.name,
-#                 'sender_role', sender.company_position,
-#                 'message', m.message,
-#                 'sent_at', m.created_at
-#             )
-#         ) AS all_messages
+    query = '''
+    SELECT
+        m.live_chat_conversation_id AS chat_id,
+        COUNT(DISTINCT(sender.member_id)) AS num_participating_members,
+        GROUP_CONCAT(DISTINCT(sender_members.name)) AS participating_members,
+        COUNT(DISTINCT(m.user_id)) AS num_participating_users,
+        GROUP_CONCAT(DISTINCT(CONCAT(sender.full_name, 
+            " (", sender.company_position,  "@", sender_members.name, ")" ))) AS participating_users,
+        COUNT(m.message) AS num_messages_in_chat,
+        JSON_ARRAYAGG(
+            JSON_OBJECT(
+                'sender', sender.full_name,
+                'sender_company', sender_members.name,
+                'sender_role', sender.company_position,
+                'message', m.message,
+                'sent_at', m.created_at
+            )
+        ) AS all_messages
         
-#     FROM live_chat_messages AS m
-#     INNER JOIN users AS sender
-#         ON (m.user_id=sender.id)
-#     INNER JOIN members AS sender_members
-#         ON (sender.member_id=sender_members.id)
-#     INNER JOIN live_chat_conversations AS c
-#         ON (m.live_chat_conversation_id=c.id)
-#     GROUP BY chat_id
-#     HAVING COUNT(DISTINCT m.user_id) > 1
-#     ORDER BY num_participating_members DESC, num_messages_in_chat DESC
-#     '''
+    FROM live_chat_messages AS m
+    INNER JOIN users AS sender
+        ON (m.user_id=sender.id)
+    INNER JOIN members AS sender_members
+        ON (sender.member_id=sender_members.id)
+    INNER JOIN live_chat_conversations AS c
+        ON (m.live_chat_conversation_id=c.id)
+    GROUP BY chat_id
+    HAVING COUNT(DISTINCT m.user_id) > 1
+    ORDER BY num_participating_members DESC, num_messages_in_chat DESC
+    '''
 
-#     records, cols = mysql_query(query, return_cols=True, to_json=True)
-#     return records, cols
+    records, cols = mysql_query(query, return_cols=True, to_json=True)
+    return records, cols
 
 def get_all_news_articles():
+
+    '''
+    get all news articles in the database, as well as the article tags and relevant member
+    '''
 
     query = f'''
     SELECT 
@@ -360,6 +378,10 @@ def get_all_news_articles():
 
 def get_news_article_summary():
 
+    '''
+    summariese members by the number of news articles that they have posted 
+    '''
+
     query = f'''
     SELECT m.name AS member_name,
         GROUP_CONCAT(
@@ -381,6 +403,10 @@ def get_news_article_summary():
 
 def get_all_users():
 
+    '''
+    pull all the non-deleted users from the database
+    '''
+
     query = '''
     SELECT
         u.id,
@@ -400,6 +426,10 @@ def get_all_users():
     return records, cols
 
 def get_all_user_follows():
+
+    '''
+    get all user-follows relationships from the database
+    '''
 
     query = '''
     SELECT 
@@ -424,6 +454,10 @@ def get_all_user_follows():
 
 
 def get_sector_counts(membership_levels=None):
+
+    '''
+    summarise sectors by the numbers of members tagged to them
+    '''
     membership_levels = sanitise_args(membership_levels)
 
     query = f'''
@@ -469,6 +503,9 @@ def get_sector_counts(membership_levels=None):
     return records, cols
 
 def get_commerces_counts(membership_levels=None):
+    '''
+    summarise commerces by the numbers of members that buy/sell them
+    '''
     membership_levels = sanitise_args(membership_levels)
 
     commerce_queries = {}
@@ -537,6 +574,9 @@ def get_commerces_counts(membership_levels=None):
     return records, cols
 
 def get_commerces_category_counts(membership_levels=None):
+    '''
+    summarise the number of members in each commerce category
+    '''
     membership_levels = sanitise_args(membership_levels)
 
     commerce_queries = {}
@@ -607,6 +647,10 @@ def get_commerces_category_counts(membership_levels=None):
 
 def get_unannotated_members():
 
+    '''
+    get members not tagged with a buy or sell commerce
+    '''
+
     query = '''
     SELECT m.name
     FROM members AS m
@@ -620,6 +664,10 @@ def get_unannotated_members():
     return records, cols
 
 def get_company_role_counts():
+
+    '''
+    summarise company_role
+    '''
 
     query = f'''
     SELECT 
@@ -635,6 +683,10 @@ def get_company_role_counts():
 
 
 def get_member_articles_last_months(num_months=6):
+
+    '''
+    summarise members by the number of articles that they have posted over the last num_months months
+    '''
 
     query = f'''
     SELECT 
@@ -676,6 +728,11 @@ def get_member_articles_last_months(num_months=6):
 
 def get_members_no_publish(num_months=6):
 
+    '''
+    identify members who have not posted an article for num_months months
+    
+    '''
+
     query = f'''
     SELECT 
         m.name AS member_name,
@@ -698,6 +755,10 @@ def get_members_no_publish(num_months=6):
 
 def get_member_regions():
 
+    '''
+    pair members with their tenancy
+    '''
+
     query = '''
     SELECT 
         m.name AS 'member_name',
@@ -715,6 +776,10 @@ def get_member_regions():
 
 def get_all_commerces_and_commerce_categories():
 
+    '''
+    pull all commerces(and their categories) from the database
+    '''
+
     query = '''
     SELECT 
         c.id,
@@ -728,6 +793,10 @@ def get_all_commerces_and_commerce_categories():
 
 def get_all_sectors():
 
+    '''
+    pull all sectors from the database
+    '''
+
     query = '''
     SELECT 
         id,
@@ -737,6 +806,10 @@ def get_all_sectors():
     return mysql_query(query)
 
 def get_all_events():
+
+    '''
+    pull all events from the database
+    '''
 
     query = f'''
         SELECT 
@@ -788,6 +861,10 @@ def get_all_events():
 
 def get_all_event_sessions():
 
+    '''
+    pull all event_sessions from the database
+    '''
+
     query = '''
     SELECT  
         et.id,
@@ -804,6 +881,10 @@ def get_all_event_sessions():
     return records, cols
 
 def get_event_attendees():
+
+    '''
+    pull all event attendees
+    '''
 
     query = f'''
         SELECT 
@@ -829,6 +910,10 @@ def get_event_attendees():
     return records, cols
 
 def get_event_session_attendees():
+
+    '''
+    pull all event session attendees
+    '''
 
     query = '''
     SELECT 
@@ -860,6 +945,10 @@ def get_event_session_attendees():
 
 def get_users_with_missing_company_role():
 
+    '''
+    identify users whoe have not yet filled out their company role
+    '''
+
     query = '''
     SELECT 
         u.first_name,
@@ -890,86 +979,8 @@ def correct_postcode(postcode):
         postcode = postcode[:-3] + " " + postcode[-3:]
     return postcode.upper()
 
-def get_data_for_graph(data_dir="data_for_graph"):
-
-    '''
-    RUN BATCH OF QUERIES TO BUILD FLAT FILES TO POPULATE ARANGO
-    '''
-
-    # members
-    member_output_dir = os.path.join(data_dir, "members")
-    os.makedirs(member_output_dir, exist_ok=True)
-    membership_levels = ("Patron", "Platinum", "Gold", "Silver", "Bronze", "Digital", "Freemium")
-    for membership_level in membership_levels:
-        # filter_by_sector_commerce = membership_level == "Freemium"
-        filter_by_sector_commerce = False
-        records, _ = get_member_summaries(membership_level, filter_by_commerce_sector=filter_by_sector_commerce)
-        records = pd.DataFrame(records)
-        records.to_csv(f"{member_output_dir}/{membership_level}_members.csv")
-
-    # member addresses
-    records, _ = get_member_addresses()
-    addresses_filename = os.path.join(data_dir, "member_addresses.csv")
-    records = pd.DataFrame(records)
-    records = records.sort_values(["postcode", "latitude"])
-    records = records.drop_duplicates(["id", "member_name", "address_line_1", "address_line_2", "postcode"], keep="first")
-    records = records.loc[records["postcode"].map(lambda p: len(p)>4)]
-    records["postcode"] = records["postcode"].map(correct_postcode, na_action="ignore")
-    records.to_csv(addresses_filename)
-
-    # sectors
-    records = get_all_sectors()
-    sectors_filename = os.path.join(data_dir, "all_sectors.csv")
-    pd.DataFrame(records).to_csv(sectors_filename)
-
-    # commerces
-    records = get_all_commerces_and_commerce_categories()
-    commerces_filename = os.path.join(data_dir, "all_commerces_with_categories.csv")
-    pd.DataFrame(records).to_csv(commerces_filename)
-
-    # users
-    records, _ = get_all_users()
-    users_filename = os.path.join(data_dir, "all_users.csv")
-    pd.DataFrame(records).to_csv(users_filename)
-
-    # user follows
-    records, _ = get_all_user_follows()
-    user_follows_filename = os.path.join(data_dir, "all_user_follows.csv")
-    pd.DataFrame(records).to_csv(user_follows_filename)
-
-    # messages
-    records, _ = get_all_messages()
-    messages_filename = os.path.join(data_dir, "all_messages.csv")
-    pd.DataFrame(records).to_csv(messages_filename)
-
-    # events
-    records, _ = get_all_events()
-    events_filename = os.path.join(data_dir, "all_events.csv")
-    pd.DataFrame(records).to_csv(events_filename)
-
-    # sessions
-    records, _ = get_all_event_sessions()
-    event_session_filename = os.path.join(data_dir, "all_event_sessions.csv")
-    pd.DataFrame(records).to_csv(event_session_filename)
-
-    # event attendees 
-    records, _ = get_event_attendees()
-    events_attendees_filename = os.path.join(data_dir, "all_event_attendees.csv")
-    pd.DataFrame(records).to_csv(events_attendees_filename)
-
-    # event session attendees 
-    records, _ = get_event_session_attendees()
-    event_session_attendees_filename = os.path.join(data_dir, "all_event_session_attendees.csv")
-    pd.DataFrame(records).to_csv(event_session_attendees_filename)
-
-    # articles
-    records, _ = get_all_news_articles()
-    news_article_filename = os.path.join(data_dir, "all_news_articles.csv")
-    records = pd.DataFrame(records)
-    records["content"] = records["content"].map(remove_html_tags, na_action="ignore")
-    records.to_csv(news_article_filename)
 
 if __name__ == "__main__":
 
-    get_data_for_graph()
+    get_users_with_missing_company_role()
    

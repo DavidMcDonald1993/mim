@@ -8,6 +8,12 @@ from graph.arango_utils import aql_query, connect_to_mim_database
 import pandas as pd
 
 def same_sector(member, max_distance=None, min_sectors=None, db=None):
+
+    '''
+    identify (paid) members who work in at least min_sectors of the same sector as a query member
+    optionally, filter by distance
+    '''
+
     if db is None:
         db = connect_to_mim_database()
 
@@ -49,6 +55,12 @@ def same_sector(member, max_distance=None, min_sectors=None, db=None):
     return aql_query(db, query)
 
 def commerce_match(member, max_distance, min_commerces, db=None):
+
+    '''
+    identify members who buy/sell commerces that a query member sells/buys
+    optionally filter by max distance
+    '''
+
     if db is None:
         db = connect_to_mim_database()
 
@@ -94,6 +106,11 @@ def commerce_match(member, max_distance, min_commerces, db=None):
     return aql_query(db, query)
 
 def shortest_path_of_users(member_1, member_2, db=None):
+
+    '''
+    identify the shortest path between query users using the `UserWorksAt` and `Messages` edge collections
+    '''
+
     if db is None:
         db = connect_to_mim_database()
 
@@ -117,6 +134,11 @@ def shortest_path_of_users(member_1, member_2, db=None):
 
 
 def best_common_neighbour(member_1, member_2, db=None):
+
+    '''
+    identify the most promising neighbour of member_1 to introduce to member_2
+    '''
+
     if db is None:
         db = connect_to_mim_database()
 
@@ -146,6 +168,11 @@ def best_common_neighbour(member_1, member_2, db=None):
     return aql_query(db, query)
 
 def most_followed_by_staff(member, db=None):
+
+    '''
+    identify which members are the most followed by staff of a query member
+    '''
+
     if db is None:
         db = connect_to_mim_database()
 
@@ -174,6 +201,11 @@ def most_followed_by_staff(member, db=None):
     return aql_query(db, query)
 
 def followed_by_followed(member_name, db=None):
+
+    '''
+    identify business that are followed but businesses that a query member follows
+    '''
+
     if db is None:
         db = connect_to_mim_database()
 
@@ -209,6 +241,12 @@ def followed_by_followed(member_name, db=None):
     return aql_query(db, query)
 
 def followed_by_followers(member_name, db=None):
+
+    '''
+    identify other businesses being followed by the same people that follow a query member
+    
+    '''
+
     if db is None:
         db = connect_to_mim_database()
 
@@ -239,6 +277,11 @@ def followed_by_followers(member_name, db=None):
     return aql_query(db, query)
 
 def most_followed_of_followers(member_name, db=None):
+
+    '''
+    identify which of a member's followers is the most followed
+    '''
+
     if db is None:
         db = connect_to_mim_database()
 
@@ -266,6 +309,10 @@ def most_followed_of_followers(member_name, db=None):
     return aql_query(db, query)
     
 def future_events(db=None):
+
+    '''
+    returns all future events
+    '''
     if db is None:
         db = connect_to_mim_database()
 
@@ -287,6 +334,9 @@ def future_events(db=None):
     return aql_query(db, query)
 
 def future_events_for_same_sector(member_name, db=None):
+    '''
+    identify future events with attendees working in the same sector
+    '''
     if db is None:
         db = connect_to_mim_database()
 
@@ -333,6 +383,10 @@ def future_events_for_same_sector(member_name, db=None):
     return aql_query(db, query)
 
 def future_events_same_attendees_as_past_events(member_name, db=None):
+
+    '''
+    identify future events with the most similar attendees to past events
+    '''
 
     if db is None:
         db = connect_to_mim_database()
@@ -383,6 +437,11 @@ def future_events_same_attendees_as_past_events(member_name, db=None):
 
 def explore_local_area(member_name, max_steps=3, max_results=5, db=None):
 
+    '''
+    explore the 'local area' for a member in the graph using multiple connection types and 
+    rank businesses by how many unique paths there are to connect them
+    '''
+
     if db is None:
         db = connect_to_mim_database()
 
@@ -417,6 +476,10 @@ def explore_local_area(member_name, max_steps=3, max_results=5, db=None):
 
 def build_commerce_chains(member_name, limit=None, db=None):
 
+    '''
+    build potential commerce chains involving a query member in the graph using buys/sells commerce relationships
+    '''
+
     if db is None:
         db = connect_to_mim_database()
 
@@ -449,6 +512,9 @@ def build_commerce_chains(member_name, limit=None, db=None):
     return aql_query(db, query)
 
 def uk_class_match(member_name, class_type="classes", db=None):
+    '''
+    identify all business in the same class/group/division/sector
+    '''
     assert class_type in {"classes", "groups", "divisions", "sectors"}
     if db is None:
         db = connect_to_mim_database()
@@ -475,7 +541,9 @@ def uk_class_match(member_name, class_type="classes", db=None):
     return aql_query(db, query)
 
 def closest_prospects_to_event_hosts(event_name, max_km=10, db=None):
-
+    '''
+    identify the closest prospect business to evenr hosts
+    '''
     if db is None:
         db = connect_to_mim_database()
 
@@ -597,7 +665,10 @@ def closest_prospects_to_event_hosts(event_name, max_km=10, db=None):
     return aql_query(db, query)
 
 def prospects_in_same_class_as_event_hosts(event_name, db=None):
-
+    '''
+    identify prospect businesses who work in the same class (SIC code) as the host(s) of a particular event
+    '''
+    
     if db is None:
         db = connect_to_mim_database()
 
@@ -647,6 +718,9 @@ def prospects_in_same_class_as_event_hosts(event_name, db=None):
     return aql_query(db, query)
 
 def prospects_with_commerce_connected_SIC_codes_to_event_hosts(event_name, db=None):
+    '''
+    use known business between members to predict prospects that might be interested in event hosts
+    '''
     if db is None:
         db = connect_to_mim_database()
 
@@ -704,6 +778,9 @@ def prospects_with_commerce_connected_SIC_codes_to_event_hosts(event_name, db=No
     return aql_query(db, query)
 
 def group_prospects(region, min_group_size=5, db=None):
+    '''
+    group prospect businesses in a region using the UKClassHierarchy
+    '''
     if db is None:
         db = connect_to_mim_database()
 
@@ -746,6 +823,10 @@ def recommend_members_based_on_SIC_commerce(
     region=None,
     collection="Prospects",
     db=None):
+
+    '''
+    use known business between members to predict new potential business matches using SIC codes. 
+    '''
 
     if db is None:
         db = connect_to_mim_database()
@@ -841,6 +922,10 @@ def recommend_members_based_on_SIC_similarity(
     include=["classes", "groups"],
     db=None):
 
+    '''
+    recommend members to prospects/members who work in the same class/group
+    '''
+
     if db is None:
         db = connect_to_mim_database()
 
@@ -914,6 +999,9 @@ def recommend_members_based_on_SIC_similarity(
     return aql_query(db, query, verbose=True)
 
 def recommend_prospects(region, member_name=None, max_km=5, limit=10, source="Prospects", db=None):
+    '''
+    recommend prospects in a region based on similartiy to an optional member
+    '''
     if db is None:
         db = connect_to_mim_database()
 
@@ -1018,6 +1106,10 @@ def recommend_prospects(region, member_name=None, max_km=5, limit=10, source="Pr
     return aql_query(db, query, verbose=True)
 
 def recommend_prospects_to_events(event_name, db=None):
+    '''
+    recommend prospects to a particular event based on the SIC codes of the host(s) 
+    '''
+    
     if db is None:
         db = connect_to_mim_database()
 
@@ -1179,6 +1271,10 @@ FOR e IN Events
 
 def get_prospects_with_directors_over_age(region, age=66, limit=50, source="Prospects", db=None):
 
+    '''
+    identify prospects with listed directors over an age threshold
+    '''
+
     if db is None:
         db = connect_to_mim_database()
 
@@ -1282,6 +1378,10 @@ def get_prospects_with_directors_over_age(region, age=66, limit=50, source="Pros
 
 def match_members_by_articles(member_name, db=None):
 
+    '''
+    apply BestMatching25(BM25) to identify the most relevant members to a query member based on the language in the articles that they post
+    '''
+
     if db is None:
         db = connect_to_mim_database()
 
@@ -1331,6 +1431,10 @@ def match_members_by_number_of_relevant_articles(
     limit=10, 
     ranking="BM25", 
     db=None):
+
+    '''
+    rank members based on the top 100 most relevant articles to a query member
+    '''
 
     assert ranking in {"BM25", "TFIDF"}
     if db is None:
@@ -1384,6 +1488,9 @@ def match_members_by_number_of_relevant_articles(
     return aql_query(db, query)
 
 def find_prospect_users_by_role(region, role="sales marketing", max_km=10, source="Members", limit=None, db=None):
+    '''
+    identify any users matching a given role
+    '''
     if db is None:
         db = connect_to_mim_database()
 
@@ -1496,6 +1603,9 @@ def find_prospect_users_by_role(region, role="sales marketing", max_km=10, sourc
     return aql_query(db, query, verbose=True)
 
 def get_user_contact(db=None):
+    '''
+    get the contact details of all users in the system
+    '''
 
     if db is None:
         db = connect_to_mim_database()
@@ -1549,6 +1659,10 @@ def get_user_contact(db=None):
 
 def get_members_without_UK_sector(db=None):
 
+    '''
+    identify members who are not tagged with a UK_sector (because their SIC code did not match with a UKClass)
+    '''
+
     if db is None:
         db = connect_to_mim_database()
 
@@ -1588,51 +1702,8 @@ def main():
 
     limit = 25
 
-    # results = same_sector(member_name, max_distance, min_sectors, db=db)
-    # results = commerce_match(member_name, max_distance, min_sectors, db=db)
-    # results = most_followed_by_staff(member_name, db=db)
-    # results = followed_by_followed(member_name, db=db)
-    # results = followed_by_followers(member_name, db=db)
-    # results = most_followed_of_followers(member_name, db=db)
-    # results = future_events(db=db)
-    # results = future_events_for_same_sector(member_name, db=db)
-    # results = future_events_same_attendees_as_past_events(member_name, db=db)
-    # results = explore_local_area(member_name, max_steps=3, max_results=10, db=db)
-    # results = build_commerce_chains(member_name, limit=10, db=db)
-    # results = uk_class_match(member_name, class_type="groups")
-    # results = closest_prospects_to_event_hosts(event_name, max_km=max_km, db=db)
-    # results = prospects_in_same_class_as_event_hosts(event_name, db=db)
-    # results = prospects_with_commerce_connected_SIC_codes_to_event_hosts(event_name, db=db)
-    # results = group_prospects(region, db=db)
-
-    # results = recommend_prospects_to_events(event_name, db=db)
-
     collection = "Prospects"
     
-    # results = recommend_members_based_on_SIC_commerce(limit=10, region=region, collection=collection)
-    # results = recommend_members_based_on_SIC_commerce(
-    #     region=region,
-    #     # name=member_name, 
-    #     collection=collection, 
-    #     limit=10,
-    #     db=db)
-        
-    # results = recommend_members_based_on_SIC_similarity(
-    #     region=region,
-    #     # name=member_name, 
-    #     collection=collection, 
-    #     limit=10,
-    #     db=db)
-
-    # results = recommend_prospects(region, 
-        # member_name=None, max_km=max_km, limit=limit, source="Members", db=db)
-
-    # results = get_prospects_with_directors_over_age(region, age=65, source="Prospects", limit=None, db=db)
-
-    # results = match_members_by_number_of_relevant_articles(member_name, db=db )
-
-    # results = find_prospect_users_by_role(region, source="Members", limit=None, db=db)
-
     results = get_members_without_UK_sector()
 
     for result in results[:5]:
