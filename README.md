@@ -8,9 +8,9 @@ In this section, I will explain the purpose of the files in each directory. Some
 
  - data/: some useful data files.
     * class_to_sector.{csv,json}: map from UK class (SIC code) to group, division and sector. 
-    * Manufacturing_SIC_codes.{csv,xlsx}: list of SIC codes in the manufacturing sector (Section c: http://resources.companieshouse.gov.uk/sic/).
+    * Manufacturing_SIC_codes.{csv,xlsx}: list of SIC codes in the manufacturing sector (Section C: http://resources.companieshouse.gov.uk/sic/).
     * SIC_hierarchy.json: hierarchy of sector>division>group>class extracted from file data/sic2007summaryofstructurtcm6.csv.
-    * SIC_codes_present_in_hierarchy.txt: list of SIC codes that exist in the class->sector hierarchy. 
+    * SIC_codes_present_in_hierarchy.txt: list of SIC codes that exist in the class->sector hierarchy described in SIC_hierarchy.json. 
 
  - graph/: all the code for populating a running ArangoDB instance using .csv files. 
     * get_data_for_graph: a batch of queries to pull the relevant data from the MIM datbase into .csv files. 
@@ -43,17 +43,35 @@ In this section, I will explain the purpose of the files in each directory. Some
 
  - ArangoDB_collections.pdf: provides a brief description of the roles of each collection in the ArangoDB graph. 
  - made_production.jpg: a generated entity-relationship diagram for the current MIM database. 
+ - MIM_relational_database.pdf: brief summary of all of the tables in the current database.  
  - MIM_database_report.png: a document describing the database and cload hosting options available with a recommendation (Arango on AWS at the end). 
 
 ## Requirements
 This code was written in Python 3.7.9. Requirements are listed in requirements.txt. Run
 
 ```bash
-pip install -r requirments.txt
+pip install -r requirements.txt
 ```
 to install them.
 
 This code is written to take environment variables from a .env file. You can use .envexample as a starting point, just be sure to rename it to .env
 
+## Connecting to the made_production database
+The MIM platform is hosted on Rackspace and uses an internal MySQL database that is not accessible publicly. To connect to it, you will need to use SSH tunnelling. For example:
+
+```bash
+ssh -L 3307:${MYSQL_HOST}:${MYSQL_PORT} ${RACKSPACE_USER}@${RACKSPACE_HOST}
+```
+will set up a tunnel to forward the external port ${MYSQL_PORT} to local port 3307. (The values of ${MYSQL_HOST}, ${MYSQL_PORT}, ${RACKSPACE_USER}, and ${RACKSPACE_HOST} will be provided by Kalexiko). 
+
+After you have set up this tunnel, you can connect to the database with:
+
+```bash
+mysql -h 127.0.0.1 -P 3307 -u ${MYSQL_USER} -p made_production
+```
+where ${MYSQL_USER} will also be provided by Kalexiko.
+
+
+## Questions
 If you have any questions, please email me on davemcdonald93@gmail.com :)
 
