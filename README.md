@@ -72,6 +72,9 @@ mysql -h 127.0.0.1 -P 3307 -u ${MYSQL_USER} -p made_production
 where ${MYSQL_USER} will also be provided by Kalexiko.
 
 
+## Email chains
+Some useful discussion can be found in the email/slack chains that can be found at https://mailbcuac-my.sharepoint.com/:f:/g/personal/david_mcdonald_bcu_ac_uk/Ek0EFK6MOQROuhLwNVRLbcQBkHLGlRFw3_DOaXXZW9hreg?e=5sGKkd.
+
 ## Questions
 If you have any questions, please email me on davemcdonald93@gmail.com :)
 
